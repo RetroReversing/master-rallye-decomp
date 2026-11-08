@@ -13,14 +13,14 @@ typedef s32 M2C_UNK32;
 #endif
 
 extern s32 D_00428888;
-extern M2C_UNK D_0047EEB8;
+extern char D_0047EEB8[];
 
 void *func_002B5D78(void *arg0) {
-    s32 *var_3;
-    s32 *var_5;
+    char *var_3;
+    char *var_5;
     s32 var_6;
 
-    M2C_FIELD(arg0, M2C_UNK **, 0x54) = &D_0047EEB8;
+    M2C_FIELD(arg0, s32 **, 0x54) = &D_0047EEB8;
     if (D_00428888 == 0) {
         var_6 = 0;
         D_00428888 = 1;
@@ -28,8 +28,8 @@ void *func_002B5D78(void *arg0) {
         M2C_FIELD(arg0, s32 *, 0) = 0;
         var_5 = arg0 + 0x2C;
         do {
-            *var_3 = var_6;
-            *var_5 = 0;
+            *(s32 *)var_3 = var_6;
+            *(s32 *)var_5 = 0;
             var_6 += 1;
             var_5 += 4;
             var_3 += 4;

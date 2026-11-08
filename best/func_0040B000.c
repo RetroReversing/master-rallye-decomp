@@ -1,4 +1,4 @@
-/* machine draft (m2c) for ee-gcc-2.95.3 -O1 -G0, tried by autopilot */
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
 #ifndef M2C_DEFINES
 #define M2C_DEFINES
 typedef s32 M2C_UNK;
@@ -19,9 +19,10 @@ s32 *func_0040B000(s32 arg0) {
 
     var_3 = &D_80000000;
     if (D_80000000 != arg0) {
-        do {
+        __repair_rows: {
 
-        } while (*var_3 != arg0);
+        }
+if (*var_3 != arg0) goto __repair_rows;
     }
     return var_3;
 }

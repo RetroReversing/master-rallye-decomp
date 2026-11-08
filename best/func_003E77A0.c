@@ -1,4 +1,4 @@
-/* machine draft (m2c), tried by autopilot */
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
 #ifndef M2C_DEFINES
 #define M2C_DEFINES
 typedef s32 M2C_UNK;
@@ -12,7 +12,7 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-void *func_003E77A0(void *arg1) {
+void *func_003E77A0(s32 arg0, void *arg1) {
     void *temp_2;
     void *var_3;
     void *var_5;

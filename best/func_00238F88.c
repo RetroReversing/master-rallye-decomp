@@ -13,21 +13,21 @@ typedef s32 M2C_UNK32;
 #endif
 
 s32 func_00238F88(void *arg0) {
-    s32 *var_3;
+    char *var_3;
     s32 temp_2;
     s32 var_2;
 
     temp_2 = M2C_FIELD(arg0, s32 *, 8);
     var_3 = M2C_FIELD(arg0, s32 **, 4);
     if (var_3 != temp_2) {
-        var_2 = *var_3;
+        var_2 = *(s32 *)var_3;
 loop_2:
         var_3 += 4;
         if (var_2 != 0) {
             return 1;
         }
         if (var_3 != temp_2) {
-            var_2 = *var_3;
+            var_2 = *(s32 *)var_3;
             goto loop_2;
         }
         /* Duplicate return node #7. Try simplifying control flow for better match */

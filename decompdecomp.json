@@ -1,7 +1,7 @@
 {
  "format": 1,
- "saved_at": 1794145366.790742,
- "revision": 68,
+ "saved_at": 1794150084.159801,
+ "revision": 139,
  "title": "SLES-50906",
  "platform": "ps2",
  "game": {
@@ -17,7 +17,162 @@
   "timeout": 20
  },
  "compiler_ranges": [],
- "function_compilers": {},
+ "function_compilers": {
+  "726896:1775472": {
+   "vram": 1775472,
+   "function": "func_001B1770",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1007848:2056424": {
+   "vram": 2056424,
+   "function": "func_001F60E8",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "623608:1672184": {
+   "vram": 1672184,
+   "function": "func_001983F8",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0",
+    "-fno-schedule-insns"
+   ]
+  },
+  "1452800:2501376": {
+   "vram": 2501376,
+   "function": "func_00262B00",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1675064:2723640": {
+   "vram": 2723640,
+   "function": "func_00298F38",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1687528:2736104": {
+   "vram": 2736104,
+   "function": "func_0029BFE8",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1803112:2851688": {
+   "vram": 2851688,
+   "function": "func_002B8368",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1803488:2852064": {
+   "vram": 2852064,
+   "function": "func_002B84E0",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1821768:2870344": {
+   "vram": 2870344,
+   "function": "func_002BCC48",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1895360:2943936": {
+   "vram": 2943936,
+   "function": "func_002CEBC0",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "3045888:4094464": {
+   "vram": 4094464,
+   "function": "func_003E7A00",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1738080:2786656": {
+   "vram": 2786656,
+   "function": "func_002A8560",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1742440:2791016": {
+   "vram": 2791016,
+   "function": "func_002A9668",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1742904:2791480": {
+   "vram": 2791480,
+   "function": "func_002A9838",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1743112:2791688": {
+   "vram": 2791688,
+   "function": "func_002A9908",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1744016:2792592": {
+   "vram": 2792592,
+   "function": "func_002A9C90",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  },
+  "1895288:2943864": {
+   "vram": 2943864,
+   "function": "func_002CEB78",
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-Os",
+    "-G0"
+   ]
+  }
+ },
  "instructions": "",
  "knowledge": [],
  "priority": [],
@@ -2639,8 +2794,8 @@
   },
   "func_001550F8": {
    "vram": 1396984,
-   "best_score": 580,
-   "best_by": ""
+   "best_score": 375,
+   "best_by": "autopilot"
   },
   "func_00155158": {
    "vram": 1397080,
@@ -6444,8 +6599,8 @@
   },
   "func_001983F8": {
    "vram": 1672184,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_00198450": {
    "vram": 1672272,
@@ -7089,8 +7244,8 @@
   },
   "func_001B1770": {
    "vram": 1775472,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001B17C8": {
    "vram": 1775560,
@@ -10439,8 +10594,8 @@
   },
   "func_001D4978": {
    "vram": 1919352,
-   "best_score": 855,
-   "best_by": ""
+   "best_score": 850,
+   "best_by": "autopilot"
   },
   "func_001D49B8": {
    "vram": 1919416,
@@ -10644,8 +10799,8 @@
   },
   "func_001D6188": {
    "vram": 1925512,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001D61F0": {
    "vram": 1925616,
@@ -10659,8 +10814,8 @@
   },
   "func_001D6310": {
    "vram": 1925904,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001D6378": {
    "vram": 1926008,
@@ -12354,8 +12509,8 @@
   },
   "func_001E3488": {
    "vram": 1979528,
-   "best_score": 5,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001E34C8": {
    "vram": 1979592,
@@ -12364,8 +12519,8 @@
   },
   "func_001E34F0": {
    "vram": 1979632,
-   "best_score": 5,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001E3530": {
    "vram": 1979696,
@@ -12374,8 +12529,8 @@
   },
   "func_001E3558": {
    "vram": 1979736,
-   "best_score": 5,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001E3598": {
    "vram": 1979800,
@@ -12944,13 +13099,13 @@
   },
   "func_001EAE10": {
    "vram": 2010640,
-   "best_score": 40,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001EB0C0": {
    "vram": 2011328,
-   "best_score": 40,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001EB3A0": {
    "vram": 2012064,
@@ -13654,8 +13809,8 @@
   },
   "func_001F60E8": {
    "vram": 2056424,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_001F6150": {
    "vram": 2056528,
@@ -14734,8 +14889,8 @@
   },
   "func_00208938": {
    "vram": 2132280,
-   "best_score": 415,
-   "best_by": ""
+   "best_score": 320,
+   "best_by": "autopilot"
   },
   "func_00208B18": {
    "vram": 2132760,
@@ -16384,8 +16539,8 @@
   },
   "func_00229CF0": {
    "vram": 2268400,
-   "best_score": 732,
-   "best_by": ""
+   "best_score": 450,
+   "best_by": "autopilot"
   },
   "func_0022A150": {
    "vram": 2269520,
@@ -17234,8 +17389,8 @@
   },
   "func_00238F88": {
    "vram": 2330504,
-   "best_score": 515,
-   "best_by": ""
+   "best_score": 510,
+   "best_by": "autopilot"
   },
   "func_00238FC8": {
    "vram": 2330568,
@@ -17364,8 +17519,8 @@
   },
   "func_0023BFF0": {
    "vram": 2342896,
-   "best_score": 1045,
-   "best_by": ""
+   "best_score": 1035,
+   "best_by": "autopilot"
   },
   "func_0023C038": {
    "vram": 2342968,
@@ -17439,8 +17594,8 @@
   },
   "func_0023E200": {
    "vram": 2351616,
-   "best_score": 160,
-   "best_by": ""
+   "best_score": 130,
+   "best_by": "autopilot"
   },
   "func_0023E240": {
    "vram": 2351680,
@@ -17749,8 +17904,8 @@
   },
   "func_00242C88": {
    "vram": 2370696,
-   "best_score": 850,
-   "best_by": ""
+   "best_score": 650,
+   "best_by": "autopilot"
   },
   "func_00243338": {
    "vram": 2372408,
@@ -17829,8 +17984,8 @@
   },
   "func_00244478": {
    "vram": 2376824,
-   "best_score": 2020,
-   "best_by": ""
+   "best_score": 20,
+   "best_by": "autopilot"
   },
   "func_002444E0": {
    "vram": 2376928,
@@ -18079,8 +18234,8 @@
   },
   "func_0024D8F8": {
    "vram": 2414840,
-   "best_score": 110,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_0024D940": {
    "vram": 2414912,
@@ -18272,6 +18427,11 @@
    "best_score": 260,
    "best_by": ""
   },
+  "func_00251700": {
+   "vram": 2430720,
+   "best_score": 450,
+   "best_by": "autopilot"
+  },
   "func_00251768": {
    "vram": 2430824,
    "best_score": 1580,
@@ -18289,8 +18449,8 @@
   },
   "func_00251AC8": {
    "vram": 2431688,
-   "best_score": 1085,
-   "best_by": ""
+   "best_score": 910,
+   "best_by": "autopilot"
   },
   "func_00251B28": {
    "vram": 2431784,
@@ -18619,8 +18779,8 @@
   },
   "func_0025C7A8": {
    "vram": 2475944,
-   "best_score": 485,
-   "best_by": ""
+   "best_score": 480,
+   "best_by": "autopilot"
   },
   "func_0025C808": {
    "vram": 2476040,
@@ -18959,8 +19119,8 @@
   },
   "func_00262B00": {
    "vram": 2501376,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_00262B68": {
    "vram": 2501480,
@@ -19494,8 +19654,8 @@
   },
   "func_0026DBD0": {
    "vram": 2546640,
-   "best_score": 375,
-   "best_by": ""
+   "best_score": 230,
+   "best_by": "autopilot"
   },
   "func_0026DC30": {
    "vram": 2546736,
@@ -22319,8 +22479,8 @@
   },
   "func_0028F600": {
    "vram": 2684416,
-   "best_score": 25,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_0028F658": {
    "vram": 2684504,
@@ -22459,8 +22619,8 @@
   },
   "func_00290C00": {
    "vram": 2690048,
-   "best_score": 920,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_00290F88": {
    "vram": 2690952,
@@ -22819,8 +22979,8 @@
   },
   "func_00298F38": {
    "vram": 2723640,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_00298F90": {
    "vram": 2723728,
@@ -22999,8 +23159,8 @@
   },
   "func_0029BFE8": {
    "vram": 2736104,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_0029C110": {
    "vram": 2736400,
@@ -23394,8 +23554,8 @@
   },
   "func_002A1298": {
    "vram": 2757272,
-   "best_score": 735,
-   "best_by": ""
+   "best_score": 265,
+   "best_by": "autopilot"
   },
   "func_002A12F0": {
    "vram": 2757360,
@@ -23669,8 +23829,8 @@
   },
   "func_002A6980": {
    "vram": 2779520,
-   "best_score": 580,
-   "best_by": ""
+   "best_score": 375,
+   "best_by": "autopilot"
   },
   "func_002A69E0": {
    "vram": 2779616,
@@ -24009,8 +24169,8 @@
   },
   "func_002A8560": {
    "vram": 2786656,
-   "best_score": 15,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002A85C0": {
    "vram": 2786752,
@@ -24899,8 +25059,8 @@
   },
   "func_002A9668": {
    "vram": 2791016,
-   "best_score": 15,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002A96C8": {
    "vram": 2791112,
@@ -24934,8 +25094,8 @@
   },
   "func_002A9838": {
    "vram": 2791480,
-   "best_score": 15,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002A9890": {
    "vram": 2791568,
@@ -24954,8 +25114,8 @@
   },
   "func_002A9908": {
    "vram": 2791688,
-   "best_score": 15,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002A9968": {
    "vram": 2791784,
@@ -25034,8 +25194,8 @@
   },
   "func_002A9C90": {
    "vram": 2792592,
-   "best_score": 15,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002A9CF8": {
    "vram": 2792696,
@@ -26654,8 +26814,8 @@
   },
   "func_002B5D78": {
    "vram": 2841976,
-   "best_score": 110,
-   "best_by": ""
+   "best_score": 100,
+   "best_by": "autopilot"
   },
   "func_002B5DD0": {
    "vram": 2842064,
@@ -26749,8 +26909,8 @@
   },
   "func_002B6438": {
    "vram": 2843704,
-   "best_score": 70,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002B6480": {
    "vram": 2843776,
@@ -26874,8 +27034,8 @@
   },
   "func_002B6DD0": {
    "vram": 2846160,
-   "best_score": 70,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002B6E18": {
    "vram": 2846232,
@@ -26984,8 +27144,8 @@
   },
   "func_002B7828": {
    "vram": 2848808,
-   "best_score": 70,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002B7870": {
    "vram": 2848880,
@@ -27079,8 +27239,8 @@
   },
   "func_002B7DD8": {
    "vram": 2850264,
-   "best_score": 5,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002B7E18": {
    "vram": 2850328,
@@ -27124,8 +27284,8 @@
   },
   "func_002B8368": {
    "vram": 2851688,
-   "best_score": 20,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002B83C8": {
    "vram": 2851784,
@@ -27144,8 +27304,8 @@
   },
   "func_002B84E0": {
    "vram": 2852064,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002B8568": {
    "vram": 2852200,
@@ -27579,8 +27739,8 @@
   },
   "func_002BB150": {
    "vram": 2863440,
-   "best_score": 980,
-   "best_by": ""
+   "best_score": 920,
+   "best_by": "autopilot"
   },
   "func_002BB1B8": {
    "vram": 2863544,
@@ -27789,8 +27949,8 @@
   },
   "func_002BC5C0": {
    "vram": 2868672,
-   "best_score": 430,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002BC618": {
    "vram": 2868760,
@@ -27929,8 +28089,8 @@
   },
   "func_002BCC48": {
    "vram": 2870344,
-   "best_score": 20,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002BCCA8": {
    "vram": 2870440,
@@ -28104,8 +28264,8 @@
   },
   "func_002BDAE0": {
    "vram": 2874080,
-   "best_score": 575,
-   "best_by": ""
+   "best_score": 490,
+   "best_by": "autopilot"
   },
   "func_002BDB28": {
    "vram": 2874152,
@@ -30554,13 +30714,13 @@
   },
   "func_002CEB78": {
    "vram": 2943864,
-   "best_score": 15,
+   "best_score": 5,
    "best_by": ""
   },
   "func_002CEBC0": {
    "vram": 2943936,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_002CEC78": {
    "vram": 2944120,
@@ -35709,8 +35869,8 @@
   },
   "func_0036B0D0": {
    "vram": 3584208,
-   "best_score": 535,
-   "best_by": ""
+   "best_score": 450,
+   "best_by": "autopilot"
   },
   "func_0036B118": {
    "vram": 3584280,
@@ -46769,8 +46929,8 @@
   },
   "func_003E77A0": {
    "vram": 4093856,
-   "best_score": 260,
-   "best_by": ""
+   "best_score": 240,
+   "best_by": "autopilot"
   },
   "func_003E77E0": {
    "vram": 4093920,
@@ -46814,8 +46974,8 @@
   },
   "func_003E7A00": {
    "vram": 4094464,
-   "best_score": 10,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_003E7A48": {
    "vram": 4094536,
@@ -47234,8 +47394,8 @@
   },
   "func_003EEC00": {
    "vram": 4123648,
-   "best_score": 690,
-   "best_by": ""
+   "best_score": 475,
+   "best_by": "autopilot"
   },
   "func_003EEC60": {
    "vram": 4123744,
@@ -47314,8 +47474,8 @@
   },
   "func_003EF518": {
    "vram": 4125976,
-   "best_score": 1100,
-   "best_by": ""
+   "matched_by": "autopilot",
+   "readable": false
   },
   "func_003EF840": {
    "vram": 4126784,
@@ -48784,8 +48944,8 @@
   },
   "func_0040B000": {
    "vram": 4239360,
-   "best_score": 430,
-   "best_by": ""
+   "best_score": 200,
+   "best_by": "autopilot"
   },
   "func_0040B048": {
    "vram": 4239432,
@@ -179197,6 +179357,305 @@
  ],
  "verification": {
   "matches": {
+   "func_001983F8": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149258.681563,
+    "attempt_id": 335007451746,
+    "source_sha256": "f39576775b36b42b8f403bdcf9533c36d8863479e93a39a5242cf1472ac85131",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0",
+      "-fno-schedule-insns"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0",
+       "-fno-schedule-insns"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-fno-schedule-insns",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c++",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "aca06d6843748e21636bb66c53509420db20f1c8dbd5bc72f5d6afb400d0c4e7",
+    "relocations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "vram": 1672184,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_001B1770": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148616.24115,
+    "attempt_id": 335007451032,
+    "source_sha256": "2c2b711db971d5b07edb49026ce9d3510b88c89eaac18495cf7a9457efcdebd4",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "17f7c136d78611ee79c28c6427fbdbf715f54c5c9af4bf674d77a47af340c042",
+    "relocations_sha256": "8b7e8d700f094ac80950340191d6a738ded2a1d0e38f7877e76e63c0299765f1",
+    "vram": 1775472,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_001D6188": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149966.2211468,
+    "attempt_id": 335007452033,
+    "source_sha256": "003f0e553ae7af3f2a56c58af38933e741ac0d5921f4afcac2f2d61d46eff9e0",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "6185ab9ef442ea71156bd6083f5b923720ca3e51e5fc85065fbe8d32197a8fdd",
+    "relocations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "vram": 1925512,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_001D6310": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149988.422295,
+    "attempt_id": 335007452036,
+    "source_sha256": "bc16b8a523191482d4cbbd5a5c0025257818fd7d9634362bf4eb81ba18bdc15e",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "d29f97878bbe3421ef286603259ce9b96922800254714daacdda31898570be8a",
+    "relocations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "vram": 1925904,
+    "unit": "cod",
+    "mode": "rom"
+   },
    "func_001E3378": {
     "format": 1,
     "verdict": "exact",
@@ -179419,6 +179878,450 @@
     "unit": "cod",
     "mode": "rom"
    },
+   "func_001E3488": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148009.91789,
+    "attempt_id": 335007450398,
+    "source_sha256": "06054ea98ccbbc72ac2e6d28deb20b73d7997ad95f05650431ec880c1c74f1c4",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "3abd8ee7e2a9117b93441d38de23de90f9932b4551f57bbd1a50e5ad204089fb",
+    "relocations_sha256": "2414421152ca818b1eccb80f6885cd3200cc44e0d6b68852c3d0f081c0f989f0",
+    "vram": 1979528,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_001E34F0": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148110.552471,
+    "attempt_id": 335007450524,
+    "source_sha256": "970d4f75c09c7f1a9ebc017cc3cdfa146b82b159a93baa3ca78ce75aba10613f",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "d45cb6cc5ba1187328ba3d1b15707961f19099ee381344a62dcf0e291b683537",
+    "relocations_sha256": "2414421152ca818b1eccb80f6885cd3200cc44e0d6b68852c3d0f081c0f989f0",
+    "vram": 1979632,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_001E3558": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148114.967558,
+    "attempt_id": 335007450529,
+    "source_sha256": "d5b24e38218bdf736cfd9d3eae8155f31ae4b7c0f85146985c17b69258ea1513",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "4921c1c7fce941a33aa3c52dfb2a959ef203043e60f476963800503d34ec1c30",
+    "relocations_sha256": "2414421152ca818b1eccb80f6885cd3200cc44e0d6b68852c3d0f081c0f989f0",
+    "vram": 1979736,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_001EAE10": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794150017.1816561,
+    "attempt_id": 335007452053,
+    "source_sha256": "c91d9761bd27f9655a3a9978937b4fe3f083c38eedd3d7d12b0e8716c685d5ae",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "158705dd40a1bd9634b8ab3d7519c88014dc5ba290d4c26d25f5031d448bed40",
+    "relocations_sha256": "158268a1afcf05c00faa7290d4068373e66363e91422b99038c78fe428643598",
+    "vram": 2010640,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_001EB0C0": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794150021.959699,
+    "attempt_id": 335007452056,
+    "source_sha256": "e58e69a950296da8d2d32568509262bb45fbc121b1688426063196783455c930",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "158705dd40a1bd9634b8ab3d7519c88014dc5ba290d4c26d25f5031d448bed40",
+    "relocations_sha256": "158268a1afcf05c00faa7290d4068373e66363e91422b99038c78fe428643598",
+    "vram": 2011328,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_001F60E8": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149041.8265011,
+    "attempt_id": 335007451681,
+    "source_sha256": "066f1a496d3091013d52a2e61d6de2434ab99314fba362f52c4a23ad987a2a5d",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "542f29e855499064e0f798e8c5d1b89830c2d78b6bc83654c9a060be4247e36b",
+    "relocations_sha256": "d2597dc0a9bbcaafedc8ca81993bea8b806a1ec70ae9c4ff1bfcfb3fab138f64",
+    "vram": 2056424,
+    "unit": "cod",
+    "mode": "rom"
+   },
    "func_001FC9A0": {
     "format": 1,
     "verdict": "exact",
@@ -179564,6 +180467,80 @@
     "target_sha256": "d032006ae357f086151d7ddb2e1dca379d720480767898feef77210f668a7cf2",
     "relocations_sha256": "48373e421de3d8b1d276df416ea4f348f09cb5b5cf1fd4b218ba8f66d6ae8c9c",
     "vram": 2379192,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_0024D8F8": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148472.373687,
+    "attempt_id": 335007450751,
+    "source_sha256": "69bf2f2b1a980d7be5a782b5e385e3ed487673d1c4244ae0c5b31cce069f5e6c",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "c5876d218da8ce28f835d1626737a6a1f4e160d5f9542b88318c9018e1cf262b",
+    "relocations_sha256": "800da6e02082f4d5c3e03e02a981a65a338cf6adf42cacc5565dace2e65c6945",
+    "vram": 2414840,
     "unit": "cod",
     "mode": "rom"
    },
@@ -179789,6 +180766,80 @@
     "unit": "cod",
     "mode": "rom"
    },
+   "func_00262B00": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149430.2740579,
+    "attempt_id": 335007451787,
+    "source_sha256": "a474cd6f15d48d4039b2f2400ed67f5cd0701d822ce182c839f19d2ab49dac84",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "9f2d06021ec4c86a25181c0d7f2a8bd1e3643764c5903efe6400dee6f6f6fd4a",
+    "relocations_sha256": "d3be9c68b0fede0b20d56c850c78dfa621b2f166e0c503b814fa9774d17d2ad7",
+    "vram": 2501376,
+    "unit": "cod",
+    "mode": "rom"
+   },
    "func_0026B190": {
     "format": 1,
     "verdict": "exact",
@@ -180011,6 +181062,1116 @@
     "unit": "cod",
     "mode": "rom"
    },
+   "func_0028F600": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148633.911297,
+    "attempt_id": 335007451065,
+    "source_sha256": "d76dfa8d120ddb139860ae89f5504739b2f6c510a7f0b1dad4bf108449badfa4",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "0ec5eb1e7487d52ab7fc6bc2c743445db422996ddcf507e8b964c7c031040f87",
+    "relocations_sha256": "bb4ce1136737236dd0b3e7adde1308389bbc264534d030c1396aa2b9b634f70a",
+    "vram": 2684416,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_00290C00": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148045.629612,
+    "attempt_id": 335007450436,
+    "source_sha256": "9265011a4f9941db4f30fb68b19480c941f1258bbb84072014b968c9bda81ac8",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "6ec95a6835a78c42a718d0337b4245a3482a5fe5070daf0fcc2da73c641d3abf",
+    "relocations_sha256": "09e0769d7011f05e9dca9150121067b1ae14d36b3ddfd3d0a1ef8b8e91799329",
+    "vram": 2690048,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_00298F38": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149486.376168,
+    "attempt_id": 335007451795,
+    "source_sha256": "39757ad9ada1d624b5ce2a4f4b4e2241d17441f1506c83d1f378c302e6ef136b",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "53fc72dfc2e04eead35d4b4d4c6ea3f9c7b357f431b4be7eb3d90f475019df6f",
+    "relocations_sha256": "704952361bc5dded458ded0f8e8d15dd71b56bfd1923e4d3cb48dcac79ae6856",
+    "vram": 2723640,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_0029BFE8": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149510.1876748,
+    "attempt_id": 335007451802,
+    "source_sha256": "9d6c878a2bc5650e3a2944a2c2d6f8586fdde23b8e2d790439cec1147d63db85",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "79bc885c538d5be93e3542cb2d9f83399b52cf57c77850e61d0e1dcdf3925cbd",
+    "relocations_sha256": "00d0148a04e198cb91dddd2f66fc57a68ed5270758b3ca4b675efcae1aa49714",
+    "vram": 2736104,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002A8560": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149980.493472,
+    "attempt_id": 335007452035,
+    "source_sha256": "3b5eb94f792e318d3629250944f9e552d16a0b3fd4c2ec1ebcf430c292f2a9de",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "ce4e1619e2f1bffed43d0db62c839aa6e6bb0ae8d92ab3b92f886ade0ec49865",
+    "relocations_sha256": "ca30714d021f94dcb9cb6fabaa48b8f37f827a11b6f58b2fd06ac7a5f155db51",
+    "vram": 2786656,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002A9668": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149996.556798,
+    "attempt_id": 335007452040,
+    "source_sha256": "99f7ea8834f3a20a69b0c4c480ea6c7b3cc157f12b1538c941357e0bb9254b50",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "ec2b8be769e3ea31390ba2e39b52ffdb39dadc63eb055f23f296d1f1aabe230b",
+    "relocations_sha256": "fba804c4ac3924c1393ecedee5903fe0fd218f10a7fa0a8bc896a1355d370363",
+    "vram": 2791016,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002A9838": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794150010.806941,
+    "attempt_id": 335007452052,
+    "source_sha256": "8998e4c45b10eebcca754a5dd6602c3ab6aa0f620fb7a8deb818d518f932e40e",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "a3fd8ff98eae992fd07cd082c929b1f7e58c5385a2a373e87191ee48bdf896ed",
+    "relocations_sha256": "a0b896993b6ab5501b3d45bfa2c5b455de8c6c70834aa6c6fb770281291a10ca",
+    "vram": 2791480,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002A9908": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794150023.3746262,
+    "attempt_id": 335007452058,
+    "source_sha256": "b1bafe99e4fa038c4ac1f150e7089e3dbb7115ee89680ca09074da1ebf78ee71",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "cf5f38ba9b2a366d7de8ad383721a531140a582747de65ed21ce0e7d54bfc1d6",
+    "relocations_sha256": "058b1b847014d9d4adc0c209d0330a28f1cf1cd07e94a545dbb262b41d34f2fc",
+    "vram": 2791688,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002A9C90": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794150035.256644,
+    "attempt_id": 335007452062,
+    "source_sha256": "51226488d1a49b128c6db3d20bb0d6ca618db3ac234ca297ed47b3da1c90e284",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "e5ecaf93d10268e9d28fb88de5aac61f483a200ef4d8bb73607613b7c689f306",
+    "relocations_sha256": "58b507569f54aa4948acfa88f8674c1fb81bc7fccf1a1655f8e2cb6abe961279",
+    "vram": 2792592,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002B6438": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148241.264954,
+    "attempt_id": 335007450673,
+    "source_sha256": "deca976d6111aa1c9b0f5cf10ca26cfb41082b981ad82519c33e666a2a47c947",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "6983d5c5f5e0a6a38f4eb2d5b28c3b8e180499f8bbc58db48c2b46ecfb319c08",
+    "relocations_sha256": "a085c052a84a243d957069489970beb1f6f6442dc5667498cdeaeaf95abbc1c6",
+    "vram": 2843704,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002B6DD0": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148235.402071,
+    "attempt_id": 335007450672,
+    "source_sha256": "bede1fa15615dcc78eb627a59f388bccb2de1e993f96d18b704524abe02620c4",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "ee4c09c7cb1b702fd462027d9f644073ce80cb887910cb9ad568e68d4eabb3a6",
+    "relocations_sha256": "2c9b2cb81d8f3a2e661bd93b6f2d977f9f142c262abfcd4486c15e1287cafa0b",
+    "vram": 2846160,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002B7828": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148245.264626,
+    "attempt_id": 335007450674,
+    "source_sha256": "7a678ea09c66ec0fba710f9f85fe617788364e8337e41112b61c3018a4c61e54",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "e6f5d2aec945fffcebe5149c3a780f91a871ae3a5f007e9eb50e54b88a508329",
+    "relocations_sha256": "521df3b26971feda487c62af2db918142155838b07d64ff9b1aaad157218f739",
+    "vram": 2848808,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002B7DD8": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148054.317848,
+    "attempt_id": 335007450450,
+    "source_sha256": "52f79cb80ea7fa6c9f7d73c0a34ea3dc667749ecaba8dbee803b5b44294b9052",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "a306b10c175d1e06edb99e5546a350f08c7725dd040f881ccbed42e8252f86a8",
+    "relocations_sha256": "b2fff8a0fdcdd0dbe0f63915275b53c73c592fa55da1e1c669fcb8d316a19800",
+    "vram": 2850264,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002B8368": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149533.320041,
+    "attempt_id": 335007451806,
+    "source_sha256": "74ab5a7fe776b1f6ef7a6691d963e83222f6fe522b4c9aa181cb465360312561",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "56253fa2e4d10e082322466289cdd4b99af6b48033c86d586c655fd61a852ae8",
+    "relocations_sha256": "251aa1eaa7e55f7ab14c4151b2b0cfa725b4ffacb7df2774ae6f5beb311dafb5",
+    "vram": 2851688,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002B84E0": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149548.197521,
+    "attempt_id": 335007451811,
+    "source_sha256": "fbd6208059aaddc4b4d5cd340fa3ef2c1cc25084ee460d57bde518553da66d46",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "55dc9fa8917f2eb6d5d93357413a586b1eb92c1b4297853c6a8834b7a416e674",
+    "relocations_sha256": "5876e94c224c80497aa09966ea3d28badef5e6ebb542c8a8fcba055c4c3c3f88",
+    "vram": 2852064,
+    "unit": "cod",
+    "mode": "rom"
+   },
    "func_002BA300": {
     "format": 1,
     "verdict": "exact",
@@ -180082,6 +182243,228 @@
     "target_sha256": "fffd23795e3537e033686d29a8fb9fca65405bd64ae10af1a482f6487e734f0c",
     "relocations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "vram": 2859776,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002BC5C0": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148685.2722151,
+    "attempt_id": 335007451173,
+    "source_sha256": "54a7a4421f71f4dd91caea27af1b8a20a6b7c3ac41d4d6afc868e9f85044b74a",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "45dba94c5f73273fc1a495b93b3c5f6a799960d133a18e813cd683bcb27e64bb",
+    "relocations_sha256": "26ec40ad1e4f58a0a9a50cdc86ec55f9161b2223f26b90c3bd4b1694f3e352a8",
+    "vram": 2868672,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002BCC48": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149566.272782,
+    "attempt_id": 335007451815,
+    "source_sha256": "adfe5a389ace196c675a51a3b7f2eb481a9e24d1cca246d41b85e1175bbea137",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "8d2ea4fd8e9670d550a93620bcc90181dfee03aa6886b5b663883c2d359970d3",
+    "relocations_sha256": "b955ef995dc45f5277a1d352b587514ae9a939f62267a7882806dba97e85221b",
+    "vram": 2870344,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_002CEBC0": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149605.96862,
+    "attempt_id": 335007451820,
+    "source_sha256": "dcca028695fa3c8916fa9ea838545ed67e063709d9e4a29a884dd200dac1426c",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "ac7953569ebe3f4245cf388c9a728ec86effdbcecdb4703f3d0509d23932e461",
+    "relocations_sha256": "e92c5924505938114305ada6ddc005446dbb471a1746ad921f2810e28aa93e59",
+    "vram": 2943936,
     "unit": "cod",
     "mode": "rom"
    },
@@ -180232,23 +182615,203 @@
     "vram": 3896376,
     "unit": "cod",
     "mode": "rom"
+   },
+   "func_003E7A00": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794149832.074367,
+    "attempt_id": 335007451951,
+    "source_sha256": "3d8d8af4bad37db4c35d981d60348b4745c27748560151e6af7e7bedc8225b91",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-Os",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-Os",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-Os",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "66bcbf9a3f5c13a04b6be72d5c455e5244f2e66857c853be0e2b597a8d85d170",
+    "relocations_sha256": "aa95490d5fe6ccbe18cb199cf1e7fdd584d50a217c1baf174457c65084f4e5f8",
+    "vram": 4094464,
+    "unit": "cod",
+    "mode": "rom"
+   },
+   "func_003EF518": {
+    "format": 1,
+    "verdict": "exact",
+    "abi": {
+     "arch": "mips",
+     "big_endian": false,
+     "gp": 0,
+     "platform": "ps2",
+     "rom_sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5"
+    },
+    "symbols_sha256": "fe1c872a8b958b54c071d1d598f1af055265f204d5f1f70290451167f4d3d9d5",
+    "recorded_at": 1794148167.245472,
+    "attempt_id": 335007450610,
+    "source_sha256": "5a0f096ab1a15625197e36dbe69cf95a37bf989ad83e81b8dda5de5683fb901f",
+    "header_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0",
+    "context_version": 2,
+    "compiler": {
+     "toolchain": "ee-gcc-2.95.2",
+     "flags": [
+      "-O2",
+      "-G0"
+     ],
+     "timeout": 20
+    },
+    "compiler_identity": {
+     "toolchain": "ee-gcc-2.95.2",
+     "registry_sha256": "c82fbfdf53e271909fb55a701315707e6d655a1b43411e6ae442811d7857fc08",
+     "install_sha256": "ae1939b408e54a7a901a84eaf6e23919a6c01fad256e0dde60aad1ed5939005c",
+     "executables": {}
+    },
+    "settings": {
+     "mode": "rom",
+     "platform": "ps2",
+     "compiler": {
+      "toolchain": "ee-gcc-2.95.2",
+      "flags": [
+       "-O2",
+       "-G0"
+      ],
+      "timeout": 20
+     },
+     "settings_source": "compile invocation snapshot",
+     "gp": 0,
+     "big_endian": false,
+     "rom": {
+      "sha1": "34946c62c22301fe97efcbc048eb4f8f44d4dee5",
+      "game_code": "SLES-50906",
+      "region": "Europe",
+      "byte_order": "elf"
+     },
+     "effective_command": [
+      "/Users/a/Library/Application Support/decompnet/toolchains/wibo/wibo",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/bin/ee-gcc.exe",
+      "-c",
+      "-B",
+      "/tmp/decompnet-tools-n4qhwmz4/5ac5972b0cd5c0dd/lib/gcc-lib/ee/2.95.2/",
+      "-O2",
+      "-G0",
+      "-I{include}",
+      "{src}",
+      "-o",
+      "{obj}"
+     ],
+     "language": "c",
+     "context_unit": "",
+     "scoring_revision": "4b0b14f0b4a6f1c3c00ce79b719f77ce975eddbf3a1f299043b0e11230486a4f",
+     "context_sha256": "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0"
+    },
+    "target_sha256": "925c3c276efa34100b392754f5c02264bff1719bdf492441722e26cedf730cbf",
+    "relocations_sha256": "286a6780bf1d04d8b167a9244985ebcdf2a0092b3215ea48b89c3b1ef3ffdbe2",
+    "vram": 4125976,
+    "unit": "cod",
+    "mode": "rom"
    }
   },
   "sources": {
+   "f39576775b36b42b8f403bdcf9533c36d8863479e93a39a5242cf1472ac85131": "#include \"context.h\"\n\n/* func_001983F8 */\nvoid *func_001983F8(void *arg0, void *arg1) {\n    void **base;\n    void **end;\n    s32 count;\n    s32 i;\n    void **p;\n\n    base = *(void ***)arg0;\n    end = *(void ***)((u8 *)arg0 + 4);\n    count = ((s32)((u8 *)end - (u8 *)base)) >> 2;\n    if (count > 0) {\n        i = 0;\n        p = base;\n        do {\n            void *entry = *p;\n            i++;\n            if (entry == 0) {\n                /* nothing */\n            } else if (*(void **)entry != arg1) {\n                /* continue */\n            } else {\n                return entry;\n            }\n            p++;\n        } while (i < count);\n    }\n    return 0;\n}\n\n/* func_00198450 */\nvoid *func_00198450(void *arg0) {\n    void *p3;\n    void *p5;\n\n    *(s32 *)arg0 = 0;\n    p3 = (u8 *)arg0 + 4;\n    *(s32 *)((u8 *)arg0 + 4) = 0;\n    p5 = (u8 *)arg0 + 0x20;\n    *(s32 *)((u8 *)p3 + 0x18) = 0;\n    *(s32 *)((u8 *)arg0 + 0x20) = 0;\n    *(s32 *)((u8 *)p3 + 4) = 0;\n    *(s32 *)((u8 *)p3 + 8) = 0;\n    *(s32 *)((u8 *)p3 + 0xC) = 0;\n    *(s32 *)((u8 *)p3 + 0x10) = 0;\n    *(s32 *)((u8 *)p3 + 0x14) = 0;\n    *(s32 *)((u8 *)p5 + 0x18) = 0;\n    *(s32 *)((u8 *)p5 + 4) = 0;\n    *(s32 *)((u8 *)p5 + 8) = 0;\n    *(s32 *)((u8 *)p5 + 0xC) = 0;\n    *(s32 *)((u8 *)p5 + 0x10) = 0;\n    *(s32 *)((u8 *)p5 + 0x14) = 0;\n    return arg0;\n}",
+   "2c2b711db971d5b07edb49026ce9d3510b88c89eaac18495cf7a9457efcdebd4": "/* machine draft (m2c) for ee-gcc-2.95.2 -Os -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK func_00205CE0(s32, s32);                    /* extern */\nM2C_UNK func_002060F8(s32);                         /* extern */\n\nvoid func_001B1770(void *arg0, void *arg1) {\n    s32 temp_4;\n\n    temp_4 = M2C_FIELD(arg1, s32 *, 0x4C);\n    if (temp_4 != 0) {\n        func_002060F8(temp_4);\n        func_00205CE0(M2C_FIELD(arg1, s32 *, 0x4C), M2C_FIELD(arg0, s32 *, 0x14));\n        M2C_FIELD(arg0, s32 *, 0xC) = (s32) M2C_FIELD(arg0, s32 *, 0x14);\n    }\n}\n",
+   "003f0e553ae7af3f2a56c58af38933e741ac0d5921f4afcac2f2d61d46eff9e0": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid func_001D6188(void *arg0, s32 arg1, s32 arg2, s32 arg3) {\n    void *temp_3;\n    void *temp_3_2;\n\n    temp_3 = M2C_FIELD(arg0, void **, 8);\n    M2C_FIELD(temp_3, s32 (**)(void *), 0x64)(arg0 + M2C_FIELD(temp_3, s16 *, 0x60));\n    temp_3_2 = M2C_FIELD(arg0, void **, 8);\n    M2C_FIELD(temp_3_2, s32 (**)(void *, s32, s32), 0x54)(arg0 + M2C_FIELD(temp_3_2, s16 *, 0x50), arg2, arg3);\n}\n",
+   "bc16b8a523191482d4cbbd5a5c0025257818fd7d9634362bf4eb81ba18bdc15e": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid func_001D6310(void *arg0, s32 arg1, s32 arg2, s32 arg3) {\n    void *temp_3;\n    void *temp_3_2;\n\n    temp_3 = M2C_FIELD(arg0, void **, 8);\n    M2C_FIELD(temp_3, s32 (**)(void *), 0x64)(arg0 + M2C_FIELD(temp_3, s16 *, 0x60));\n    temp_3_2 = M2C_FIELD(arg0, void **, 8);\n    M2C_FIELD(temp_3_2, s32 (**)(void *, s32, s32), 0x74)(arg0 + M2C_FIELD(temp_3_2, s16 *, 0x70), arg2, arg3);\n}\n",
    "6da6c63f4d5300a0d12164381c16b4e60933f79c2cfc23792df57618951d8be4": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid *func_001E4150();\n\nvoid func_001E3378(s32 arg0, s32 arg1, s32 *arg2) {\n    M2C_FIELD(func_001E4150(), s32 *, 0x18) = (s32) *arg2;\n}\n",
    "7e2bb10349a27ff8d079dba00a88a686957291b04505e66c81716f11f28ae130": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid *func_001E4150();\n\nvoid func_001E33C8(s32 arg0, s32 arg1, s32 arg2) {\n    M2C_FIELD(func_001E4150(), s32 *, 0x14) = arg2;\n}\n",
    "5e30edcd294cb2431ad124b155176304f57a6b65ecebb1ee79294d9d2317b6e4": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid *func_001E4150();\n\nvoid func_001E3438(s32 arg0, s32 arg1, s32 arg2) {\n    M2C_FIELD(func_001E4150(), s32 *, 0x10) = arg2;\n}\n",
+   "06054ea98ccbbc72ac2e6d28deb20b73d7997ad95f05650431ec880c1c74f1c4": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid *func_001E4150();\n\nvoid func_001E3488(s32 arg0, s32 arg1, s32 arg2) {\n    void *temp_2;\n\n    temp_2 = func_001E4150();\n    M2C_FIELD(temp_2, s32 *, 0xC) = (s32) ((M2C_FIELD(temp_2, s32 *, 0xC) & ~1) | (arg2 & 1));\n}\n",
+   "970d4f75c09c7f1a9ebc017cc3cdfa146b82b159a93baa3ca78ce75aba10613f": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid *func_001E4150();\n\nvoid func_001E34F0(s32 arg0, s32 arg1, s32 arg2) {\n    void *temp_2;\n\n    temp_2 = func_001E4150();\n    M2C_FIELD(temp_2, s32 *, 0xC) = (s32) ((M2C_FIELD(temp_2, s32 *, 0xC) & ~4) | ((arg2 & 1) * 4));\n}\n",
+   "d5b24e38218bdf736cfd9d3eae8155f31ae4b7c0f85146985c17b69258ea1513": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid *func_001E4150();\n\nvoid func_001E3558(s32 arg0, s32 arg1, s32 arg2) {\n    void *temp_2;\n\n    temp_2 = func_001E4150();\n    M2C_FIELD(temp_2, s32 *, 0xC) = (s32) ((M2C_FIELD(temp_2, s32 *, 0xC) & ~2) | ((arg2 & 1) * 2));\n}\n",
+   "c91d9761bd27f9655a3a9978937b4fe3f083c38eedd3d7d12b0e8716c685d5ae": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_001D2488();\n\ns32 *func_001EAE10(s32 *arg0, s32 arg1, s32 *arg2) {\n    char *var_16;\n    char *var_17;\n\n    var_17 = arg0;\n    var_16 = arg2;\n    if (var_17 != arg1) {\n        do {\n            if (var_16 != NULL) {\n                *(s32 *)var_16 = *(s32 *)var_17;\n                func_001D2488(var_16 + 4, var_17 + 4);\n            }\n            var_17 += 8;\n            var_16 += 8;\n        } while (var_17 != arg1);\n    }\n    return var_16;\n}\n",
+   "e58e69a950296da8d2d32568509262bb45fbc121b1688426063196783455c930": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_001D2488();\n\ns32 *func_001EB0C0(s32 *arg0, s32 arg1, s32 *arg2) {\n    char *var_16;\n    char *var_17;\n\n    var_17 = arg0;\n    var_16 = arg2;\n    if (var_17 != arg1) {\n        do {\n            if (var_16 != NULL) {\n                *(s32 *)var_16 = *(s32 *)var_17;\n                func_001D2488(var_16 + 4, var_17 + 4);\n            }\n            var_17 += 8;\n            var_16 += 8;\n        } while (var_17 != arg1);\n    }\n    return var_16;\n}\n",
+   "066f1a496d3091013d52a2e61d6de2434ab99314fba362f52c4a23ad987a2a5d": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 D_002AD408(M2C_UNK);                            /* extern */\nM2C_UNK func_001D2CD8(void *, s32);                 /* extern */\nvoid *func_001F60A8(s32);                           /* extern */\n\nvoid *func_001F60E8(void *arg0) {\n    void *temp_2;\n\n    temp_2 = func_001F60A8(D_002AD408(0x24));\n    func_001D2CD8(temp_2 + 0x14, M2C_FIELD(arg0, s32 *, 0x14));\n    M2C_FIELD(temp_2, s32 *, 0x18) = (s32) M2C_FIELD(arg0, s32 *, 0x18);\n    func_001D2CD8(temp_2 + 0x1C, M2C_FIELD(arg0, s32 *, 0x1C));\n    M2C_FIELD(temp_2, s32 *, 0x20) = (s32) M2C_FIELD(arg0, s32 *, 0x20);\n    return temp_2;\n}\n",
    "5d0dda514b83a208b8f9426866b017a41d8de2ca30a6b67743e8b30fb814d95d": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK func_001FD0D8();                            /* extern */\n\nvoid *func_001FC9A0(void *arg0) {\n    M2C_FIELD(arg0, s32 *, 8) = 0;\n    M2C_FIELD(arg0, s32 *, 0) = 0;\n    func_001FD0D8(arg0);\n    return arg0;\n}\n",
    "ef829c6d4ae27220c0e6fc339b0342457ee3b4f16969c9ce126163032a46338e": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_00244788();\n\nvoid func_00244DB8(s32 arg0, void *arg1) {\n    func_00244788();\n    M2C_FIELD(arg1, s32 *, 0x34) = 0;\n}\n",
+   "69bf2f2b1a980d7be5a782b5e385e3ed487673d1c4244ae0c5b31cce069f5e6c": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_00233CA8();\ns32 func_00234118();\n\nvoid func_0024D8F8(s32 arg0, s32 arg1, s32 arg2) {\n    func_00233CA8(arg1);\n    func_00233CA8(arg2);\n    func_00234118(arg1, arg2);\n}\n",
    "0ff4ba3a4ee5ac04fe5089eaba2bdbc358073d0457f54b0bf2760d69e777e656": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nf32 func_0023BC60();\n\nf32 func_0025D958(s32 arg0, void *arg1) {\n    f32 temp_f0;\n    f32 temp_f20;\n\n    temp_f20 = M2C_FIELD(arg1, f32 *, 0x20);\n    temp_f0 = func_0023BC60(arg1);\n    return (temp_f20 * temp_f0) + temp_f0;\n}\n",
    "2b8545d2db046194fb5ee3ed7055d9dd32a77e0c686315ae076d4764c20868c4": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nf32 func_0025E6F8(s32 arg0, void *arg1) {\n    return -M2C_FIELD(arg1, f32 *, 0x1C);\n}\n",
    "2cf55215426999fd418bd300c44e80358613d30b3cb786398e4d5a898905a5ca": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_003FA388();\n\nvoid func_00260288(s32 arg0, void *arg1) {\n    func_003FA388(M2C_FIELD(arg1, s32 *, 0x14), \"$cylinder_%f _%f\");\n}\n",
+   "a474cd6f15d48d4039b2f2400ed67f5cd0701d822ce182c839f19d2ab49dac84": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK D_002AD390(void *);                         /* extern */\nM2C_UNK D_002AD530(s32);                            /* extern */\nM2C_UNK func_00262740(s32, void *);                 /* extern */\ns32 func_00262838();                                /* extern */\n\nvoid func_00262B00(void *arg0, s32 arg1) {\n    s32 temp_4;\n\n    temp_4 = M2C_FIELD(arg0, s32 *, 0x40);\n    if (temp_4 != 0) {\n        D_002AD530(temp_4);\n    }\n    func_00262740(func_00262838(), arg0);\n    if (arg1 & 1) {\n        D_002AD390(arg0);\n    }\n}\n",
    "a7b2c455b5c025eb363b8ea4f77119feca2ce354dea05f5a3936a86cb7d8be7a": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_0026B190(s32 arg0, s32 arg1) {\n    char *var_3;\n    char *var_5;\n    s32 temp_2;\n    s32 var_6;\n\n    var_5 = arg1 + 8;\n    var_3 = arg0 + 8;\n    var_6 = 7;\n    do {\n        temp_2 = *(s32 *)var_5;\n        var_6 -= 1;\n        var_5 += 4;\n        *(s32 *)var_3 = temp_2;\n        var_3 += 4;\n    } while (var_6 >= 0);\n    return arg0;\n}\n",
    "6def3d92ddbf080a763f8b539d713effdfa6111023c4b029776f25f87a7df13e": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK func_0026C550();                            /* extern */\n\nvoid *func_0026C520(void *arg0) {\n    M2C_FIELD(arg0, s32 *, 4) = 0;\n    func_0026C550(arg0);\n    return arg0;\n}\n",
    "3bbeac861070ed2bbc1b794e299c8d4fdd23080e0ac31cd1a47fe024e2c261d6": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nf32 func_0027F440(s32 arg0) {\n    char *var_4;\n    f32 temp_f1;\n    s32 var_2;\n\n    var_4 = arg0 + 0x30;\n    var_2 = 0x3B;\n    do {\n        temp_f1 = *(f32 *)var_4;\n        var_2 -= 1;\n        var_4 += 4;\n    } while (var_2 >= 0);\n    return temp_f1 / 60.0f;\n}\n",
+   "d76dfa8d120ddb139860ae89f5504739b2f6c510a7f0b1dad4bf108449badfa4": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_00205CE0();\ns32 func_002060F8();\ns32 func_002062A8();\n\ns32 func_0028F600(s32 arg0, void *arg1, s32 arg2) {\n    s32 temp_16;\n\n    if (arg1 != NULL) {\n        temp_16 = M2C_FIELD(arg1, s32 *, 0x4C);\n        if (temp_16 != 0) {\n            func_002062A8(temp_16, arg2);\n            func_002060F8(temp_16);\n            func_00205CE0(temp_16, 0);\n            return 1;\n        }\n    }\n    return 0;\n}\n",
+   "9265011a4f9941db4f30fb68b19480c941f1258bbb84072014b968c9bda81ac8": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nf32 func_00290B28();\n\nf32 func_00290C00(s32 arg0, s32 arg1) {\n    f32 temp_f20;\n\n    temp_f20 = func_00290B28();\n    return func_00290B28(arg1) - temp_f20;\n}\n",
+   "39757ad9ada1d624b5ce2a4f4b4e2241d17441f1506c83d1f378c302e6ef136b": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK func_00299138();                            /* extern */\nM2C_UNK func_002991D0(void *, s32);                 /* extern */\nM2C_UNK func_00299938(void *, s32);                 /* extern */\n\nvoid func_00298F38(void *arg0, s32 arg1) {\n    func_00299138();\n    if (M2C_FIELD(arg0, s32 *, 0x44) != 0) {\n        func_002991D0(arg0, arg1);\n    }\n    if (M2C_FIELD(arg0, s32 *, 0x48) != 0) {\n        func_00299938(arg0, arg1);\n    }\n}\n",
+   "9d6c878a2bc5650e3a2944a2c2d6f8586fdde23b8e2d790439cec1147d63db85": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK func_001D4040(M2C_UNK *, M2C_UNK *);        /* extern */\ns32 func_001E3598(s32, s32);                        /* extern */\nM2C_UNK func_001E3D10(s32, s32, M2C_UNK);           /* extern */\nM2C_UNK func_0029C110(void *);                      /* extern */\nM2C_UNK func_0029C1C8(void *, s32);                 /* extern */\nextern s32 D_00426850;\nextern M2C_UNK D_0047AD68;\nextern M2C_UNK D_00494B48;\n\nvoid func_0029BFE8(void *arg0, s32 arg1) {\n    s32 temp_17;\n\n    if (D_00426850 == 0) {\n        func_001D4040(&D_00494B48, &D_0047AD68);\n        D_00426850 = 1;\n    }\n    if (func_001E3598(func_001E4280(), arg0 + 0x18) != 0) {\n        temp_17 = arg0 + 0x1C;\n        if (func_001E3598(func_001E4280(), temp_17) != 0) {\n            func_001E3D10(func_001E4280(), temp_17, 0);\n            func_0029C1C8(arg0, arg1);\n        }\n    } else if (func_001E3650(func_001E4280(), (s32) &D_00494B48) <= 0) {\n        if (func_001E3650(func_001E4280(), (s32) (arg0 + 0x14)) != M2C_FIELD(arg0, s32 *, 0x10)) {\n            M2C_FIELD(arg0, s32 *, 0x24) = 1;\n        } else {\n            M2C_FIELD(arg0, s32 *, 0x24) = 0;\n            M2C_FIELD(arg0, s32 *, 0x28) = 0;\n        }\n        if (M2C_FIELD(arg0, s32 *, 0x24) != 0) {\n            func_0029C110(arg0);\n        }\n    }\n}\n",
+   "3b5eb94f792e318d3629250944f9e552d16a0b3fd4c2ec1ebcf430c292f2a9de": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK D_002AD390(void *);                         /* extern */\nM2C_UNK func_001D1900(void *);                      /* extern */\nextern M2C_UNK D_0044DCD8;\nextern M2C_UNK D_0047D4F8;\n\nvoid func_002A8560(void *arg0, s32 arg1) {\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0047D4F8;\n    func_001D1900(arg0 + 0x18);\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0044DCD8;\n    if (arg1 & 1) {\n        D_002AD390(arg0);\n    }\n}\n",
+   "99f7ea8834f3a20a69b0c4c480ea6c7b3cc157f12b1538c941357e0bb9254b50": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK D_002AD390(void *);                         /* extern */\nextern M2C_UNK D_0044DCD8;\nextern M2C_UNK D_0047CBB8;\n\nvoid func_002A9668(void *arg0, s32 arg1) {\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0047CBB8;\n    D_002AD390(M2C_FIELD(arg0, void **, 0x4C));\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0044DCD8;\n    if (arg1 & 1) {\n        D_002AD390(arg0);\n    }\n}\n",
+   "8998e4c45b10eebcca754a5dd6602c3ab6aa0f620fb7a8deb818d518f932e40e": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK D_002AD390(void *);                         /* extern */\nextern M2C_UNK D_0044DCD8;\n\nvoid func_002A9838(void *arg0, s32 arg1) {\n    D_002AD390(M2C_FIELD(arg0, void **, 0x58));\n    D_002AD390(M2C_FIELD(arg0, void **, 0x44));\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0044DCD8;\n    if (arg1 & 1) {\n        D_002AD390(arg0);\n    }\n}\n",
+   "b1bafe99e4fa038c4ac1f150e7089e3dbb7115ee89680ca09074da1ebf78ee71": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK D_002AD390(void *);                         /* extern */\nextern M2C_UNK D_0044DCD8;\nextern M2C_UNK D_0047CAB8;\n\nvoid func_002A9908(void *arg0, s32 arg1) {\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0047CAB8;\n    D_002AD390(M2C_FIELD(arg0, void **, 0x30));\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0044DCD8;\n    if (arg1 & 1) {\n        D_002AD390(arg0);\n    }\n}\n",
+   "51226488d1a49b128c6db3d20bb0d6ca618db3ac234ca297ed47b3da1c90e284": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK D_002AD390(void *);                         /* extern */\nextern M2C_UNK D_0044DCD8;\nextern M2C_UNK D_0047C938;\n\nvoid func_002A9C90(void *arg0, s32 arg1) {\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0047C938;\n    D_002AD390(M2C_FIELD(arg0, void **, 0x3C));\n    D_002AD390(M2C_FIELD(arg0, void **, 0x38));\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0044DCD8;\n    if (arg1 & 1) {\n        D_002AD390(arg0);\n    }\n}\n",
+   "deca976d6111aa1c9b0f5cf10ca26cfb41082b981ad82519c33e666a2a47c947": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK func_002BAA88();                            /* extern */\nextern M2C_UNK D_0047F1D0;\n\nvoid *func_002B6438(void *arg0, s32 arg1) {\n    func_002BAA88(arg0);\n    M2C_FIELD(arg0, s32 *, 0x14) = arg1;\n    M2C_FIELD(arg0, M2C_UNK **, 0x10) = &D_0047F1D0;\n    return arg0;\n}\n",
+   "bede1fa15615dcc78eb627a59f388bccb2de1e993f96d18b704524abe02620c4": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK func_002BAA88();                            /* extern */\nextern M2C_UNK D_0047F548;\n\nvoid *func_002B6DD0(void *arg0, s32 arg1) {\n    func_002BAA88(arg0);\n    M2C_FIELD(arg0, s32 *, 0x14) = arg1;\n    M2C_FIELD(arg0, M2C_UNK **, 0x10) = &D_0047F548;\n    return arg0;\n}\n",
+   "7a678ea09c66ec0fba710f9f85fe617788364e8337e41112b61c3018a4c61e54": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK func_002BAA88();                            /* extern */\nextern M2C_UNK D_0047F7B0;\n\nvoid *func_002B7828(void *arg0, s32 arg1) {\n    func_002BAA88(arg0);\n    M2C_FIELD(arg0, s32 *, 0x14) = arg1;\n    M2C_FIELD(arg0, M2C_UNK **, 0x10) = &D_0047F7B0;\n    return arg0;\n}\n",
+   "52f79cb80ea7fa6c9f7d73c0a34ea3dc667749ecaba8dbee803b5b44294b9052": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_002BDB28();\n\ns32 func_002B7DD8(s32 arg0, void *arg1) {\n    s32 var_17;\n\n    var_17 = 0;\n    func_002BDB28();\n    if (arg1 != NULL) {\n        var_17 = M2C_FIELD(arg1, s32 *, 4);\n    }\n    return var_17;\n}\n",
+   "74ab5a7fe776b1f6ef7a6691d963e83222f6fe522b4c9aa181cb465360312561": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_002B8248();\n\nvoid *func_002B8368(void *arg0) {\n    char *var_17;\n    s32 var_18;\n\n    var_18 = 3;\n    var_17 = arg0 + 4;\n    M2C_FIELD(arg0, s32 *, 0) = 0;\n    M2C_FIELD(arg0, s32 *, 0x14) = 0;\n    do {\n        var_18 -= 1;\n        func_002B8248(arg0);\n        *(s32 *)var_17 = M2C_FIELD(arg0, s32 *, 0);\n        var_17 += 4;\n    } while (var_18 >= 0);\n    return arg0;\n}\n",
+   "fbd6208059aaddc4b4d5cd340fa3ef2c1cc25084ee460d57bde518553da66d46": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nM2C_UNK D_002AD390(void *);                         /* extern */\nM2C_UNK func_001DB118(void *);                      /* extern */\ns32 func_002B8598();                                /* extern */\nM2C_UNK func_002B8768(void *);                      /* extern */\nextern M2C_UNK D_00476518;\nextern M2C_UNK D_0047FA08;\n\nvoid func_002B84E0(void *arg0, s32 arg1) {\n    void *temp_4;\n\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_0047FA08;\n    if (func_002B8598() != 0) {\n        func_002B8768(arg0);\n    }\n    temp_4 = M2C_FIELD(arg0, void **, 0x10);\n    if (temp_4 != NULL) {\n        D_002AD390(temp_4);\n    }\n    M2C_FIELD(arg0, M2C_UNK **, 8) = &D_00476518;\n    func_001DB118(arg0);\n    if (arg1 & 1) {\n        D_002AD390(arg0);\n    }\n}\n",
    "8aacd5fe2515ef549205042e616bb1077d9462656e50179bcaacadc3a96bb0d5": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid func_002BA300(s8 *arg0, s32 *arg1, u32 arg2, s8 arg3) {\n    s32 temp_2;\n\n    temp_2 = *arg1;\n    if ((u32) temp_2 < arg2) {\n        arg0[temp_2] = arg3;\n    }\n    *arg1 += 1;\n}\n",
+   "54a7a4421f71f4dd91caea27af1b8a20a6b7c3ac41d4d6afc868e9f85044b74a": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_002C0CD0();\ns32 func_003F9698();\nextern char D_00480448[];\n\ns32 func_002BC5C0(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4) {\n    s32 var_16;\n\n    var_16 = 0;\n    if (func_002C0CD0(arg1, arg2, arg3, arg4, 0) != 0) {\n        func_003F9698(&D_00480448);\n    } else {\n        var_16 = 1;\n    }\n    return var_16;\n}\n",
+   "adfe5a389ace196c675a51a3b7f2eb481a9e24d1cca246d41b85e1175bbea137": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_002BCB20();\n\nvoid *func_002BCC48(void *arg0) {\n    char *var_17;\n    s32 var_18;\n\n    var_18 = 3;\n    var_17 = arg0 + 4;\n    M2C_FIELD(arg0, s32 *, 0) = 0;\n    M2C_FIELD(arg0, s32 *, 0x14) = 0;\n    do {\n        var_18 -= 1;\n        func_002BCB20(arg0);\n        *(s32 *)var_17 = M2C_FIELD(arg0, s32 *, 0);\n        var_17 += 4;\n    } while (var_18 >= 0);\n    return arg0;\n}\n",
+   "dcca028695fa3c8916fa9ea838545ed67e063709d9e4a29a884dd200dac1426c": "extern f32 D_004297F0;\nextern s32 D_004297F4;\nextern char D_00483560[];\nextern char D_00483598[];\nextern char D_004835B8[];\nextern char D_004835D8[];\nextern void *func_002CE9C0(const char *, s32);\nextern s32 func_002CEAF8(void *);\nextern s32 func_002CEE90(s32, s32, f32);\nextern s32 func_003F9698(const char *, ...);\nextern s32 func_002CEDC8(s32, f32);\nextern s32 func_0030CA08(s32);\nextern s32 func_0030D4D0(s32);\n\nvoid func_002CEBC0(const char *name, s32 a1, f32 f12) {\n    void *t;\n    func_003F9698(D_00483560);\n    func_003F9698(D_00483598, name);\n    func_003F9698(D_00483560);\n    t = func_002CE9C0(name, 1);\n    if (t != NULL) {\n        if (func_002CEAF8(t) != 0) {\n            func_002CEE90(*(s32*)((u8*)t + 4), a1, f12);\n            D_004297F0 = f12;\n        } else {\n            func_003F9698(D_004835B8, name);\n        }\n    }\n}\n\nvoid func_002CEC78(void) {\n    void *t;\n    t = func_002CE9C0(NULL, 0);\n    if (t != NULL) {\n        func_002CECB0(*(s32*)((u8*)t + 4));\n        D_004297F0 = 0.0f;\n    }\n}\n\nvoid func_002CECB0(f32 a) {\n    func_002CEDC8(0, 0.0f);\n    D_004297F4 = 1;\n    func_0030CA08(0);\n    func_0030CA08(1);\n    func_0030D4D0(0);\n    func_003F9698(D_004835D8);\n}\n\nvoid func_002CEB78(f32 f12) {\n    void *t;\n    t = func_002CE9C0(NULL, 0);\n    if (t != NULL) {\n        func_002CEDC8(*(s32*)((u8*)t + 4), f12);\n        D_004297F0 = f12;\n    }\n}",
    "cdc154c35616644bde25611951ce03f0bbe0d116a8ef191ca312e6026fb83cee": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid func_003B7410(s32 arg0, s32 arg1, void *arg2) {\n    void *temp_3;\n\n    temp_3 = M2C_FIELD(arg2, void **, 8);\n    M2C_FIELD(temp_3, s32 (**)(void *), 0x84)(arg2 + M2C_FIELD(temp_3, s16 *, 0x80));\n}\n",
-   "49f840c09776952366fe62d5c9289cfa8a14d5f5dc080b8c7d00ae2bc35d0541": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid func_003B7438(s32 arg0, s32 arg1, void *arg2) {\n    void *temp_3;\n\n    temp_3 = M2C_FIELD(arg2, void **, 8);\n    M2C_FIELD(temp_3, s32 (**)(void *), 0x94)(arg2 + M2C_FIELD(temp_3, s16 *, 0x90));\n}\n"
+   "49f840c09776952366fe62d5c9289cfa8a14d5f5dc080b8c7d00ae2bc35d0541": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\nvoid func_003B7438(s32 arg0, s32 arg1, void *arg2) {\n    void *temp_3;\n\n    temp_3 = M2C_FIELD(arg2, void **, 8);\n    M2C_FIELD(temp_3, s32 (**)(void *), 0x94)(arg2 + M2C_FIELD(temp_3, s16 *, 0x90));\n}\n",
+   "3d8d8af4bad37db4c35d981d60348b4745c27748560151e6af7e7bedc8225b91": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 func_003E7650();                                /* extern */\nM2C_UNK func_003E7828(s32, void *);                 /* extern */\n\nvoid func_003E7A00(void *arg0) {\n    if (M2C_FIELD(arg0, s32 *, 8) == 0) {\n        func_003E7828(func_003E7650(), arg0);\n        M2C_FIELD(arg0, s32 *, 8) = 1;\n    }\n}\n",
+   "5a0f096ab1a15625197e36dbe69cf95a37bf989ad83e81b8dda5de5683fb901f": "/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */\n#ifndef M2C_DEFINES\n#define M2C_DEFINES\ntypedef s32 M2C_UNK;\ntypedef s8 M2C_UNK8;\ntypedef s16 M2C_UNK16;\ntypedef s32 M2C_UNK32;\n#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))\n#define M2C_BITWISE(type, expr) ((type)(expr))\n#define M2C_ERROR(desc) (0)\n#define M2C_CARRY 0\n#define M2C_OVERFLOW(a) (0)\n#endif\n\ns32 *func_003EF4D8();\ns32 func_003F9698();\nextern char D_0048B250[];\n\nvoid func_003EF518(s32 arg0, s32 arg1) {\n    func_003F9698(&D_0048B250, arg0);\n    func_003F9698(func_003EF4D8(arg1));\n}\n"
   },
   "headers": {
    "68e70794ea3e9d23682ee01a33d79764ea4bd8d44651ce058487c57396d2a5e0": "/* context.h for SLES-50906: shared by every function. Agents grow it with edit_context:\n * add a prototype or struct the moment you work one out, so the next function benefits. */\n\ntypedef signed char s8;\ntypedef unsigned char u8;\ntypedef signed short s16;\ntypedef unsigned short u16;\ntypedef signed int s32;\ntypedef unsigned int u32;\ntypedef signed long long s64;\ntypedef unsigned long long u64;\ntypedef float f32;\ntypedef double f64;\ntypedef volatile u8 vu8;\ntypedef volatile u16 vu16;\ntypedef volatile u32 vu32;\ntypedef volatile s32 vs32;\ntypedef int s32_bool;\n\n#define NULL ((void *)0)\n#define TRUE 1\n#define FALSE 0\n#define ARRAY_COUNT(arr) (s32)(sizeof(arr) / sizeof(arr[0]))\n\nextern s32 func_001E4280(void);\nextern s32 func_001E3650(s32, s32);\nextern void func_0015ACE0(f32, f32, f32);\nextern s32 func_00151930(void *);\n"

@@ -23,9 +23,10 @@ void func_0036B0D0(void *arg0) {
     temp_3 = M2C_FIELD(temp_5, u32 *, 0);
     if (temp_3 < temp_4) {
         var_3 = temp_3 + 0x30;
-        do {
+        __repair_rows: {
             var_3 += 0x30;
-        } while (var_3 < temp_4);
+        }
+if (var_3 < temp_4) goto __repair_rows;
     }
     M2C_FIELD(temp_5, u32 *, 4) = (u32) (temp_4 - (temp_4 - temp_3));
 }

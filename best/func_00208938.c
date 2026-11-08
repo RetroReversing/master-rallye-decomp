@@ -1,15 +1,23 @@
-extern void func_00207140(void *, s32);
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
+#ifndef M2C_DEFINES
+#define M2C_DEFINES
+typedef s32 M2C_UNK;
+typedef s8 M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+#define M2C_BITWISE(type, expr) ((type)(expr))
+#define M2C_ERROR(desc) (0)
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+#endif
 
-void func_00208B18(void *arg0) {
-    void *vt;
-    vt = *(void **)((char *)arg0 + 0x10);
-    (*(void (**)(void *))((char *)vt + 0x1C))((char *)arg0 + *(s16 *)((char *)vt + 0x18));
-}
+s32 func_00207140();
 
-void func_00208938(void *arg0, s32 arg1, s32 arg2) {
-    if (arg2 < arg1) {
-        func_00207140(arg0, arg2);
-    } else {
-        func_00207140(arg0, arg1);
+void func_00208938(s32 arg0, s32 arg1, s32 arg2) {
+    if (arg2 >= arg1) {
+        func_00207140();
+        return;
     }
+    func_00207140(arg2, arg1);
 }

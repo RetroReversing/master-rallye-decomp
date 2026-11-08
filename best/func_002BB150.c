@@ -18,7 +18,7 @@ M2C_UNK func_003F94D0(s32, M2C_UNK, M2C_UNK);       /* extern */
 void func_002BB150(s32 arg0, s32 arg1) {
     s32 temp_16;
 
-    if (func_002BB070() != 0) {
+    if (func_002BB070(arg0, arg1) != 0) {
         temp_16 = arg1 * 0xC;
         func_003F94D0(arg0 + temp_16, 0, 0xC);
         M2C_FIELD((arg0 + temp_16), s32 *, 4) = 0xFFFFFFFF;

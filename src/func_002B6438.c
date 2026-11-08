@@ -16,7 +16,7 @@ M2C_UNK func_002BAA88();                            /* extern */
 extern M2C_UNK D_0047F1D0;
 
 void *func_002B6438(void *arg0, s32 arg1) {
-    func_002BAA88();
+    func_002BAA88(arg0);
     M2C_FIELD(arg0, s32 *, 0x14) = arg1;
     M2C_FIELD(arg0, M2C_UNK **, 0x10) = &D_0047F1D0;
     return arg0;
