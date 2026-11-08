@@ -1,3 +1,4 @@
+/* identical to func_001EAE10 (matched), with its names changed by decompdecomp */
 /* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
 #ifndef M2C_DEFINES
 #define M2C_DEFINES
@@ -12,18 +13,18 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-M2C_UNK func_001D2488(s32, void *);                 /* extern */
+s32 func_001D2488();
 
-s32 *func_0026E748(s32 *arg0, s32 arg1, s32 *arg2) {
-    s32 *var_16;
-    s32 *var_17;
+s32 *func_00217A00(s32 *arg0, s32 arg1, s32 *arg2) {
+    char *var_16;
+    char *var_17;
 
     var_17 = arg0;
     var_16 = arg2;
     if (var_17 != arg1) {
         do {
             if (var_16 != NULL) {
-                *var_16 = *var_17;
+                *(s32 *)var_16 = *(s32 *)var_17;
                 func_001D2488(var_16 + 4, var_17 + 4);
             }
             var_17 += 8;

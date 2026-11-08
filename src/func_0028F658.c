@@ -12,15 +12,15 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-s32 func_001D4010(s32);                             /* extern */
-M2C_UNK func_001D6588(M2C_UNK *, s32);              /* extern */
-s32 func_001D65A0(M2C_UNK *, s32);                  /* extern */
-M2C_UNK func_001D65D0(s32);                         /* extern */
-M2C_UNK func_002060F8(s32);                         /* extern */
-M2C_UNK func_002062A8(s32, s32);                    /* extern */
-extern M2C_UNK D_004262B0;
+s32 func_001D4010();
+s32 func_001D6588();
+s32 func_001D65A0();
+s32 func_001D65D0();
+s32 func_002060F8();
+s32 func_002062A8();
+extern char D_004262B0[];
 
-s32 func_0028F658(void *arg1, s32 arg2, s32 arg3) {
+s32 func_0028F658(s32 arg0, void *arg1, s32 arg2, s32 arg3) {
     s32 temp_17;
     s32 temp_18;
 

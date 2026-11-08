@@ -20,7 +20,7 @@ extern M2C_UNK D_00481398;
 s32 func_002C1E40(u32 arg0, s32 arg1) {
     s32 temp_2;
 
-    temp_2 = func_002C1EB8();
+    temp_2 = func_002C1EB8(arg0);
     if (temp_2 == 0) {
         func_003F9698(&D_00481368, arg0, arg1);
     } else {

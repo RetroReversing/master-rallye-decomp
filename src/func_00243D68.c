@@ -12,9 +12,9 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-extern f32 D_00479B60;
+extern f32 D_00479B70;
 
-f32 func_00242210(void *arg1, void *arg2) {
+f32 func_00243D68(s32 arg0, void *arg1, void *arg2) {
     f32 temp_f0;
     f32 temp_f0_2;
     f32 temp_f0_3;
@@ -59,7 +59,7 @@ f32 func_00242210(void *arg1, void *arg2) {
     temp_f6 = M2C_FIELD(temp_3, f32 *, 8);
     temp_f0 = temp_f4 - temp_f10;
     temp_f12 = M2C_FIELD(temp_2, f32 *, 8);
-    var_f3 = D_00479B60;
+    var_f3 = D_00479B70;
     temp_f2 = temp_f6 - temp_f12;
     temp_f1_2 = (temp_f1 * temp_f1) + (temp_f0 * temp_f0) + (temp_f2 * temp_f2);
     if (temp_f1_2 < var_f3) {
