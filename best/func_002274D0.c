@@ -1,72 +1,38 @@
-extern void func_002296D0(void *);
-extern void func_00229658(void *, int);
-extern int func_00229A48(void *, void *);
-extern void *func_003F93CC(void *, void *, unsigned int);
-extern int func_00229988(void *, void *, int);
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
+#ifndef M2C_DEFINES
+#define M2C_DEFINES
+typedef s32 M2C_UNK;
+typedef s8 M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+#define M2C_BITWISE(type, expr) ((type)(expr))
+#define M2C_ERROR(desc) (0)
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+#endif
 
-int func_001D3920(void *arg0) {
-    int *v = *(int **)((char *)arg0 + 4);
-    int ret = 0;
-    if (v != (int *)arg0) {
-        if (v != (int *)arg0) {
-            ret = *v;
+s32 func_002274D0(void *arg0, void *arg1, void *arg2, s32 *arg3) {
+    s32 temp_18;
+    s32 temp_2;
+    s32 var_2;
+    s32 var_2_2;
+
+    temp_18 = func_00229988(arg2, arg1, -1);
+    temp_2 = func_00229988(arg2, arg1, 1);
+    if (temp_18 != 0) {
+        var_2 = 1;
+        if (temp_2 == 0) {
+            var_2_2 = -1;
+            goto block_4;
         }
-    }
-    return ret;
-}
-
-typedef struct Vec {
-    void **begin;
-    void **end;
-} Vec;
-
-void func_00226DC0(void *arg0) {
-    Vec *v = (Vec *)arg0;
-    int n = (int)(v->end - v->begin);
-    int i = 0;
-    if (n > 0) {
-        do {
-            func_002296D0(v->begin[i]);
-            i++;
-        } while (i < n);
-    }
-}
-
-void func_002272D8(void *arg0, void *arg1) {
-    Vec *v = (Vec *)arg0;
-    void **cur = v->begin;
-    for (;;) {
-        void **end = v->end;
-        if (cur == end) break;
-        {
-            void *elem = *cur;
-            if (func_00229A48(elem, arg1) != 0) {
-                void **next = cur + 1;
-                end = v->end;
-                if (next != end) {
-                    func_003F93CC(cur, next, (unsigned int)((char *)end - (char *)next));
-                }
-                v->end = v->end - 1;
-                if (elem != 0) {
-                    func_00229658(elem, 3);
-                }
-            } else {
-                cur++;
-            }
-        }
-    }
-}
-
-int func_002274D0(void *arg0, void *arg1, void *arg2, int *arg3) {
-    int r1 = func_00229988(arg2, arg1, -1);
-    int r2 = func_00229988(arg2, arg0, 1);
-    if (r1 != 0) {
-        if (r2 != 0) return 1;
-        *arg3 = -1;
-        return 0;
     } else {
-        if (r2 == 0) return 0;
-        *arg3 = 1;
-        return 0;
+        var_2_2 = 1;
+        if (temp_2 != 0) {
+block_4:
+            *arg3 = var_2_2;
+        }
+        var_2 = 0;
     }
+    return var_2;
 }

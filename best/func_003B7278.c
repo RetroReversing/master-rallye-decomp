@@ -1,40 +1,33 @@
-extern void func_003B7398(void *);
-extern void func_003B7410(s32, f32 *, s32);
-extern void func_003B7438(s32, s32 *, s32);
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
+#ifndef M2C_DEFINES
+#define M2C_DEFINES
+typedef s32 M2C_UNK;
+typedef s8 M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+#define M2C_BITWISE(type, expr) ((type)(expr))
+#define M2C_ERROR(desc) (0)
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+#endif
 
 void func_003B7278(s32 arg0, f32 *arg1, s32 arg2) {
-    f32 sp0 = 0.0f;
-    f32 sp4 = 0.0f;
-    f32 sp8 = 0.0f;
+    f32 sp0;
+    M2C_UNK32 sp4;
+    M2C_UNK32 sp8;
     f32 sp10;
     s32 sp14;
 
-    func_003B7398(&sp0);
-    arg1[0] = sp0;
-    arg1[1] = sp4;
-    arg1[2] = sp8;
+    sp0 = 0.0f;
+    sp4 = 0;
+    sp8 = 0;
+    func_003B7398((void *) arg0);
+    M2C_FIELD(arg1, f32 *, 0) = sp0;
+    M2C_FIELD(arg1, M2C_UNK32 *, 4) = sp4;
+    M2C_FIELD(arg1, M2C_UNK32 *, 8) = sp8;
     func_003B7410(arg0, &sp10, arg2);
-    arg1[3] = sp10;
+    M2C_FIELD(arg1, f32 *, 0xC) = sp10;
     func_003B7438(arg0, &sp14, arg2);
-    arg1[4] = sp14;
-}
-
-extern void func_002585C0(void *);
-extern void func_002585F0(s32, void *, s32);
-extern void func_00258610(void *, s32);
-
-s32 func_003B5B20(s32 arg0, void *arg1, s32 arg2) {
-    /* arg2 unused? Actually arg2 is 3rd param */
-    s32 sp[4]; /* sp, sp+4, sp+8, ... */
-    s32 sp10, sp14, sp18;
-    void *t;
-
-    func_002585C0(sp);
-    t = *(void **)((char *)arg1 + 0x08);
-    ((void (*)(void *, s32 *))(*(void **)((char *)t + 0x94)))((char *)arg1 + *(s32 *)((char *)t + 0x90), &sp10);
-    t = *(void **)((char *)arg1 + 0x08);
-    ((void (*)(void *, s32 *))(*(void **)((char *)t + 0x94)))((char *)arg1 + *(s32 *)((char *)t + 0x90), &sp14);
-    /* second call passes sp10 as extra? assembly: jalr with a4 = sp10? Let's check: second: lw $4,0x10($sp) then ... actually no */
-    (void)sp10; (void)sp14; (void)sp18;
-    return arg0;
+    M2C_FIELD(arg1, s32 *, 0x10) = sp14;
 }

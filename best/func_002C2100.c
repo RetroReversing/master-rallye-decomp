@@ -12,20 +12,20 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-s32 func_002C2018(M2C_UNK *, M2C_UNK);              /* extern */
-s32 func_003E0138(s32, M2C_UNK *, s32);             /* extern */
+s32 func_002C2018();
+s32 func_003E0138();
 extern s32 D_00428F18;
-extern M2C_UNK D_00496AC0;
+extern char D_00496AC0[];
 extern s32 D_0049AAC0;
 
 s32 func_002C2100(s32 arg0, s32 arg1) {
-    M2C_UNK *var_5;
+    s32 *var_5;
     s32 temp_2;
     s32 var_2;
     s32 var_3;
 
     if (D_0049AAC0 != 0) {
-        var_5 = (&D_00496AC0 + 0x4000) - D_0049AAC0;
+        var_5 = (D_00496AC0 + 0x4000) - D_0049AAC0;
         goto block_9;
     }
 loop_3:

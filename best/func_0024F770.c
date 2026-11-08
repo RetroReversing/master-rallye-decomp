@@ -26,7 +26,7 @@ void func_0024F770(void *arg0, s32 arg1, s32 arg2) {
     temp_2 = M2C_FIELD(arg0, void ***, 8);
     var_16 = *temp_2;
     if (var_16 != temp_2) {
-        do {
+        __repair_rows: {
             temp_3 = M2C_FIELD(var_16, s32 **, 8);
             sp0 = temp_3;
             if (temp_3 != NULL) {
@@ -43,6 +43,7 @@ void func_0024F770(void *arg0, s32 arg1, s32 arg2) {
                     M2C_FIELD(temp_2_3, M2C_UNK (**)(void *, M2C_UNK, s32 *), 0xC)(sp0 + M2C_FIELD(temp_2_3, s16 *, 8), 3, sp0);
                 }
             }
-        } while (temp_17 != M2C_FIELD(arg0, void ***, 8));
+        }
+if (temp_17 != M2C_FIELD(arg0, void ***, 8)) goto __repair_rows;
     }
 }

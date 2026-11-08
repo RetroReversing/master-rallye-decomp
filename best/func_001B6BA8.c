@@ -12,7 +12,7 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-void func_001B6BA8(void *arg1, void *arg2, s32 *arg3, s32 *arg4) {
+void func_001B6BA8(s32 arg0, void *arg1, void *arg2, s32 *arg3, s32 *arg4) {
     f32 temp_f0;
     f32 temp_f0_2;
     f32 temp_f1;

@@ -1,4 +1,4 @@
-/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0 -fno-schedule-insns, tried by autopilot */
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
 #ifndef M2C_DEFINES
 #define M2C_DEFINES
 typedef s32 M2C_UNK;
@@ -29,11 +29,12 @@ void func_00277818(s32 arg0, s32 arg1, s32 arg2) {
         do {
             if (arg2 > 0) {
                 var_6 = 0;
-                do {
+                __repair_rows: {
                     var_16 += 1;
                     func_00277780(arg0, var_17, var_6);
                     var_6 = var_16;
-                } while (var_16 < arg2);
+                }
+if (var_16 < arg2) goto __repair_rows;
             }
             var_17 += 1;
             var_16 = 0;

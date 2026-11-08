@@ -34,7 +34,7 @@ void func_003EE430(s32 arg0, s32 arg1) {
             var_18 = 0x18;
             func_003ED0B8(&D_0049D4A0);
             var_17 = &D_0049D4C0;
-            do {
+            __repair_rows: {
                 if (M2C_FIELD(&D_0040E658, s32 *, 0xC) == 0) {
                     var_3 = &D_0040E658 + 0x10;
                     M2C_FIELD(&D_0040E658, s32 *, 8) = (s32) (M2C_FIELD(&D_0040E658, s32 *, 8) + 1);
@@ -44,7 +44,8 @@ void func_003EE430(s32 arg0, s32 arg1) {
                 *var_17 = var_3;
                 var_18 -= 1;
                 var_17 += 4;
-            } while (var_18 != -1);
+            }
+if (var_18 != -1) goto __repair_rows;
             return;
         }
         temp_16 = &D_0049D4C0 + 0x64;

@@ -1,25 +1,43 @@
-struct S3F0 { s32 n; s32 cap; s32 *arr; };
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
+#ifndef M2C_DEFINES
+#define M2C_DEFINES
+typedef s32 M2C_UNK;
+typedef s8 M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+#define M2C_BITWISE(type, expr) ((type)(expr))
+#define M2C_ERROR(desc) (0)
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+#endif
 
-s32 func_002CD3F0(struct S3F0 *p, s32 i) {
-    if (i >= 0 && (u32)i < (u32)p->n)
-        return p->arr[i];
-    return 0;
-}
+s32 func_003FA580();
 
-extern s32 func_003FA580(s32, s32);
+u32 func_002CD360(void *arg0, s32 arg1) {
+    char *var_16;
+    u32 var_17;
+    u32 var_19;
+    u32 var_2;
 
-s32 func_002CD360(struct S3F0 *p, s32 a) {
-    if (p->n == 0)
-        return -1;
-    s32 i = 0;
-    s32 r = -1;
-    while ((u32)i < (u32)p->n) {
-        if (func_003FA580(a, p->arr[i]) != 0) {
-            i++;
-            continue;
+    var_19 = -1U;
+    if (M2C_FIELD(arg0, s32 *, 0) != 0) {
+        var_16 = M2C_FIELD(arg0, s32 **, 0xC);
+        var_17 = 0;
+loop_4:
+        var_2 = -1U;
+        if (var_17 < (u32) M2C_FIELD(arg0, u32 *, 4)) {
+            if (func_003FA580(arg1, *(s32 *)var_16) != 0) {
+                var_17 += 1;
+                var_16 += 4;
+                goto loop_4;
+            }
+            var_19 = var_17;
+            goto block_9;
         }
-        r = i;
-        break;
+    } else {
+block_9:
+        var_2 = var_19;
     }
-    return r;
+    return var_2;
 }

@@ -12,15 +12,15 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-M2C_UNK func_001D2488(M2C_UNK *, s32);              /* extern */
-M2C_UNK *func_002B1FC0(M2C_UNK);                    /* extern */
-M2C_UNK *func_003D2910(M2C_UNK);                    /* extern */
+s32 func_001D2488();
+s32 *func_002B1FC0();
+s32 *func_003D2910();
 
-void func_00213410(M2C_UNK **arg1, M2C_UNK *arg2, s32 arg3) {
-    M2C_UNK *sp10;
-    M2C_UNK *var_16;
-    M2C_UNK *var_17;
-    M2C_UNK *var_4;
+void func_00213410(s32 arg0, s32 **arg1, s32 *arg2, s32 arg3) {
+    s32 *sp10;
+    s32 *var_16;
+    s32 *var_17;
+    s32 *var_4;
 
     var_17 = arg2;
     if (var_17 != arg3) {
@@ -35,10 +35,10 @@ void func_00213410(M2C_UNK **arg1, M2C_UNK *arg2, s32 arg3) {
             if (var_4 != NULL) {
                 func_001D2488(var_4, var_17 + 8);
             }
-            M2C_FIELD(var_16, M2C_UNK **, 0) = sp10;
-            M2C_FIELD(var_16, M2C_UNK **, 4) = (M2C_UNK *) M2C_FIELD(sp10, M2C_UNK **, 4);
-            *M2C_FIELD(sp10, M2C_UNK **, 4) = var_16;
-            M2C_FIELD(sp10, M2C_UNK **, 4) = var_16;
+            M2C_FIELD(var_16, s32 **, 0) = sp10;
+            M2C_FIELD(var_16, s32 **, 4) = (s32 *) M2C_FIELD(sp10, s32 **, 4);
+            *M2C_FIELD(sp10, s32 **, 4) = var_16;
+            M2C_FIELD(sp10, s32 **, 4) = var_16;
             var_17 = *var_17;
         } while (var_17 != arg3);
     }

@@ -24,7 +24,7 @@ void func_002044C8(void *arg0, s32 arg1, s32 arg2) {
     s32 var_18;
     s32 var_5;
 
-    func_00204140();
+    func_00204140(arg0);
     var_18 = 0;
     func_002029B8(arg0, arg1);
     func_00156C38(arg0 + 0xC, arg2);

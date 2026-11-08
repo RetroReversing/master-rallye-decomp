@@ -12,10 +12,10 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-s32 D_002AD408(M2C_UNK);                            /* extern */
 s32 func_00170390(s32);                             /* extern */
 s32 func_00171308(s32);                             /* extern */
 M2C_UNK func_00265FF8();                            /* extern */
+s32 func_002AD408(M2C_UNK);                         /* extern */
 extern M2C_UNK D_00426508;
 extern M2C_UNK D_004735C8;
 
@@ -23,14 +23,14 @@ void *func_0016F588(void *arg0) {
     s32 temp_2;
     void *temp_17;
 
-    func_00265FF8();
+    func_00265FF8(arg0);
     temp_17 = arg0 + 0xE8;
     M2C_FIELD(arg0, M2C_UNK32 *, 0xE8) = 0;
     M2C_FIELD(arg0, M2C_UNK **, 0x14) = &D_004735C8;
     M2C_FIELD(temp_17, M2C_UNK32 *, 4) = 0;
     M2C_FIELD(temp_17, M2C_UNK32 *, 8) = 0;
     M2C_FIELD(arg0, s32 *, 0x34) = 0;
-    temp_2 = func_00170390(D_002AD408(0x30));
+    temp_2 = func_00170390(func_002AD408(0x30));
     M2C_FIELD(arg0, s32 *, 0x3C) = 0;
     M2C_FIELD(arg0, s32 *, 0x40) = 0;
     M2C_FIELD(arg0, s32 *, 0x44) = 0;
@@ -45,7 +45,7 @@ void *func_0016F588(void *arg0) {
     M2C_FIELD(arg0, s32 *, 0x68) = 0;
     M2C_FIELD(arg0, s32 *, 0x6C) = 0;
     M2C_FIELD(arg0, s32 *, 0x38) = temp_2;
-    M2C_FIELD(arg0, s32 *, 0x70) = func_00171308(D_002AD408(8));
+    M2C_FIELD(arg0, s32 *, 0x70) = func_00171308(func_002AD408(8));
     M2C_FIELD(arg0, s32 *, 0x74) = 0;
     M2C_FIELD(arg0, s32 *, 0x78) = 0;
     M2C_FIELD(arg0, s32 *, 0x7C) = 0;

@@ -21,7 +21,7 @@ void *func_001DDEE8(void *arg0, s32 arg1, s32 arg2) {
     s32 var_2;
     s32 var_5;
 
-    func_001DCB48();
+    func_001DCB48(arg0);
     M2C_FIELD(arg0, s32 *, 0x14) = 0;
     var_2 = 0;
     do {

@@ -1,48 +1,48 @@
-typedef struct {
-    int unk0;
-    int unk4;
-    int unk8;
-    int unkC;
-    int unk10;
-    int unk14;
-    int unk18;
-    int unk1C;
-    void *unk20;
-    void *unk24;
-} S_func_001DD3D8;
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
+#ifndef M2C_DEFINES
+#define M2C_DEFINES
+typedef s32 M2C_UNK;
+typedef s8 M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+#define M2C_BITWISE(type, expr) ((type)(expr))
+#define M2C_ERROR(desc) (0)
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+#endif
 
-void *func_002B1FC0(int a, int b, int c);
-void *func_003D2910(int a);
+s32 *func_002B1FC0();
+s32 *func_003D2910();
 
-void *func_001DD3D8(S_func_001DD3D8 *arg0) {
-    void *v0;
-    void *v1;
-    volatile int pad[8];
-    (void)pad;
-    
-    arg0->unk8 = 0x100;
-    arg0->unk10 = 4;
-    arg0->unk18 = 0x40;
-    arg0->unk1C = 1;
-    arg0->unk4 = 0x100;
-    arg0->unkC = 4;
-    arg0->unk14 = 0x40;
-    
-    v0 = func_002B1FC0(0x18, 4, 0x40);
-    if (v0 == 0) {
-        v0 = func_003D2910(0x18);
+void *func_001DD3D8(void *arg0) {
+    s32 *temp_2;
+    s32 *temp_3;
+    s32 *var_2;
+    s32 *var_3;
+
+    M2C_FIELD(arg0, s32 *, 8) = 0x100;
+    M2C_FIELD(arg0, s32 *, 0x10) = 4;
+    M2C_FIELD(arg0, s32 *, 0x18) = 0x40;
+    M2C_FIELD(arg0, s32 *, 0x1C) = 1;
+    M2C_FIELD(arg0, s32 *, 4) = 0x100;
+    M2C_FIELD(arg0, s32 *, 0xC) = 4;
+    M2C_FIELD(arg0, s32 *, 0x14) = 0x40;
+    var_2 = func_002B1FC0(0x18, 4, 0x40);
+    if (var_2 == NULL) {
+        var_2 = func_003D2910(0x18);
     }
-    arg0->unk20 = v0;
-    *(void **)v0 = v0;
-    ((void **)v0)[1] = v0;
-    
-    v1 = func_002B1FC0(0x18, 4, 0x40);
-    if (v1 == 0) {
-        v1 = func_003D2910(0x18);
+    M2C_FIELD(arg0, s32 **, 0x20) = var_2;
+    *var_2 = var_2;
+    temp_2 = M2C_FIELD(arg0, s32 **, 0x20);
+    M2C_FIELD(temp_2, s32 **, 4) = temp_2;
+    var_3 = func_002B1FC0(0x18);
+    if (var_3 == NULL) {
+        var_3 = func_003D2910(0x18);
     }
-    arg0->unk24 = v1;
-    *(void **)v1 = v1;
-    ((void **)v1)[1] = v1;
-    
+    M2C_FIELD(arg0, s32 **, 0x24) = var_3;
+    *var_3 = var_3;
+    temp_3 = M2C_FIELD(arg0, s32 **, 0x24);
+    M2C_FIELD(temp_3, s32 **, 4) = temp_3;
     return arg0;
 }

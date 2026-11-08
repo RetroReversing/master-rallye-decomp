@@ -1,66 +1,77 @@
-void func_002027E8(void *);
-void *func_002B1FC0(s32);
-void *func_003D2910(s32);
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
+#ifndef M2C_DEFINES
+#define M2C_DEFINES
+typedef s32 M2C_UNK;
+typedef s8 M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+#define M2C_BITWISE(type, expr) ((type)(expr))
+#define M2C_ERROR(desc) (0)
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+#endif
 
-typedef struct Node {
-    struct Node *next;
-    struct Node *prev;
-} Node;
+s32 func_002027E8();
+s32 *func_002B1FC0();
+s32 *func_003D2910();
 
-typedef struct Unk {
-    s32 unk0;
-    s32 unk4;
-    s32 unk8;
-    char padC[0xC];
-    s32 unk18;
-    Node unk1C; /* +0x18 */
-    Node unk28; /* +0x24 */
-    Node unk34; /* +0x30 */
-    Node unk40; /* +0x3C */
-    Node unk4C; /* +0x48 */
-    Node unk58; /* +0x54 */
-    Node unk64; /* +0x60 */
-    Node *unk6C;
-    Node *unk70;
-} Unk;
+void *func_00201620(void *arg0) {
+    s32 *temp_2_4;
+    s32 *temp_3_3;
+    s32 *var_2;
+    s32 *var_3;
+    void *temp_2;
+    void *temp_2_2;
+    void *temp_2_3;
+    void *temp_3;
+    void *temp_3_2;
+    void *temp_5;
 
-void *func_00201620(Unk *arg0) {
-    Node *v2;
-    Node *v3;
-    
-    arg0->unk0 = 0;
-    arg0->unk4 = 0;
-    arg0->unk8 = 0;
-    func_002027E8((void*)((u8*)arg0 + 0xC));
-    arg0->unk18 = 0;
-    arg0->unk1C.next = (Node*)((u8*)arg0 + 0x20);
-    arg0->unk1C.prev = (Node*)((u8*)arg0 + 0x20);
-    arg0->unk28.next = (Node*)((u8*)arg0 + 0x2C);
-    arg0->unk28.prev = (Node*)((u8*)arg0 + 0x2C);
-    arg0->unk34.next = (Node*)((u8*)arg0 + 0x38);
-    arg0->unk34.prev = (Node*)((u8*)arg0 + 0x38);
-    arg0->unk40.next = (Node*)((u8*)arg0 + 0x44);
-    arg0->unk40.prev = (Node*)((u8*)arg0 + 0x44);
-    arg0->unk4C.next = (Node*)((u8*)arg0 + 0x50);
-    arg0->unk4C.prev = (Node*)((u8*)arg0 + 0x50);
-    func_002027E8((void*)((u8*)arg0 + 0x48));
-    arg0->unk58.next = (Node*)((u8*)arg0 + 0x5C);
-    arg0->unk58.prev = (Node*)((u8*)arg0 + 0x5C);
-    arg0->unk64.next = (Node*)((u8*)arg0 + 0x68);
-    arg0->unk64.prev = (Node*)((u8*)arg0 + 0x68);
-    v2 = (Node*)func_002B1FC0(0xC);
-    if (v2 == NULL) {
-        v2 = (Node*)func_003D2910(0xC);
+    M2C_FIELD(arg0, s32 *, 0) = 0;
+    M2C_FIELD(arg0, s32 *, 4) = 0;
+    M2C_FIELD(arg0, s32 *, 8) = 0;
+    func_002027E8(arg0 + 0xC);
+    M2C_FIELD(arg0, s32 *, 0x18) = 0;
+    temp_2 = arg0 + 0x18;
+    M2C_FIELD(temp_2, s32 *, 8) = 0;
+    temp_3 = arg0 + 0x24;
+    M2C_FIELD(temp_2, s32 *, 4) = 0;
+    temp_5 = arg0 + 0x30;
+    M2C_FIELD(arg0, s32 *, 0x24) = 0;
+    temp_2_2 = arg0 + 0x3C;
+    M2C_FIELD(temp_3, s32 *, 8) = 0;
+    M2C_FIELD(temp_3, s32 *, 4) = 0;
+    M2C_FIELD(arg0, s32 *, 0x30) = 0;
+    M2C_FIELD(temp_5, s32 *, 8) = 0;
+    M2C_FIELD(temp_5, s32 *, 4) = 0;
+    M2C_FIELD(arg0, s32 *, 0x3C) = 0;
+    M2C_FIELD(temp_2_2, s32 *, 8) = 0;
+    M2C_FIELD(temp_2_2, s32 *, 4) = 0;
+    func_002027E8(arg0 + 0x48, temp_5);
+    M2C_FIELD(arg0, s32 *, 0x54) = 0;
+    temp_2_3 = arg0 + 0x54;
+    M2C_FIELD(temp_2_3, s32 *, 8) = 0;
+    temp_3_2 = arg0 + 0x60;
+    M2C_FIELD(temp_2_3, s32 *, 4) = 0;
+    M2C_FIELD(arg0, s32 *, 0x60) = 0;
+    M2C_FIELD(temp_3_2, s32 *, 8) = 0;
+    M2C_FIELD(temp_3_2, s32 *, 4) = 0;
+    var_2 = func_002B1FC0(0xC);
+    if (var_2 == NULL) {
+        var_2 = func_003D2910(0xC);
     }
-    arg0->unk6C = v2;
-    v2->next = v2;
-    v2->prev = v2;
-    v3 = (Node*)func_002B1FC0(0xC);
-    if (v3 == NULL) {
-        v3 = (Node*)func_003D2910(0xC);
+    M2C_FIELD(arg0, s32 **, 0x6C) = var_2;
+    *var_2 = var_2;
+    temp_2_4 = M2C_FIELD(arg0, s32 **, 0x6C);
+    M2C_FIELD(temp_2_4, s32 **, 4) = temp_2_4;
+    var_3 = func_002B1FC0(0xC);
+    if (var_3 == NULL) {
+        var_3 = func_003D2910(0xC);
     }
-    arg0->unk70 = v3;
-    v3->next = v3;
-    v3->prev = v3;
+    M2C_FIELD(arg0, s32 **, 0x70) = var_3;
+    *var_3 = var_3;
+    temp_3_3 = M2C_FIELD(arg0, s32 **, 0x70);
+    M2C_FIELD(temp_3_3, s32 **, 4) = temp_3_3;
     return arg0;
 }

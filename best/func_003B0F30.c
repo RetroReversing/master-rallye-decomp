@@ -1,4 +1,4 @@
-/* machine draft (m2c) for ee-gcc-2.9-991111 -O2 -G0, tried by autopilot */
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
 #ifndef M2C_DEFINES
 #define M2C_DEFINES
 typedef s32 M2C_UNK;
@@ -12,7 +12,7 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-s32 func_00151A28(s32, M2C_UNK, M2C_UNK, s32, s32); /* extern */
+s32 func_00151A28();
 
 s32 func_003B0F30(s32 arg0, s32 arg1, s32 arg2) {
     return func_00151A28(arg0, 0, 0xFFFFFFFF, arg1, arg2);

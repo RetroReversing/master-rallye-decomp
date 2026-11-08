@@ -34,14 +34,15 @@ void func_001DCBE0(void *arg0) {
             var_7_2 = M2C_FIELD(arg0, s32 *, 8) + temp_2_2;
             var_5 = (M2C_FIELD(arg0, s32 *, 8) + ((temp_2 - 1) * M2C_FIELD(arg0, s32 *, 0xC) * 4)) - temp_2_2;
             if (temp_4 > 0) {
-                do {
+                __repair_rows: {
                     var_8 += 1;
                     temp_2_3 = *var_7_2;
                     *var_7_2 = *var_5;
                     *var_5 = temp_2_3;
                     var_7_2 += 4;
                     var_5 += 4;
-                } while (var_8 < M2C_FIELD(arg0, s32 *, 0xC));
+                }
+if (var_8 < M2C_FIELD(arg0, s32 *, 0xC)) goto __repair_rows;
             }
             var_7 += 1;
         } while (var_7 < temp_11);

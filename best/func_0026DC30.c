@@ -1,10 +1,27 @@
-void func_0026DA68(void *, void *);
-void func_0026DBD0(void *, void *, int, void *);
-void func_0026DC30(void *arg0, void *arg1, void *arg2) {
-    if ((s32)((u8*)arg1 - (u8*)arg0) >> 2 >= 0x11) {
-        void *p = (void*)((u8*)arg0 + 0x40);
-        func_0026DA68(p, arg2);
-        func_0026DBD0(p, arg1, 0, arg2);
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
+#ifndef M2C_DEFINES
+#define M2C_DEFINES
+typedef s32 M2C_UNK;
+typedef s8 M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+#define M2C_BITWISE(type, expr) ((type)(expr))
+#define M2C_ERROR(desc) (0)
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+#endif
+
+s32 func_0026DA68();
+s32 func_0026DBD0();
+
+void func_0026DC30(s32 arg0, s32 arg1, s32 arg2) {
+    s32 temp_16;
+
+    if (((s32) (arg1 - arg0) >> 2) >= 0x11) {
+        temp_16 = arg0 + 0x40;
+        func_0026DA68(temp_16);
+        func_0026DBD0(temp_16, arg1, 0, arg2);
         return;
     }
     func_0026DA68(arg1, arg2);

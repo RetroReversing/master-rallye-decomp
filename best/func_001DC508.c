@@ -25,11 +25,12 @@ loop_2:
         var_16 = 0;
         if (M2C_FIELD(arg0, s32 *, 0xC) > 0) {
             var_5 = 0;
-            do {
+            __repair_rows: {
                 func_001DCC78(arg0, var_5, var_17, arg1);
                 var_16 += 1;
                 var_5 = var_16;
-            } while (var_16 < M2C_FIELD(arg0, s32 *, 0xC));
+            }
+if (var_16 < M2C_FIELD(arg0, s32 *, 0xC)) goto __repair_rows;
         }
         var_17 += 1;
         if (var_17 < M2C_FIELD(arg0, s32 *, 0x10)) {

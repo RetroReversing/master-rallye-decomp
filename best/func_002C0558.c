@@ -35,11 +35,12 @@ s32 func_002C0558(void) {
     if ((temp_16 & func_002C0370()) == 1) {
         var_3_2 = 0xF;
         var_2 = &spF;
-        do {
+        __repair_rows: {
             *var_2 = var_3_2;
             var_3_2 -= 1;
             var_2 -= 1;
-        } while (var_3_2 >= 0);
+        }
+if (var_3_2 >= 0) goto __repair_rows;
         var_3 = 1 ^ 1;
         if (1 == 1) {
             temp_16_2 = (func_002C0668() != 0) ? 0 : 1;

@@ -12,8 +12,8 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-M2C_UNK D_002AD390(void *);                         /* extern */
 M2C_UNK func_002106B0(void *, M2C_UNK);             /* extern */
+M2C_UNK func_002AD390(void *);                      /* extern */
 M2C_UNK func_002B2028(u32);                         /* extern */
 extern M2C_UNK D_0040E618;
 
@@ -30,15 +30,16 @@ void func_0021D450(void *arg0, s32 arg1) {
     if (var_17 < temp_19) {
         var_4 = M2C_FIELD(var_17, void **, 0x54);
 loop_2:
-        D_002AD390(var_4);
+        func_002AD390(var_4);
         if (var_17 != 0) {
             var_16 = var_17 + 0x3C;
             if (var_17 != var_16) {
-                do {
+                __repair_rows: {
                     var_16 -= 0x14;
-                    D_002AD390(M2C_FIELD(var_16, void **, 0x10));
+                    func_002AD390(M2C_FIELD(var_16, void **, 0x10));
                     func_002106B0(var_16 + 0xC, 2);
-                } while (var_17 != var_16);
+                }
+if (var_17 != var_16) goto __repair_rows;
             }
         }
         var_17 += 0x58;
@@ -58,6 +59,6 @@ loop_2:
         }
     }
     if (arg1 & 1) {
-        D_002AD390(arg0);
+        func_002AD390(arg0);
     }
 }

@@ -1,4 +1,4 @@
-/* machine draft (m2c), tried by autopilot */
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
 #ifndef M2C_DEFINES
 #define M2C_DEFINES
 typedef s32 M2C_UNK;
@@ -21,7 +21,7 @@ void func_0021A910(s32 arg0, s32 arg1, void *arg2) {
     var_4 = arg0 + 0x24;
     if (var_3 != arg1) {
         temp_7 = arg2 + 0x24;
-        do {
+        __repair_rows: {
             var_3 += 0x38;
             M2C_FIELD(var_4, f32 *, -0x24) = (f32) M2C_FIELD(arg2, f32 *, 0);
             M2C_FIELD(var_4, f32 *, -0x20) = (f32) M2C_FIELD(arg2, f32 *, 4);
@@ -38,6 +38,7 @@ void func_0021A910(s32 arg0, s32 arg1, void *arg2) {
             M2C_FIELD(var_4, f32 *, 0xC) = (f32) M2C_FIELD(temp_7, f32 *, 0xC);
             M2C_FIELD(var_4, s32 *, 0x10) = (s32) M2C_FIELD(arg2, s32 *, 0x34);
             var_4 += 0x38;
-        } while (var_3 != arg1);
+        }
+if (var_3 != arg1) goto __repair_rows;
     }
 }

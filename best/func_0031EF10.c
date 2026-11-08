@@ -26,7 +26,7 @@ void func_0031EF10(void *arg0, s32 *arg1) {
     temp_7 = M2C_FIELD(temp_2, s32 *, 0xC);
     if (temp_7 > 0) {
         var_5 = M2C_FIELD(temp_2, s32 *, 0) + 0x30;
-        do {
+        __repair_rows: {
             temp_3 = (var_6 + M2C_FIELD(arg0, s32 *, 0x30)) * 0x30;
             var_6 += 1;
             temp_2_2 = temp_3 + *arg1;
@@ -36,6 +36,7 @@ void func_0031EF10(void *arg0, s32 *arg1) {
             M2C_FIELD(var_5, f32 *, 0xC) = 1.0f;
             M2C_FIELD(var_5, f32 *, 8) = (f32) M2C_FIELD(temp_2_3, f32 *, 8);
             var_5 += 0x40;
-        } while (var_6 < temp_7);
+        }
+if (var_6 < temp_7) goto __repair_rows;
     }
 }

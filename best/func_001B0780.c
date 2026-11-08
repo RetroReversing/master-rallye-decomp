@@ -56,7 +56,7 @@ s32 func_001B0780(void *arg0, void *arg1, s32 arg2) {
     sp4 = 0.0f;
     if (var_8 < temp_9_2) {
         var_5 = (var_8 * 0x50) + 0x40 + temp_10;
-        do {
+        __repair_rows: {
             temp_f1_2 = M2C_FIELD(var_5, f32 *, 0);
             sp10 = temp_f1_2;
             temp_f1_3 = temp_f1_2 - temp_f2;
@@ -72,7 +72,8 @@ s32 func_001B0780(void *arg0, void *arg1, s32 arg2) {
             }
             var_8 += 1;
             var_5 += 0x50;
-        } while (var_8 < temp_9_2);
+        }
+if (var_8 < temp_9_2) goto __repair_rows;
     }
     return var_6;
 }

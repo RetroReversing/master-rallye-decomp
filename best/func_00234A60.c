@@ -1,4 +1,4 @@
-/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0 -fno-schedule-insns, tried by autopilot */
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
 #ifndef M2C_DEFINES
 #define M2C_DEFINES
 typedef s32 M2C_UNK;
@@ -12,7 +12,7 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-f32 func_001CF4C0(void *, f32, f32);                /* extern */
+f32 func_001CF4C0();
 extern f32 D_00478468;
 
 void func_00234A60(void *arg0, void *arg1, void *arg2, void *arg3) {

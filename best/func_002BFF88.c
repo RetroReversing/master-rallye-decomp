@@ -13,7 +13,6 @@ typedef s32 M2C_UNK32;
 #endif
 
 s32 func_002BFCE0(M2C_UNK *);                       /* extern */
-extern M2C_UNK D_00480FA0;
 
 void func_002BFF88(void *arg0, s32 arg1, s32 arg2) {
     s32 temp_2;
@@ -29,11 +28,11 @@ void func_002BFF88(void *arg0, s32 arg1, s32 arg2) {
     void *var_4;
 
     temp_4 = M2C_FIELD(arg0, void **, 0x18);
-    temp_7 = func_002BFCE0(&D_00480FA0);
+    temp_7 = func_002BFCE0("dir");
     var_6 = 0;
     if ((((s64) M2C_FIELD(temp_4, u8 *, 1) << 8) | M2C_FIELD(temp_4, u8 *, 0)) & 0xFFFF) {
         var_5 = 0 * 4;
-        do {
+        __repair_rows: {
             temp_3 = M2C_FIELD(arg0, void **, 0x18) + var_5;
             temp_2 = M2C_FIELD(temp_3, s32 *, 4);
             if (temp_2 != 0) {
@@ -65,6 +64,7 @@ void func_002BFF88(void *arg0, s32 arg1, s32 arg2) {
             }
             temp_4_2 = M2C_FIELD(arg0, void **, 0x18);
             var_5 = var_6 * 4;
-        } while (var_6 < ((((s64) M2C_FIELD(temp_4_2, u8 *, 1) << 8) | M2C_FIELD(temp_4_2, u8 *, 0)) & 0xFFFF));
+        }
+if (var_6 < ((((s64) M2C_FIELD(temp_4_2, u8 *, 1) << 8) | M2C_FIELD(temp_4_2, u8 *, 0)) & 0xFFFF)) goto __repair_rows;
     }
 }

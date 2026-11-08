@@ -33,12 +33,13 @@ void *func_001DC420(void *arg0, void *arg1) {
         do {
             var_16 = 0;
             if (M2C_FIELD(arg0, s32 *, 0xC) > 0) {
-                do {
+                __repair_rows: {
                     temp_5 = var_16;
                     temp_2 = (((var_18 * M2C_FIELD(arg1, s32 *, 0xC)) + var_16) * 4) + M2C_FIELD(arg1, s32 *, 8);
                     var_16 += 1;
                     func_001DCC78(arg0, temp_5, var_18, *temp_2);
-                } while (var_16 < M2C_FIELD(arg0, s32 *, 0xC));
+                }
+if (var_16 < M2C_FIELD(arg0, s32 *, 0xC)) goto __repair_rows;
             }
             var_18 += 1;
         } while (var_18 < M2C_FIELD(arg0, s32 *, 0x10));

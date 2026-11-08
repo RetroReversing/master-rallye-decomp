@@ -38,10 +38,11 @@ void func_002CEE90(s32 arg0, f32 fparg0) {
     D_004297F8 = var_3;
     func_00403370();
     func_0030D4D0(0);
-    do {
+    __repair_rows: {
         var_17 -= 1;
         func_00403370();
         func_002CD170(func_002CD128());
-    } while (var_17 >= 0);
+    }
+if (var_17 >= 0) goto __repair_rows;
     func_0030D4D0(0);
 }

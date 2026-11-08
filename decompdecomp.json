@@ -211,6 +211,1086 @@
    "timeout": 20,
    "function": "func_001E34F0",
    "vram": 1979632
+  },
+  "168040:1216616": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00129068",
+   "vram": 1216616
+  },
+  "168320:1216896": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00129180",
+   "vram": 1216896
+  },
+  "316680:1365256": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0014D508",
+   "vram": 1365256
+  },
+  "445352:1493928": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0016CBA8",
+   "vram": 1493928
+  },
+  "456072:1504648": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0016F588",
+   "vram": 1504648
+  },
+  "458464:1507040": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0016FEE0",
+   "vram": 1507040
+  },
+  "463736:1512312": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00171378",
+   "vram": 1512312
+  },
+  "498880:1547456": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00179CC0",
+   "vram": 1547456
+  },
+  "516592:1565168": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0017E1F0",
+   "vram": 1565168
+  },
+  "721936:1770512": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001B0410",
+   "vram": 1770512
+  },
+  "722816:1771392": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001B0780",
+   "vram": 1771392
+  },
+  "748456:1797032": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001B6BA8",
+   "vram": 1797032
+  },
+  "871008:1919584": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001D4A60",
+   "vram": 1919584
+  },
+  "872400:1920976": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001D4FD0",
+   "vram": 1920976
+  },
+  "896576:1945152": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001DAE40",
+   "vram": 1945152
+  },
+  "902176:1950752": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001DC420",
+   "vram": 1950752
+  },
+  "902408:1950984": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001DC508",
+   "vram": 1950984
+  },
+  "904160:1952736": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001DCBE0",
+   "vram": 1952736
+  },
+  "906200:1954776": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001DD3D8",
+   "vram": 1954776
+  },
+  "909032:1957608": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001DDEE8",
+   "vram": 1957608
+  },
+  "911344:1959920": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001DE7F0",
+   "vram": 1959920
+  },
+  "913448:1962024": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001DF028",
+   "vram": 1962024
+  },
+  "978384:2026960": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001EEDD0",
+   "vram": 2026960
+  },
+  "984472:2033048": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001F0598",
+   "vram": 2033048
+  },
+  "1007544:2056120": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001F5FB8",
+   "vram": 2056120
+  },
+  "1038096:2086672": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001FD710",
+   "vram": 2086672
+  },
+  "1054240:2102816": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00201620",
+   "vram": 2102816
+  },
+  "1066184:2114760": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002044C8",
+   "vram": 2114760
+  },
+  "1127440:2176016": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00213410",
+   "vram": 2176016
+  },
+  "1157392:2205968": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0021A910",
+   "vram": 2205968
+  },
+  "1167760:2216336": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0021D190",
+   "vram": 2216336
+  },
+  "1168464:2217040": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0021D450",
+   "vram": 2217040
+  },
+  "1179616:2228192": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0021FFE0",
+   "vram": 2228192
+  },
+  "1202376:2250952": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002258C8",
+   "vram": 2250952
+  },
+  "1209552:2258128": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002274D0",
+   "vram": 2258128
+  },
+  "1264224:2312800": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00234A60",
+   "vram": 2312800
+  },
+  "1295976:2344552": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0023C668",
+   "vram": 2344552
+  },
+  "1374064:2422640": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0024F770",
+   "vram": 2422640
+  },
+  "1374496:2423072": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0024F920",
+   "vram": 2423072
+  },
+  "1389880:2438456": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00253538",
+   "vram": 2438456
+  },
+  "1390056:2438632": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002535E8",
+   "vram": 2438632
+  },
+  "1398984:2447560": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002558C8",
+   "vram": 2447560
+  },
+  "1409456:2458032": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002581B0",
+   "vram": 2458032
+  },
+  "1410128:2458704": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00258450",
+   "vram": 2458704
+  },
+  "1410264:2458840": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002584D8",
+   "vram": 2458840
+  },
+  "1441968:2490544": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002600B0",
+   "vram": 2490544
+  },
+  "1495168:2543744": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0026D080",
+   "vram": 2543744
+  },
+  "1498160:2546736": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0026DC30",
+   "vram": 2546736
+  },
+  "1498624:2547200": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0026DE00",
+   "vram": 2547200
+  },
+  "1518528:2567104": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00272BC0",
+   "vram": 2567104
+  },
+  "1518896:2567472": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00272D30",
+   "vram": 2567472
+  },
+  "1520632:2569208": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002733F8",
+   "vram": 2569208
+  },
+  "1533312:2581888": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00276580",
+   "vram": 2581888
+  },
+  "1533856:2582432": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002767A0",
+   "vram": 2582432
+  },
+  "1538072:2586648": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00277818",
+   "vram": 2586648
+  },
+  "1589976:2638552": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002842D8",
+   "vram": 2638552
+  },
+  "1693776:2742352": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0029D850",
+   "vram": 2742352
+  },
+  "1752040:2800616": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002ABBE8",
+   "vram": 2800616
+  },
+  "1779336:2827912": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B2688",
+   "vram": 2827912
+  },
+  "1779568:2828144": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B2770",
+   "vram": 2828144
+  },
+  "1791160:2839736": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B54B8",
+   "vram": 2839736
+  },
+  "1793864:2842440": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B5F48",
+   "vram": 2842440
+  },
+  "1794312:2842888": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B6108",
+   "vram": 2842888
+  },
+  "1795472:2844048": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B6590",
+   "vram": 2844048
+  },
+  "1797928:2846504": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B6F28",
+   "vram": 2846504
+  },
+  "1799464:2848040": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B7528",
+   "vram": 2848040
+  },
+  "1802984:2851560": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B82E8",
+   "vram": 2851560
+  },
+  "1816512:2865088": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002BB7C0",
+   "vram": 2865088
+  },
+  "1816800:2865376": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002BB8E0",
+   "vram": 2865376
+  },
+  "1823784:2872360": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002BD428",
+   "vram": 2872360
+  },
+  "1831632:2880208": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002BF2D0",
+   "vram": 2880208
+  },
+  "1834888:2883464": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002BFF88",
+   "vram": 2883464
+  },
+  "1836376:2884952": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002C0558",
+   "vram": 2884952
+  },
+  "1840856:2889432": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002C16D8",
+   "vram": 2889432
+  },
+  "1843456:2892032": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002C2100",
+   "vram": 2892032
+  },
+  "1843664:2892240": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002C21D0",
+   "vram": 2892240
+  },
+  "1870488:2919064": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002C8A98",
+   "vram": 2919064
+  },
+  "1889120:2937696": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002CD360",
+   "vram": 2937696
+  },
+  "1894704:2943280": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002CE930",
+   "vram": 2943280
+  },
+  "1896080:2944656": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002CEE90",
+   "vram": 2944656
+  },
+  "1897496:2946072": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002CF418",
+   "vram": 2946072
+  },
+  "1897776:2946352": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002CF530",
+   "vram": 2946352
+  },
+  "1903400:2951976": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002D0B28",
+   "vram": 2951976
+  },
+  "1903744:2952320": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002D0C80",
+   "vram": 2952320
+  },
+  "2023792:3072368": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002EE170",
+   "vram": 3072368
+  },
+  "2152304:3200880": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0030D770",
+   "vram": 3200880
+  },
+  "2223888:3272464": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0031EF10",
+   "vram": 3272464
+  },
+  "2736624:3785200": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_0039C1F0",
+   "vram": 3785200
+  },
+  "2821936:3870512": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003B0F30",
+   "vram": 3870512
+  },
+  "2847352:3895928": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003B7278",
+   "vram": 3895928
+  },
+  "2850688:3899264": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003B7F80",
+   "vram": 3899264
+  },
+  "2854648:3903224": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003B8EF8",
+   "vram": 3903224
+  },
+  "2854864:3903440": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003B8FD0",
+   "vram": 3903440
+  },
+  "2855080:3903656": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003B90A8",
+   "vram": 3903656
+  },
+  "2855296:3903872": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003B9180",
+   "vram": 3903872
+  },
+  "2908848:3957424": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003C62B0",
+   "vram": 3957424
+  },
+  "2909008:3957584": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003C6350",
+   "vram": 3957584
+  },
+  "2912824:3961400": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003C7238",
+   "vram": 3961400
+  },
+  "2912984:3961560": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003C72D8",
+   "vram": 3961560
+  },
+  "2941624:3990200": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003CE2B8",
+   "vram": 3990200
+  },
+  "3037056:4085632": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003E5780",
+   "vram": 4085632
+  },
+  "3038400:4086976": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003E5CC0",
+   "vram": 4086976
+  },
+  "3038992:4087568": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003E5F10",
+   "vram": 4087568
+  },
+  "3047760:4096336": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003E8150",
+   "vram": 4096336
+  },
+  "3067912:4116488": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003ED008",
+   "vram": 4116488
+  },
+  "3073072:4121648": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003EE430",
+   "vram": 4121648
+  },
+  "3075352:4123928": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003EED18",
+   "vram": 4123928
+  },
+  "3076776:4125352": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_003EF2A8",
+   "vram": 4125352
   }
  },
  "instructions": "",
@@ -2475,8 +3555,8 @@
   },
   "func_0014D508": {
    "vram": 1365256,
-   "best_score": 1350,
-   "best_by": ""
+   "best_score": 1110,
+   "best_by": "autopilot"
   },
   "func_0014D7E8": {
    "vram": 1365992,
@@ -4535,8 +5615,8 @@
   },
   "func_0016F588": {
    "vram": 1504648,
-   "best_score": 1250,
-   "best_by": ""
+   "best_score": 1235,
+   "best_by": "autopilot"
   },
   "func_0016F698": {
    "vram": 1504920,
@@ -4585,8 +5665,8 @@
   },
   "func_0016FEE0": {
    "vram": 1507040,
-   "best_score": 1455,
-   "best_by": ""
+   "best_score": 1445,
+   "best_by": "autopilot"
   },
   "func_00170180": {
    "vram": 1507712,
@@ -4725,8 +5805,8 @@
   },
   "func_00171378": {
    "vram": 1512312,
-   "best_score": 725,
-   "best_by": ""
+   "best_score": 625,
+   "best_by": "autopilot"
   },
   "func_00171400": {
    "vram": 1512448,
@@ -5095,8 +6175,8 @@
   },
   "func_00179CC0": {
    "vram": 1547456,
-   "best_score": 160,
-   "best_by": ""
+   "best_score": 155,
+   "best_by": "autopilot"
   },
   "func_00179D88": {
    "vram": 1547656,
@@ -7175,8 +8255,8 @@
   },
   "func_001B0780": {
    "vram": 1771392,
-   "best_score": 4355,
-   "best_by": ""
+   "best_score": 4185,
+   "best_by": "autopilot"
   },
   "func_001B0878": {
    "vram": 1771640,
@@ -7550,8 +8630,8 @@
   },
   "func_001B6BA8": {
    "vram": 1797032,
-   "best_score": 655,
-   "best_by": ""
+   "best_score": 440,
+   "best_by": "autopilot"
   },
   "func_001B6C70": {
    "vram": 1797232,
@@ -11265,8 +12345,8 @@
   },
   "func_001DAE40": {
    "vram": 1945152,
-   "best_score": 3222,
-   "best_by": ""
+   "best_score": 927,
+   "best_by": "autopilot"
   },
   "func_001DAEE8": {
    "vram": 1945320,
@@ -12075,13 +13155,13 @@
   },
   "func_001DC420": {
    "vram": 1950752,
-   "best_score": 450,
-   "best_by": ""
+   "best_score": 410,
+   "best_by": "autopilot"
   },
   "func_001DC508": {
    "vram": 1950984,
-   "best_score": 730,
-   "best_by": ""
+   "best_score": 660,
+   "best_by": "autopilot"
   },
   "func_001DC5A8": {
    "vram": 1951144,
@@ -12115,8 +13195,8 @@
   },
   "func_001DCBE0": {
    "vram": 1952736,
-   "best_score": 1240,
-   "best_by": ""
+   "best_score": 1180,
+   "best_by": "autopilot"
   },
   "func_001DCC78": {
    "vram": 1952888,
@@ -12140,8 +13220,8 @@
   },
   "func_001DD3D8": {
    "vram": 1954776,
-   "best_score": 1730,
-   "best_by": ""
+   "best_score": 1102,
+   "best_by": "autopilot"
   },
   "func_001DD480": {
    "vram": 1954944,
@@ -12180,8 +13260,8 @@
   },
   "func_001DDEE8": {
    "vram": 1957608,
-   "best_score": 2277,
-   "best_by": ""
+   "best_score": 2082,
+   "best_by": "autopilot"
   },
   "func_001DDFE0": {
    "vram": 1957856,
@@ -12235,8 +13315,8 @@
   },
   "func_001DE7F0": {
    "vram": 1959920,
-   "best_score": 6377,
-   "best_by": ""
+   "best_score": 2447,
+   "best_by": "autopilot"
   },
   "func_001DE920": {
    "vram": 1960224,
@@ -13410,8 +14490,8 @@
   },
   "func_001EEDD0": {
    "vram": 2026960,
-   "best_score": 1385,
-   "best_by": ""
+   "best_score": 1180,
+   "best_by": "autopilot"
   },
   "func_001EF980": {
    "vram": 2029952,
@@ -13840,8 +14920,8 @@
   },
   "func_001F5FB8": {
    "vram": 2056120,
-   "best_score": 2412,
-   "best_by": ""
+   "best_score": 2407,
+   "best_by": "autopilot"
   },
   "func_001F60A8": {
    "vram": 2056360,
@@ -14205,8 +15285,8 @@
   },
   "func_001FD710": {
    "vram": 2086672,
-   "best_score": 745,
-   "best_by": ""
+   "best_score": 690,
+   "best_by": "autopilot"
   },
   "func_001FD818": {
    "vram": 2086936,
@@ -14460,8 +15540,8 @@
   },
   "func_00201620": {
    "vram": 2102816,
-   "best_score": 2662,
-   "best_by": ""
+   "best_score": 1102,
+   "best_by": "autopilot"
   },
   "func_00201718": {
    "vram": 2103064,
@@ -14615,8 +15695,8 @@
   },
   "func_002044C8": {
    "vram": 2114760,
-   "best_score": 735,
-   "best_by": ""
+   "best_score": 415,
+   "best_by": "autopilot"
   },
   "func_00204588": {
    "vram": 2114952,
@@ -15165,8 +16245,8 @@
   },
   "func_00213410": {
    "vram": 2176016,
-   "best_score": 3527,
-   "best_by": ""
+   "best_score": 3387,
+   "best_by": "autopilot"
   },
   "func_002134D8": {
    "vram": 2176216,
@@ -15400,8 +16480,8 @@
   },
   "func_0021A910": {
    "vram": 2205968,
-   "best_score": 555,
-   "best_by": ""
+   "best_score": 345,
+   "best_by": "autopilot"
   },
   "func_0021A9A8": {
    "vram": 2206120,
@@ -15590,8 +16670,8 @@
   },
   "func_0021D450": {
    "vram": 2217040,
-   "best_score": 1685,
-   "best_by": ""
+   "best_score": 1605,
+   "best_by": "autopilot"
   },
   "func_0021D568": {
    "vram": 2217320,
@@ -16340,8 +17420,8 @@
   },
   "func_002258C8": {
    "vram": 2250952,
-   "best_score": 1190,
-   "best_by": ""
+   "best_score": 755,
+   "best_by": "autopilot"
   },
   "func_00225C00": {
    "vram": 2251776,
@@ -16395,8 +17475,8 @@
   },
   "func_002274D0": {
    "vram": 2258128,
-   "best_score": 375,
-   "best_by": ""
+   "best_score": 125,
+   "best_by": "autopilot"
   },
   "func_00227558": {
    "vram": 2258264,
@@ -17160,8 +18240,8 @@
   },
   "func_00234A60": {
    "vram": 2312800,
-   "best_score": 2802,
-   "best_by": ""
+   "best_score": 2712,
+   "best_by": "autopilot"
   },
   "func_00234B50": {
    "vram": 2313040,
@@ -17575,8 +18655,8 @@
   },
   "func_0023C668": {
    "vram": 2344552,
-   "best_score": 515,
-   "best_by": ""
+   "best_score": 510,
+   "best_by": "autopilot"
   },
   "func_0023C6F8": {
    "vram": 2344696,
@@ -18350,8 +19430,8 @@
   },
   "func_0024F770": {
    "vram": 2422640,
-   "best_score": 1135,
-   "best_by": ""
+   "best_score": 1035,
+   "best_by": "autopilot"
   },
   "func_0024F830": {
    "vram": 2422832,
@@ -18370,8 +19450,8 @@
   },
   "func_0024F920": {
    "vram": 2423072,
-   "best_score": 2887,
-   "best_by": ""
+   "best_score": 2702,
+   "best_by": "autopilot"
   },
   "func_00250040": {
    "vram": 2424896,
@@ -18525,13 +19605,13 @@
   },
   "func_00253538": {
    "vram": 2438456,
-   "best_score": 585,
-   "best_by": ""
+   "best_score": 580,
+   "best_by": "autopilot"
   },
   "func_002535E8": {
    "vram": 2438632,
-   "best_score": 80,
-   "best_by": ""
+   "best_score": 55,
+   "best_by": "autopilot"
   },
   "func_002536C0": {
    "vram": 2438848,
@@ -18590,8 +19670,8 @@
   },
   "func_002558C8": {
    "vram": 2447560,
-   "best_score": 2097,
-   "best_by": ""
+   "best_score": 2067,
+   "best_by": "autopilot"
   },
   "func_002568B0": {
    "vram": 2451632,
@@ -18615,8 +19695,8 @@
   },
   "func_002581B0": {
    "vram": 2458032,
-   "best_score": 1212,
-   "best_by": ""
+   "best_score": 1207,
+   "best_by": "autopilot"
   },
   "func_00258310": {
    "vram": 2458384,
@@ -18625,13 +19705,13 @@
   },
   "func_00258450": {
    "vram": 2458704,
-   "best_score": 130,
-   "best_by": ""
+   "best_score": 115,
+   "best_by": "autopilot"
   },
   "func_002584D8": {
    "vram": 2458840,
-   "best_score": 2525,
-   "best_by": ""
+   "best_score": 420,
+   "best_by": "autopilot"
   },
   "func_00258560": {
    "vram": 2458976,
@@ -18970,8 +20050,8 @@
   },
   "func_002600B0": {
    "vram": 2490544,
-   "best_score": 3587,
-   "best_by": ""
+   "best_score": 3462,
+   "best_by": "autopilot"
   },
   "func_002601B8": {
    "vram": 2490808,
@@ -19670,8 +20750,8 @@
   },
   "func_0026D080": {
    "vram": 2543744,
-   "best_score": 480,
-   "best_by": ""
+   "best_score": 470,
+   "best_by": "autopilot"
   },
   "func_0026D118": {
    "vram": 2543896,
@@ -19700,8 +20780,8 @@
   },
   "func_0026DC30": {
    "vram": 2546736,
-   "best_score": 2925,
-   "best_by": ""
+   "best_score": 15,
+   "best_by": "autopilot"
   },
   "func_0026DCA8": {
    "vram": 2546856,
@@ -19715,8 +20795,8 @@
   },
   "func_0026DE00": {
    "vram": 2547200,
-   "best_score": 660,
-   "best_by": ""
+   "best_score": 385,
+   "best_by": "autopilot"
   },
   "func_0026DEE0": {
    "vram": 2547424,
@@ -19885,8 +20965,8 @@
   },
   "func_00272BC0": {
    "vram": 2567104,
-   "best_score": 2012,
-   "best_by": ""
+   "best_score": 1912,
+   "best_by": "autopilot"
   },
   "func_00272C58": {
    "vram": 2567256,
@@ -19895,8 +20975,8 @@
   },
   "func_00272D30": {
    "vram": 2567472,
-   "best_score": 2012,
-   "best_by": ""
+   "best_score": 1912,
+   "best_by": "autopilot"
   },
   "func_00272DC8": {
    "vram": 2567624,
@@ -19915,8 +20995,8 @@
   },
   "func_002733F8": {
    "vram": 2569208,
-   "best_score": 2012,
-   "best_by": ""
+   "best_score": 1912,
+   "best_by": "autopilot"
   },
   "func_00273490": {
    "vram": 2569360,
@@ -19975,8 +21055,8 @@
   },
   "func_00276580": {
    "vram": 2581888,
-   "best_score": 2012,
-   "best_by": ""
+   "best_score": 1912,
+   "best_by": "autopilot"
   },
   "func_00276618": {
    "vram": 2582040,
@@ -19990,8 +21070,8 @@
   },
   "func_002767A0": {
    "vram": 2582432,
-   "best_score": 2012,
-   "best_by": ""
+   "best_score": 1912,
+   "best_by": "autopilot"
   },
   "func_00276838": {
    "vram": 2582584,
@@ -20090,8 +21170,8 @@
   },
   "func_00277818": {
    "vram": 2586648,
-   "best_score": 580,
-   "best_by": ""
+   "best_score": 555,
+   "best_by": "autopilot"
   },
   "func_002778C8": {
    "vram": 2586824,
@@ -23300,8 +24380,8 @@
   },
   "func_0029D850": {
    "vram": 2742352,
-   "best_score": 2392,
-   "best_by": ""
+   "best_score": 2232,
+   "best_by": "autopilot"
   },
   "func_0029DBB0": {
    "vram": 2743216,
@@ -25615,8 +26695,8 @@
   },
   "func_002ABBE8": {
    "vram": 2800616,
-   "best_score": 2590,
-   "best_by": ""
+   "best_score": 2290,
+   "best_by": "autopilot"
   },
   "func_002ABC88": {
    "vram": 2800776,
@@ -26885,8 +27965,8 @@
   },
   "func_002B6108": {
    "vram": 2842888,
-   "best_score": 2690,
-   "best_by": ""
+   "best_score": 455,
+   "best_by": "autopilot"
   },
   "func_002B6188": {
    "vram": 2843016,
@@ -26985,8 +28065,8 @@
   },
   "func_002B6590": {
    "vram": 2844048,
-   "best_score": 590,
-   "best_by": ""
+   "best_score": 580,
+   "best_by": "autopilot"
   },
   "func_002B6608": {
    "vram": 2844168,
@@ -27110,8 +28190,8 @@
   },
   "func_002B6F28": {
    "vram": 2846504,
-   "best_score": 590,
-   "best_by": ""
+   "best_score": 580,
+   "best_by": "autopilot"
   },
   "func_002B6FA0": {
    "vram": 2846624,
@@ -27155,8 +28235,8 @@
   },
   "func_002B7528": {
    "vram": 2848040,
-   "best_score": 1282,
-   "best_by": ""
+   "best_score": 797,
+   "best_by": "autopilot"
   },
   "func_002B76C8": {
    "vram": 2848456,
@@ -27320,8 +28400,8 @@
   },
   "func_002B82E8": {
    "vram": 2851560,
-   "best_score": 655,
-   "best_by": ""
+   "best_score": 645,
+   "best_by": "autopilot"
   },
   "func_002B8368": {
    "vram": 2851688,
@@ -27825,8 +28905,8 @@
   },
   "func_002BB7C0": {
    "vram": 2865088,
-   "best_score": 590,
-   "best_by": ""
+   "best_score": 580,
+   "best_by": "autopilot"
   },
   "func_002BB840": {
    "vram": 2865216,
@@ -27850,8 +28930,8 @@
   },
   "func_002BB8E0": {
    "vram": 2865376,
-   "best_score": 2190,
-   "best_by": ""
+   "best_score": 2185,
+   "best_by": "autopilot"
   },
   "func_002BB998": {
    "vram": 2865560,
@@ -28265,8 +29345,8 @@
   },
   "func_002BD428": {
    "vram": 2872360,
-   "best_score": 520,
-   "best_by": ""
+   "best_score": 510,
+   "best_by": "autopilot"
   },
   "func_002BD4E8": {
    "vram": 2872552,
@@ -28680,8 +29760,8 @@
   },
   "func_002BF2D0": {
    "vram": 2880208,
-   "best_score": 70,
-   "best_by": ""
+   "best_score": 20,
+   "best_by": "autopilot"
   },
   "func_002BF340": {
    "vram": 2880320,
@@ -28860,8 +29940,8 @@
   },
   "func_002BFF88": {
    "vram": 2883464,
-   "best_score": 4132,
-   "best_by": ""
+   "best_score": 3797,
+   "best_by": "autopilot"
   },
   "func_002C00B8": {
    "vram": 2883768,
@@ -28950,8 +30030,8 @@
   },
   "func_002C0558": {
    "vram": 2884952,
-   "best_score": 2867,
-   "best_by": ""
+   "best_score": 2542,
+   "best_by": "autopilot"
   },
   "func_002C0668": {
    "vram": 2885224,
@@ -29005,8 +30085,8 @@
   },
   "func_002C16D8": {
    "vram": 2889432,
-   "best_score": 1327,
-   "best_by": ""
+   "best_score": 1307,
+   "best_by": "autopilot"
   },
   "func_002C17A8": {
    "vram": 2889640,
@@ -29135,8 +30215,8 @@
   },
   "func_002C2100": {
    "vram": 2892032,
-   "best_score": 1560,
-   "best_by": ""
+   "best_score": 1150,
+   "best_by": "autopilot"
   },
   "func_002C2300": {
    "vram": 2892544,
@@ -29840,8 +30920,8 @@
   },
   "func_002C8A98": {
    "vram": 2919064,
-   "best_score": 1075,
-   "best_by": ""
+   "best_score": 980,
+   "best_by": "autopilot"
   },
   "func_002C8B38": {
    "vram": 2919224,
@@ -30590,8 +31670,8 @@
   },
   "func_002CD360": {
    "vram": 2937696,
-   "best_score": 1977,
-   "best_by": ""
+   "best_score": 1947,
+   "best_by": "autopilot"
   },
   "func_002CD3F0": {
    "vram": 2937840,
@@ -30735,8 +31815,8 @@
   },
   "func_002CE930": {
    "vram": 2943280,
-   "best_score": 1052,
-   "best_by": ""
+   "best_score": 947,
+   "best_by": "autopilot"
   },
   "func_002CE9C0": {
    "vram": 2943424,
@@ -30785,8 +31865,8 @@
   },
   "func_002CEE90": {
    "vram": 2944656,
-   "best_score": 2920,
-   "best_by": ""
+   "best_score": 2820,
+   "best_by": "autopilot"
   },
   "func_002CEF68": {
    "vram": 2944872,
@@ -30825,13 +31905,13 @@
   },
   "func_002CF418": {
    "vram": 2946072,
-   "best_score": 2192,
-   "best_by": ""
+   "best_score": 2172,
+   "best_by": "autopilot"
   },
   "func_002CF530": {
    "vram": 2946352,
-   "best_score": 1917,
-   "best_by": ""
+   "best_score": 1897,
+   "best_by": "autopilot"
   },
   "func_002CF620": {
    "vram": 2946592,
@@ -30925,8 +32005,8 @@
   },
   "func_002D0C80": {
    "vram": 2952320,
-   "best_score": 120,
-   "best_by": ""
+   "best_score": 110,
+   "best_by": "autopilot"
   },
   "func_002D0D00": {
    "vram": 2952448,
@@ -31845,8 +32925,8 @@
   },
   "func_002EE170": {
    "vram": 3072368,
-   "best_score": 2910,
-   "best_by": ""
+   "best_score": 2905,
+   "best_by": "autopilot"
   },
   "func_002EE450": {
    "vram": 3073104,
@@ -33315,8 +34395,8 @@
   },
   "func_0031EF10": {
    "vram": 3272464,
-   "best_score": 1015,
-   "best_by": ""
+   "best_score": 945,
+   "best_by": "autopilot"
   },
   "func_0031EF80": {
    "vram": 3272576,
@@ -38300,8 +39380,8 @@
   },
   "func_0039C1F0": {
    "vram": 3785200,
-   "best_score": 3850,
-   "best_by": ""
+   "best_score": 3795,
+   "best_by": "autopilot"
   },
   "func_0039C298": {
    "vram": 3785368,
@@ -41385,8 +42465,8 @@
   },
   "func_003B0F30": {
    "vram": 3870512,
-   "best_score": 2726,
-   "best_by": ""
+   "best_score": 2602,
+   "best_by": "autopilot"
   },
   "func_003B0FB0": {
    "vram": 3870640,
@@ -42170,8 +43250,8 @@
   },
   "func_003B7278": {
    "vram": 3895928,
-   "best_score": 2812,
-   "best_by": ""
+   "best_score": 2807,
+   "best_by": "autopilot"
   },
   "func_003B7310": {
    "vram": 3896080,
@@ -42280,8 +43360,8 @@
   },
   "func_003B7F80": {
    "vram": 3899264,
-   "best_score": 735,
-   "best_by": ""
+   "best_score": 725,
+   "best_by": "autopilot"
   },
   "func_003B87D8": {
    "vram": 3901400,
@@ -42335,23 +43415,23 @@
   },
   "func_003B8EF8": {
    "vram": 3903224,
-   "best_score": 1272,
-   "best_by": ""
+   "best_score": 1182,
+   "best_by": "autopilot"
   },
   "func_003B8FD0": {
    "vram": 3903440,
-   "best_score": 1272,
-   "best_by": ""
+   "best_score": 1182,
+   "best_by": "autopilot"
   },
   "func_003B90A8": {
    "vram": 3903656,
-   "best_score": 1272,
-   "best_by": ""
+   "best_score": 1182,
+   "best_by": "autopilot"
   },
   "func_003B9180": {
    "vram": 3903872,
-   "best_score": 1272,
-   "best_by": ""
+   "best_score": 1182,
+   "best_by": "autopilot"
   },
   "func_003B9258": {
    "vram": 3904088,
@@ -43025,13 +44105,13 @@
   },
   "func_003C62B0": {
    "vram": 3957424,
-   "best_score": 1242,
-   "best_by": ""
+   "best_score": 1232,
+   "best_by": "autopilot"
   },
   "func_003C6350": {
    "vram": 3957584,
-   "best_score": 1242,
-   "best_by": ""
+   "best_score": 1232,
+   "best_by": "autopilot"
   },
   "func_003C63F0": {
    "vram": 3957744,
@@ -43070,13 +44150,13 @@
   },
   "func_003C7238": {
    "vram": 3961400,
-   "best_score": 1242,
-   "best_by": ""
+   "best_score": 1232,
+   "best_by": "autopilot"
   },
   "func_003C72D8": {
    "vram": 3961560,
-   "best_score": 1242,
-   "best_by": ""
+   "best_score": 1232,
+   "best_by": "autopilot"
   },
   "func_003C7378": {
    "vram": 3961720,
@@ -43620,8 +44700,8 @@
   },
   "func_003CE2B8": {
    "vram": 3990200,
-   "best_score": 2648,
-   "best_by": ""
+   "best_score": 2040,
+   "best_by": "autopilot"
   },
   "func_003CE358": {
    "vram": 3990360,
@@ -47085,8 +48165,8 @@
   },
   "func_003E8150": {
    "vram": 4096336,
-   "best_score": 2560,
-   "best_by": ""
+   "best_score": 2472,
+   "best_by": "autopilot"
   },
   "func_003E8208": {
    "vram": 4096520,
@@ -47245,8 +48325,8 @@
   },
   "func_003ED008": {
    "vram": 4116488,
-   "best_score": 2597,
-   "best_by": ""
+   "best_score": 210,
+   "best_by": "autopilot"
   },
   "func_003ED0B0": {
    "vram": 4116656,
@@ -47365,8 +48445,8 @@
   },
   "func_003EE430": {
    "vram": 4121648,
-   "best_score": 3557,
-   "best_by": ""
+   "best_score": 3522,
+   "best_by": "autopilot"
   },
   "func_003EE548": {
    "vram": 4121928,
@@ -47445,8 +48525,8 @@
   },
   "func_003EED18": {
    "vram": 4123928,
-   "best_score": 775,
-   "best_by": ""
+   "best_score": 765,
+   "best_by": "autopilot"
   },
   "func_003EED88": {
    "vram": 4124040,
@@ -49167,6 +50247,121 @@
    "vram": 4250208,
    "matched_by": "@autopilot",
    "readable": false
+  },
+  "func_00129068": {
+   "vram": 1216616,
+   "best_score": 2240,
+   "best_by": "autopilot"
+  },
+  "func_00129180": {
+   "vram": 1216896,
+   "best_score": 330,
+   "best_by": "autopilot"
+  },
+  "func_0016CBA8": {
+   "vram": 1493928,
+   "best_score": 330,
+   "best_by": "autopilot"
+  },
+  "func_0017E1F0": {
+   "vram": 1565168,
+   "best_score": 987,
+   "best_by": "autopilot"
+  },
+  "func_001B0410": {
+   "vram": 1770512,
+   "best_score": 295,
+   "best_by": "autopilot"
+  },
+  "func_001D4A60": {
+   "vram": 1919584,
+   "best_score": 3057,
+   "best_by": "autopilot"
+  },
+  "func_001D4FD0": {
+   "vram": 1920976,
+   "best_score": 1115,
+   "best_by": "autopilot"
+  },
+  "func_001DF028": {
+   "vram": 1962024,
+   "best_score": 2430,
+   "best_by": "autopilot"
+  },
+  "func_001F0598": {
+   "vram": 2033048,
+   "best_score": 2145,
+   "best_by": "autopilot"
+  },
+  "func_0021D190": {
+   "vram": 2216336,
+   "best_score": 4032,
+   "best_by": "autopilot"
+  },
+  "func_0021FFE0": {
+   "vram": 2228192,
+   "best_score": 1770,
+   "best_by": "autopilot"
+  },
+  "func_002842D8": {
+   "vram": 2638552,
+   "best_score": 3182,
+   "best_by": "autopilot"
+  },
+  "func_002B2688": {
+   "vram": 2827912,
+   "best_score": 3860,
+   "best_by": "autopilot"
+  },
+  "func_002B2770": {
+   "vram": 2828144,
+   "best_score": 3955,
+   "best_by": "autopilot"
+  },
+  "func_002B54B8": {
+   "vram": 2839736,
+   "best_score": 125,
+   "best_by": "autopilot"
+  },
+  "func_002B5F48": {
+   "vram": 2842440,
+   "best_score": 215,
+   "best_by": "autopilot"
+  },
+  "func_002C21D0": {
+   "vram": 2892240,
+   "best_score": 897,
+   "best_by": "autopilot"
+  },
+  "func_002D0B28": {
+   "vram": 2951976,
+   "best_score": 4512,
+   "best_by": "autopilot"
+  },
+  "func_0030D770": {
+   "vram": 3200880,
+   "best_score": 920,
+   "best_by": "autopilot"
+  },
+  "func_003E5780": {
+   "vram": 4085632,
+   "best_score": 1910,
+   "best_by": "autopilot"
+  },
+  "func_003E5CC0": {
+   "vram": 4086976,
+   "best_score": 1345,
+   "best_by": "autopilot"
+  },
+  "func_003E5F10": {
+   "vram": 4087568,
+   "best_score": 2030,
+   "best_by": "autopilot"
+  },
+  "func_003EF2A8": {
+   "vram": 4125352,
+   "best_score": 1112,
+   "best_by": "autopilot"
   }
  },
  "function_headers": {},
@@ -126082,14 +127277,6 @@
    "score_after": null
   },
   {
-   "function": "func_002ABBE8",
-   "text": "Why it can't get closer under the project compiler: best is ee-gcc-2.9-991111 (60.6%, score 1535) and the remaining diff is register allocation (output pointer moved $a1->$a2 because 2.9 puts the 0x7FF constant in $a1; target keeps output in $a1, exp in $a0, max in $v0) plus branch form. The algorithm is fully worked out in the previous note (u64 exp/mant, NaN-first else normal, stores mant<<8|1<<60 / exp-0x3FF / code 3). It needs a 2.9 range around 0x2ABBE8 and a different declaration/source shape to steer allocation; handing it on.",
-   "by": "@opencode-2",
-   "created_at": 1794047198.559549,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001565D0",
    "text": "Range check #19: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_001565D0 matches with it. Match func_001565D0 as usual; then try_compiler(\"func_001565D0\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
    "by": "@autopilot",
@@ -126294,14 +127481,6 @@
    "text": "Range check #55: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_001FBDA0 matches with it. Match func_001FBDA0 as usual; then try_compiler(\"func_001FBDA0\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
    "by": "@autopilot",
    "created_at": 1794047198.9476957,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_00201620",
-   "text": "Range check #57: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_00201620 matches with it. Match func_00201620 as usual; then try_compiler(\"func_00201620\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
-   "by": "@autopilot",
-   "created_at": 1794047198.9622355,
    "score_before": null,
    "score_after": null
   },
@@ -126846,14 +128025,6 @@
    "text": "Stack frame and register allocation issues. Complex parameter passing and initialization sequence. Hard to match exactly.",
    "by": "@opencode-1",
    "created_at": 1794047199.978989,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002CE930",
-   "text": "Stack frame issues and complex parameter setup. Tried different calling conventions but differences persist. Hard to match.",
-   "by": "@opencode-1",
-   "created_at": 1794047199.9935174,
    "score_before": null,
    "score_after": null
   },
@@ -128298,14 +129469,6 @@
    "score_after": null
   },
   {
-   "function": "func_00201620",
-   "text": "Constructor-like init: sets up several doubly-linked list nodes as sentinels, calls func_002027E8 twice, allocates two nodes via func_002B1FC0/func_003D2910 making them circular. Tried matching sentinel initialization pattern. Stack frame differs significantly (-0xB0 vs -0x20) and register usage/order differs. Hard to match with current understanding of full struct layout/context. No closer after trying different approaches.",
-   "by": "@opencode-1",
-   "created_at": 1794047202.689411,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_00201540",
    "text": "Range check #57: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_00201540 matches with it. Match func_00201540 as usual; then try_compiler(\"func_00201540\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
    "by": "@autopilot",
@@ -128594,14 +129757,6 @@
    "score_after": null
   },
   {
-   "function": "func_001DE7F0",
-   "text": "Range check #186: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_001DE7F0 matches with it. Match func_001DE7F0 as usual; then try_compiler(\"func_001DE7F0\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
-   "by": "@autopilot",
-   "created_at": 1794047203.2760987,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001E3D40",
    "text": "Range check #187: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_001E3D40 matches with it. Match func_001E3D40 as usual; then try_compiler(\"func_001E3D40\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
    "by": "@autopilot",
@@ -128718,22 +129873,6 @@
    "text": "Completed one claim's full 10 no-improvement compile budget under now-selected SN ee-gcc-2.95.2. Best improved to 9517 (72.6%), 350 instructions vs target 348, frame 0x1D0 vs 0x1C0. Best change: inline initbi(BI *a,const BI *b){a->p=b->p;a->bit=b->bit;} used by size for both iterators and capacity for first iterator, preserving source end pointer across allocation. Still target retains iterator field stack stores in size/capacity which ours mostly removes/reorders; ours saves extra s6. Tested volatile construction and volatile distance (unwanted reloads), begin/end returning structs in size (extra copies), raw pointer/bit constructor (same as original 10346), volatile stores after distance (10550), remove copy wrapper (11784), swap size construction order (12547), explicit size/cap locals (no change), distance temp copy (11315), field-only advance copy (10407). Best remains ctor variant with ordinary full advance copy and three copy layers. No exact match; no compiler suggestion justified.",
    "by": "@codex-1",
    "created_at": 1794047203.4935033,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_001DE7F0",
-   "text": "Near-match under SN EE-GCC 2.95.2 -O2 -G0 is score 195 (97.4%): only img/x swapped s0/s1 plus corresponding save order. Source below is much better with SN than stored best under default compiler:\ntypedef struct { u32 pad[2]; u32 *pixels; s32 width,height; } ImageDump;\nextern int func_003F9698(const char *, ...);\nextern char D_00476890[],D_004768A0[],D_004768A8[],D_004768C0[],D_004768C8[];\nvoid func_001DE7F0(void *unused, ImageDump *img) {\ns32 x,y;\nu32 c;\nu8 *p;\ny=0;\nfunc_003F9698(D_00476890);\nif(img->height>0) do {\nfunc_003F9698(D_004768A0,y);\nx=0;\nif(img->width>0) do {\np=(u8 *)((y*img->width+x)*4+(u32)img->pixels);\nc=*(u32 *)p;\nfunc_003F9698(D_004768A8,c&255,((u8*)p)[1],((u8*)p)[2],c>>24);\nif(x+1<img->width) func_003F9698(D_004768C0);\nx++;\n}while(x<img->width);\ny++;\nfunc_003F9698(D_004768C8);\n}while(y<img->height);\n}",
-   "by": "@codex-1",
-   "created_at": 1794047203.5080187,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_001DE7F0",
-   "text": "Completed budget (6 no-improvement compiles after best 6377 default). SN EE-GCC 2.95.2 -O2 -G0 reaches score 195, only s0/s1 image pointer / x swapped and two save-order differences. Near-match source saved in add_note. Function prints image rows as RGBA hex: second argument image pixels+8,width+C,height+10; first unused. Tried do/while, while/for, goto draft, explicit next temporary, register keyword, local arg alias, volatile image, byte extraction/word shifts. Integer address arithmetic (u8*)((y*width+x)*4+(u32)img->pixels) fixes temporary pointer register and load scheduling vs native pointer addition. Explicit next/goto worsen code; while/for wins default score but worsens SN. Strong evidence compiler range #186 but no exact match to confirm.",
-   "by": "@codex-1",
-   "created_at": 1794047203.5225458,
    "score_before": null,
    "score_after": null
   },
@@ -131298,14 +132437,6 @@
    "score_after": null
   },
   {
-   "function": "func_0021A910",
-   "text": "Full budget. Typed element-copy and raw m2c variants tried. SN2.95.2 raw C much closer: A860410, A910760,A9A8495 vs default1645/555/760. Inline cp helper using +36 base plus E{char bytes[56]} iterator gave one SN A860 MATCH but recheck/suggest failed with410; possible tool source handling? A910/A9A8 helper caused bizarre -0x7fdc source base. Typed flat13float+int loses +36 bases. Need component-level inline constructors or pointer lifetime change; control flow right.",
-   "by": "@codex-2",
-   "created_at": 1794047208.470793,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_0021A9A8",
    "text": "Full budget. Typed element-copy and raw m2c variants tried. SN2.95.2 raw C much closer: A860410, A910760,A9A8495 vs default1645/555/760. Inline cp helper using +36 base plus E{char bytes[56]} iterator gave one SN A860 MATCH but recheck/suggest failed with410; possible tool source handling? A910/A9A8 helper caused bizarre -0x7fdc source base. Typed flat13float+int loses +36 bases. Need component-level inline constructors or pointer lifetime change; control flow right.",
    "by": "@codex-2",
@@ -132102,14 +133233,6 @@
    "text": "Range check #686: this function's C matches with EE-GCC 2.9 -O2 -G0, but its neighbours are built by the project's compiler (they say so). Look for C that matches with the project's compiler.",
    "by": "@autopilot",
    "created_at": 1794047209.9732053,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002D0C80",
-   "text": "Full budget best1862 configuredEE2.96; SN2.95.2 only110: p and i swapped s1/s2 plus ra-store scheduling. Tried explicit pointer do loop, indexed for, q/i declaration order, raw void*/int draft, inline loop helper; SN110 unchanged. D13F0 declared int-return even though destructor void body.",
-   "by": "@codex-2",
-   "created_at": 1794047209.9882178,
    "score_before": null,
    "score_after": null
   },
@@ -140554,14 +141677,6 @@
    "score_after": null
   },
   {
-   "function": "func_002B6590",
-   "text": "Constructor chain; tried order of vtable/fields. Needs exact EE-GCC prologue+registers; can't match without MMI pattern. Best ~590, ended 970.",
-   "by": "@api-free-1",
-   "created_at": 1794047226.6204731,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_002B6528",
    "text": "Constructor that sets vtable, calls init func_002B6670, does virtual call via vtable[3] if obj at +0x10 non-null, then func_002B6328(this, arg1). Needs EE-GCC MMI prologue and exact temp/register usage; likely can't be matched easily from C in this form. Best ~335.",
    "by": "@api-free-1",
@@ -140978,14 +142093,6 @@
    "score_after": null
   },
   {
-   "function": "func_001DAE40",
-   "text": "C++ virtual method; target uses sq/ld/special MMI frame setup and specific arg passing. Tried to approximate, stack/frame and arg order don't match. Release. not_c=false",
-   "by": "@api-free-1",
-   "created_at": 1794047227.4165335,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001DB308",
    "text": "Pool allocation; if *(base+0xC)==0 use base+0x10 and increment count at +0x8, else call func_00151930(base). Target branch/ordering differs. Release. not_c=false",
    "by": "@api-free-1",
@@ -141350,14 +142457,6 @@
    "text": "Tried multiple loop forms (do-while/while), different temp names, varied stack sizes (sp[12]/sp[16]), tried passing buf/sp to func_00152720 in different positions. Target uses -0x40 frame with s0/s1/ra saved via sq/ld in EE style and different load order (loads unk4/unk8, computes val early, uses beq/bnel pattern differently). My attempts keep larger stack (-0x60/-0x70), extra loads/stores, different register allocation; loop control and branch structure don't match. Best stuck at ~2400 score. Likely needs exact stack layout and register assignment for this EE-GCC 2.95.2 range.",
    "by": "@api-free-1",
    "created_at": 1794047228.0952592,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_001DD3D8",
-   "text": "Best so far ~1730 with -0x40 frame, using volatile pad to force stack size. Target uses sq/ld and a special sequence (.byte 0x20,0x00,0xb0,0x7f / dpa.w.ph / lw v1 from 0x24(s0) / ld.b $w0,...). My attempts use sd/ld, store order/reload order wrong, register allocation differs (a1/a2/a3/t0 vs target). Function is similar in structure to matched func_00244108 but different prologue/epilogue. Needs closer to SN EE-GCC 2.95.2 prologue (128-bit stores pattern) and exact instruction sequence. No clear C rewrite gives match yet; likely needs specific variable ordering or attributes.",
-   "by": "@api-free-1",
-   "created_at": 1794047228.1108077,
    "score_before": null,
    "score_after": null
   },
@@ -142214,14 +143313,6 @@
    "text": "Tried multiple approaches, can't get closer. Diff shows heavy regalloc/stack layout differences and MMI instructions in target prologue/epilogue that don't appear in my compiled output. Different compiler may be needed. Tried SN 2.95.2 -O2 -G0 with try_compiler but score still not match. Releasing.",
    "by": "@api-free-1",
    "created_at": 1794047229.7860143,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002B6108",
-   "text": "Tried multiple structures; can't get better with project compiler. Possibly needs SN compiler context or func_002B61D0 matched differently. Releasing.",
-   "by": "@api-free-1",
-   "created_at": 1794047229.8020463,
    "score_before": null,
    "score_after": null
   },
@@ -143426,14 +144517,6 @@
    "score_after": null
   },
   {
-   "function": "func_003CE2B8",
-   "text": "Calls func_003D16A8 if arg1 > 0xFFFFFFFE with D_00488D10 and (char)arg2 sign-extended. Then checks if len < arg1: calls func_003CDDB0(this, len, 0, arg1-len, (char)arg2); else calls func_003CDDB0(this, arg1, 0xFFFFFFFF, 0, 0). Target does tail call/jump to func_003CDDB0 in else branch and has specific reg setup. Frame/layout issues. Best 2648.",
-   "by": "@api-free-1",
-   "created_at": 1794047232.1044133,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003CD1C8",
    "text": "Uses semaphores D_004361F4, checks D_0049BC40+0x24 non-zero, stores arg0 to D_0049BCC0, calls func_00405E90 with specific args, sets D_004361F0 on success. Target computes addresses differently (lui/addiu patterns) - operand mismatches on address formation. Best 600.",
    "by": "@api-free-1",
@@ -143946,14 +145029,6 @@
    "score_after": null
   },
   {
-   "function": "func_003C62B0",
-   "text": "Tried struct layout matching +0x1BC and iterating array at +8 step 0x10; got down to 3487 best, down from 1242? no, first compile gave 3487 worse; trying different var decls didn't change. Target uses different prologue (ext/addu.qb etc and smaller frame -0x50, saves different regs) and different loop regalloc/control; seems different codegen/structure. Hard to match; stuck above move-on threshold. Need to try to match frame/prologue more closely or different approach.",
-   "by": "@api-free-1",
-   "created_at": 1794047233.060696,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003C6438",
    "text": "Need to keep arg1 in a3 and use it in shifts/branches (target does move $a3,$a1 early). Also order: compute var_6 from field_0x1B4>>arg1, if field_0x1B8>=2 check (arg1 ^ (field_0x1BC-1))==0 to maybe *2; then base from field_0x1B0>>arg1, align base=((base+7)&~7), var_4 = var_6>7?var_6:8, return ((base*4*var_4)+0xFF)>>8. Tried different forms, regalloc/ordering differ (target loads/does shifts in different order). Best 725, stuck at move-on.",
    "by": "@api-free-1",
@@ -144194,14 +145269,6 @@
    "score_after": null
   },
   {
-   "function": "func_003E8150",
-   "text": "Released because its agent stopped (decompdecomp closed while it worked); its attempts are kept.",
-   "by": "@api-free-1",
-   "created_at": 1794047233.5729413,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003E8230",
    "text": "Released because its agent stopped (decompdecomp closed while it worked); its attempts are kept.",
    "by": "@api-free-1",
@@ -144258,14 +145325,6 @@
    "score_after": null
   },
   {
-   "function": "func_003ED008",
-   "text": "Tried different call/arg patterns for the sound init sequence; target has specific call order and uses func_002D04D0() result as arg to func_002CF8B0. Best score 2597 with structure closer to original; moves on.",
-   "by": "@api-free-1",
-   "created_at": 1794047233.7649148,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003EE968",
    "text": "Follows same pattern as func_002CA8C0; compiler generates different regalloc/stack. Best score 230 earlier, stuck at 515 now. Moving on.",
    "by": "@api-free-1",
@@ -144290,14 +145349,6 @@
    "score_after": null
   },
   {
-   "function": "func_003EED18",
-   "text": "Tried index/ptr forms; compiler uses different regalloc and stack. Best 775, moving on.",
-   "by": "@api-free-1",
-   "created_at": 1794047233.825019,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003EF408",
    "text": "Prologue/stack setup differs; tried arg naming/forms. Best score 10 earlier, stuck now. Moving on.",
    "by": "@api-free-1",
@@ -144310,14 +145361,6 @@
    "text": "Stack/prologue and call sequence differ; compiler uses tail/jump optimizations differently. Moving on.",
    "by": "@api-free-1",
    "created_at": 1794047233.8570843,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_003E8150",
-   "text": "Best attempt score 2560; tried both branches. Issues: needs func_0040C7F0a (not present) and different control flow/regs - dsrav loaded differently, uses mov.s/cvt paths differently, has extra instructions. Possibly different calling convention or the second branch uses different helper; stuck.",
-   "by": "@api-free-1",
-   "created_at": 1794047233.8726103,
    "score_before": null,
    "score_after": null
   },
@@ -145058,14 +146101,6 @@
    "score_after": null
   },
   {
-   "function": "func_003B7278",
-   "text": "Best 2812. MMI/sq regalloc mismatch. Releasing.",
-   "by": "@opencode-beam-free-1",
-   "created_at": 1794047235.2439606,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003B7410",
    "text": "Stuck at 25 latest; best 15; release.",
    "by": "@opencode-flint-40b-free-1",
@@ -145262,14 +146297,6 @@
    "text": "Range check #1034: this function's C matches with EE-GCC 2.95.2 (SN) -O2 -G0, but its neighbours are built by the project's compiler (func_00136778's C matches the game with today's compiler too: it says nothing about the compiler). Look for C that matches with the project's compiler.",
    "by": "@autopilot",
    "created_at": 1794047235.6047587,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002CD360",
-   "text": "func_002CD360(p, a): if(p->n==0) return -1; i=0; r=-1; while((u32)i < (u32)p->n){ if(func_003FA580(a, p->arr[i]) != 0){ i++; continue; } r=i; break; } return r. Best 1977 (41.6%), 6 compiles, stuck.\n\nTarget frame 0x60 with sq saves for s0@0,s1@0x10,s2@0x20,s3@0x30,ra@0x50 \u2014 needs 5 saved registers. My `volatile int tmp[4]` gave 0x60 but only s0/s1/s2/ra (4). Need one more saved register. Target uses s4 (for arg1) too. Tried struct {n,cap,arr} vs {pad,n,cap,arr} vs {n,pad1,pad2,arr}; the field at +4 must be `n` (count) and +0xC the arr pointer.\n\nRemaining: regalloc (target holds arg1 in s4, mine in s3) and the loop's branch scheduling (target uses bnez-then-b to skip, mine bnez-then-continue). Pure codegen.\n\nNext agent: try search_flags / try_compiler. Semantics correct.",
-   "by": "@opencode-dots-3-note-preview-free-1",
-   "created_at": 1794047235.61928,
    "score_before": null,
    "score_after": null
   },
@@ -145586,14 +146613,6 @@
    "score_after": null
   },
   {
-   "function": "func_002BD428",
-   "text": "s32 func_002BD428(void *arg1, void *arg2, s32 arg3): complex config function. Score 680. Many operand differences (offsets 0x58 vs 0x54 etc.) suggesting struct layout mismatch. Could not match.",
-   "by": "@opencode-nemotron-3.5-super-vl-fr-1",
-   "created_at": 1794047236.2250142,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003B19A8",
    "text": "Tried: return func_003B33C8(arg1, 2, 0xFE). Best 1937; frame -0x40 vs -0x10. Move-on at 3 reached; releasing.",
    "by": "@opencode-flint-40b-free-1",
@@ -145834,14 +146853,6 @@
    "score_after": null
   },
   {
-   "function": "func_002C8A98",
-   "text": "compiled stub score 3412; released to claim new functions.",
-   "by": "@opencode-nemotron-3.5-lightning-f-1",
-   "created_at": 1794047236.6794183,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003D7B00",
    "text": "not_c (predicated beql).",
    "by": "@opencode-beam-free-1",
@@ -145862,14 +146873,6 @@
    "text": "Cannot get closer: frame size differs. Releasing early. Best 1107/20.",
    "by": "@opencode-beam-free-1",
    "created_at": 1794047236.7224722,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_003B0F30",
-   "text": "Cannot get closer. Releasing early. Best 2726/31.",
-   "by": "@opencode-beam-free-1",
-   "created_at": 1794047236.737504,
    "score_before": null,
    "score_after": null
   },
@@ -147366,14 +148369,6 @@
    "text": "Range check #1049: strongly EE-GCC 2.9 -O2 -G0 (matches neighbors 409410/409CD0; try_compiler 2.9 gives ~3672 vs ~7779 project 2.95.2). Logic: lock/init (func_00406B18 0x14; func_00406C18 if D_004411A8==0), copy arg0->D_0049FF80+0xC and arg1->+0x40C as null-terminated strings capped at 0x400 (store first byte, loop with `if(i<0x400){d=src[i];dst[i]=d; if(d<<24!=0){i++;goto}}` via bnel+delay increment), set +0x40B/+0x80B=0 when i==0x400; flag=(arg4<0x401) computed in arg0 branch. If !flag: func_00406B48; return -7. Copy arg3 bytes to +0x80C (do-while) when arg4>0; store arg4 at +0xC10, arg2 at +0xC0C. CreateSema_2(&sp={1,1,0,0}), set base[0]=sid,[4]=&result,[8]=4, func_004055A0(base,0xC14). func_00405E90(D_004A1240,0x14,0,base,0xC14,D_004A0BC0,4,0,0): on <0 DeleteSema, func_00406B48, -11. On success: func_00406B48; v=*(volatile int*)((u32)D_004A0BC0|0x20000000); if v==0 DeleteSema,-11 else WaitSema,DeleteSema,return result. Best 2.9 diffs (3672): frame/save layout $b0 vs $e0, many regalloc/operand shifts, loop1 missing `nop` after `addiu i,1` and uses `b .L78`+`addiu i,1` in delay slot (target has bnel with inc in delay then b to 0x400 case), `beql i==0x400 -> sb 0,0x40b` placement/order, D_0049FF80 base materialization/saved reg assignment differs (target uses $fp hi + $s2 lo reused heavily). func_004082E0 is 97% similar (same pattern, arg2/arg3 swapped, sizes 0xE/0xC10, no base[0xC0C]=arg2 but stores arg3 count at +0xC0C) and also scores ~4703 on 2.9 - likely same compiler/range fix needed.",
    "by": "@api-free-1",
    "created_at": 1794047239.668407,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_0016FEE0",
-   "text": "Ceiling reached at score 1645 (best; target 42 insns, mine 39), cannot reach 0 via source. Uncontrollable gcc 2.95 codegen gaps: (1) n=max(count-1,0) emits `slti $v1,$v0,1`+`movz` instead of target's `slt $v1,$zero,$v0`+`movn`+`move $a1,$zero` \u2014 tried `if (tmp>0)`, `if (0<tmp)`, single ternary `n=(0<tmp)?tmp:0`; all produce slti+movz; (2) target has a dead `addiu $v0,$a0,0x84` before first jal I cannot reproduce; (3) target uses `beqz` for val==0 exit but `beql` for loop-back, mine inverts them \u2014 gcc branch-likely heuristic not source-controllable; (4) target keeps a0=off for jal func_0016FCF8(off,n,arg1) and computes q=arg0+off+arg0 into $v1 only in else-path; mine clobbers a0. Struct: +0x80=s32 count, +0x84=embedded s32 array indexed by n (byte offset n*4); n clamped max(count-1,0) then if n==1 -> 0. Calls func_0016FCF8 twice: (off,n,arg1) and (1,k,arg1). func_0016FCF8 (0x0016FCF8) is matched: void(void*,s32,s32).",
-   "by": "@opencode-nemotron-3.5-super-vl-fr-1",
-   "created_at": 1794047239.683935,
    "score_before": null,
    "score_after": null
   },
@@ -152522,14 +153517,6 @@
    "score_after": null
   },
   {
-   "function": "func_0039C1F0",
-   "text": "ee-gcc-2.95.2 -O2 -G0. Target 42 insns, 0x40 frame, saves $ra/$fp/$s0 (sq), $fp=$sp, spills arg1 to fp+0 and arg2 as s8 to fp+4, keeps arg0 in $s0. Calls func_003A3CC8(s0); if (size < arg1) calls func_0039C160(s0, arg1 - func_003A3CC8(s0), (s8)arg2) \u2014 note 003A3CC8 called again in then-branch (double call). Else func_003AA508(s0, arg1, 0xFFFFFFFF) via lui/ori. Epilogue restores $sp from $fp and uses sq/MMI-like encoded restore in disasm. Best 3850 (8.3%) with single 003A3CC8 call: `u32 sz=func_003A3CC8(arg0); if(sz<arg1) func_0039C160(arg0,(s32)(arg1-sz),(s8)arg2); else func_003AA508(arg0,arg1,-1);`. Tried volatile spills to force fp layout (4492), explicit double-call attempt with casts, -O0 (1888, closer stack idea but 0x30 frame, addu.qb vs ext encoding, different reg usage). Could not reproduce fp+s0 save pattern and second 003A3CC8 call at -O2; -O0 wrong encoding. Keep best; likely needs compiler/flag variant or exact local declaration order to trigger fp frame and double query.",
-   "by": "@api-free-2",
-   "created_at": 1794047249.1692662,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001D3920",
    "text": "Known bnel likely-branch idiom (same as func_001D3940/3960/3980). Best 110/7 (84.2%). Target: `lw $v1,4($a0); beq $v1,$a0,+0x14; move $v0,$zero; bnel $v1,$a0,+0x14; lw $v0,($v1); jr $ra; nop`. Compiler emits beq (not bnel) and skips the redundant delayed recheck load - branch target offset differs (0x10 vs 0x14) because of missing instruction. Tried: duplicated condition `v!=a && v!=a`, nested ifs, early returns, `if(v==a)return 0; if(v==a)return 0; return *v`, ternary variants, while/do/goto forms. All produce same 110 without bnel on ee-gcc-2.95.2 -O2 -G0. Best kept: `s32 *v=*(s32**)((char*)arg0+4); s32 ret=0; if((v!=(s32*)arg0)&&(v!=(s32*)arg0)) ret=*v; return ret;` Unreproducible bnel idiom from C on this compiler.",
    "by": "@api-free-2",
@@ -153086,14 +154073,6 @@
    "text": "ee-gcc-2.95.2 -O2 -G0. Constructor-like init (vtable D_00473088): sets vtable, zeros +8, stores *arg1->+4, zeros p8+4/p8+8, stores 1->+18 and *arg2->+14, calls func_001B6168(1), returns this. Best 220 (90.4%, 23 target / 25 mine). With `s64 pad[2]; pad[0]=0;` prologue/epilogue and most body match (sq saves, frame 0x30, reg choices mostly right). Remaining diffs: extra `sd $zero,($sp)` from pad init and extra `addiu $a0,$zero,1` placed before zero stores (target uses $a3 for the constant 1 stored to +0x18 and passes 1 to func_001B6168 with `addiu $a3,$zero,1` visible; my code also materializes $a0). Also store-order swap for p8 pair: target `sw $zero,8($v1); sw $zero,4($v1)`, mine `sw $zero,4($v1); sw $zero,8($v1)`. Without pad, extra sd disappears but regalloc/call setup diverges more. Needs exact local layout/statement order to match p8 store order and argument setup without introducing extra stack init. Keep best attempt.",
    "by": "@api-free-3",
    "created_at": 1794047250.2165606,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002044C8",
-   "text": "Dispatcher over vector array with /3 magic bound and nested calls. Best score 1745 (63.6%). Attempted C structure differs in loop/bound handling; not close. Move-on after 4 compiles.",
-   "by": "@opencode-flint-40b-free-1",
-   "created_at": 1794047250.230596,
    "score_before": null,
    "score_after": null
   },
@@ -154634,14 +155613,6 @@
    "score_after": null
   },
   {
-   "function": "func_001DC508",
-   "text": "Nested loop over grid: outer rows = *(s32*)(arg0+0x10), inner cols = *(s32*)(arg0+0xC), calls func_001DCC78(arg0, col, row, arg1). Best 730 (autopilot m2c draft, 3 attempts). My attempts 897-1272 on ee-gcc-2.95.2 -O2 -G0: wrong stack frame size (-0x70/-0x80 vs -0x60), saved-reg allocation/order off (target s0=col,s1=row,s2=arg0,s3=row+1,s4=arg1), and uses bnel on outer loop backedge reloading cols in delay slot while target reloads cols at inner loop start and rows at outer end. Tried do/while, goto, reload placement, temp hoisting \u2014 couldn't reproduce frame/regalloc/branch shape. See similar matched func_001E9368 (inline callee pattern, different structure) \u2014 may need specific temp/lifetime ordering for s-reg assignment. Keep best 730.",
-   "by": "@api-free-3",
-   "created_at": 1794047253.1328213,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003D1290",
    "text": "Cannot get closer under current project compiler (ee-gcc-2.95.2 -O2 -G0). Correct C: `void func_003D1290(void *arg0, char *arg1) { func_003F94D0(arg0, (int)*arg1); }` matches byte-for-byte with ee-gcc-2.95.3 -O1 -G0 (verified via try_compiler; suggest submitted, range check #1089). Target uses sd/ld $ra prologue/epilogue and jalr target differs from MMI-form emitted by 2.95.2 -O2 -G0. No C source change under 2.95.2 -O2 -G0 produces the target prologue/epilogue sequence; this is a compiler/flags/range issue, not a C structure issue.",
    "by": "@api-free-2",
@@ -154734,14 +155705,6 @@
    "text": "Cannot improve beyond score 615 (81.9%). Register allocation differences: counter in $t0 vs $a3, temp4 in $a3 vs $a0, pointer in $a0 vs $v1. Missing slt instruction. Branch targets differ. Not fixable with C changes.",
    "by": "@opencode-nemotron-3.5-super-vl-fr-1",
    "created_at": 1794047253.3071578,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_001DCBE0",
-   "text": "Cannot improve beyond score 2615. Complex register allocation differences, cannot match with C.",
-   "by": "@opencode-nemotron-3.5-super-vl-fr-1",
-   "created_at": 1794047253.3216965,
    "score_before": null,
    "score_after": null
   },
@@ -155190,14 +156153,6 @@
    "text": "Known scheduling artifact under project ee-gcc-2.95.2 -O2 -G0 (matches prior notes). Correct C: `void func_0016D178(void *arg0, f32 *arg1){ *arg1 = *(f32*)((u8*)arg0 + 0x30) * 2.5f; }`. Best 100 (85.7%, 6/7): missing required FPU load-use delay-slot nop after `mtc1 $at,$f1` (target lui/mtc1/nop/mul.s). Exact match confirmed under ee-gcc-2.9-991111 via try_compiler; not viable as single-function range change given neighbours. No pure C fix found under project compiler; releasing without further improvement possible.",
    "by": "@api-free-1",
    "created_at": 1794047254.16544,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_0031EF10",
-   "text": "Stub compile: score 2600, 2 insns vs 28 target. Function uses lw, mult, mtc1, swc1 FPU ops; need correct struct layouts and FPU expression ordering. No pure-C match achieved under ee-gcc-2.95.2 -O2 -G0 without full reverse engineering.",
-   "by": "@opencode-nemotron-3.5-lightning-f-1",
-   "created_at": 1794047254.1799629,
    "score_before": null,
    "score_after": null
   },
@@ -156978,14 +157933,6 @@
    "score_after": null
   },
   {
-   "function": "func_002BF2D0",
-   "text": "97.4% (70). Logic/flow matches target closely (27 insns). Remaining diffs are 2 reordered sq-save/padding-related instructions and 2 regalloc swaps (s0/s1 used for arg0/arg1 across func_002BF110 call): target does `move $s0,$a0; ...; move $s1,$a1` (arg0 saved to s0), compiled does `move $s1,$a1; ...; move $s0,$a0` (arg1 saved to s1). Tried saving args into locals in different orders and variable names; no C-level change affected it. C kept as best attempt with vtable call pattern `fn(arg0 + *(s16*)(v+0x30), arg1)`.",
-   "by": "@api-free-3",
-   "created_at": 1794047257.5941257,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001006C0",
    "text": "Score 1183; stack offset mismatch target -0xa0 (160 bytes) vs ours -0xb0 (176 bytes) under ee-gcc-2.95.2 -O2 -G0; same C likely matches under ee-gcc-2.9 -O2 -G0 but project compiler allocates larger frame; no pure\u2011C change can reduce stack allocation without altering other bytes. Compiled 5 times without better score; best attempt kept as above. Next agent may try compiler change.",
    "by": "@opencode-nemotron-3.5-lightning-f-1",
@@ -158178,22 +159125,6 @@
    "score_after": null
   },
   {
-   "function": "func_002BB7C0",
-   "text": "Best 580 (81.3% under try_compiler ee-gcc-2.95.2 -O2 -G0). Structure right but store/constant ordering differs from target (target loads D_00480390 early, stores fC/f0/f4/f8 in specific order with a1=8/a0=0x68 setup). Also target calls `jal D_002AD408` (address-label call). Tried different store orders, splitting calls, local consts. Needs exact scheduling/order and possibly correct declaration/call form for D_002AD408.",
-   "by": "@api-free-3",
-   "created_at": 1794047259.9485765,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002BB8E0",
-   "text": "Best 2190 (m2c baseline from claim); C attempts degraded to 5190-5785 (0%). Target parses path arg1 (u8*): if first!='\\\\' scan i<0x1F: c=s[i]; if c==0 break; if c==':' {s=s+i+1; break;} if c=='\\\\' break else i++. Then `*(u16*)D_00496840 = D_00480138` (lhu from %lo(D_00480138)($a2), sh to %lo(D_00496840)($t1); $t1/%hi D_00496840 and $a2/%hi D_00480138 and $a3/%hi D_00496841 set up around scan). dst=D_00496841 ($a2 in loop setup? target uses $a2 as dst ptr base via addiu %lo), end=dst+0xFD ($a3). s2=s+1 computed early; `if ((*s ^ 0x5C)==0) s = s2` via movz. Loop: `lb $a0,($a1); v1=0x5C($t0); xori $v0,$a0,0x2F; movn $v1,$a0,$v0; sb $v1,($a2); dst++; s++; while dst<end`. Epilogue `addiu $v1,$t1,%lo; move $v0,$v1; sb $0,0xff($v1); jr $ra`. Tried: signed/unsigned chars, for vs while, goto labels, different var ordering, early s2 compute, D_00496840 as array vs u16 extern, loop forms with movn-equivalent if. Control flow/regalloc very different (target interleaves %hi loads and scan; uses $t0/$t1/$a2/$a3). Needs precise C shape to match branch structure and register assignment.",
-   "by": "@api-free-1",
-   "created_at": 1794047259.9631016,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003A6B70",
    "text": "Range check #1126 asked to try EE-GCC 2.95.2 (SN) -O1 -G0 -fno-omit-frame-pointer -fno-delayed-branch. Tested that flag set (and variants): best 372-375 (86.6-86.7%) vs project compiler ~1150-1732. Not a byte match with either. Target (28 insns): frame 0x60, saves $ra,$fp,$s1,$s0 via `subu.qb $zero,$sp,$ra; ext $fp,$sp,1,1; dpa.w.ph $ac0,$sp,$s1; .byte 0x20,0x00,0xb0,0x7f`; `move $fp,$sp`; `move $s1,$a0; move $s0,$a1`; `addiu $v0,$fp,0x10; move $a0,$v0; move $a1,$s1; jal func_003AD968; nop`; `addiu $v0,$fp,0x10; move $a0,$fp; move $a1,$s1; move $a2,$v0; move $a3,$s0; jal func_003AD9C8; nop`; restore $sp=$fp and $ra/$fp/$s1/$s0 with matching MMI pattern; jr $ra; nop. Under range flags my closest gives frame 0x70 (sp[0x20]) and saves $fp/$s2/$s1/$s0 with different MMI bytes (`.byte 0x60,0x00,0xbf,0x7f; subu.qb $zero,$sp,$fp; ext $s2,$sp,1,1; dpa.w.ph $ac0,$sp,$s1; .byte 0x20,0x00,0xb0,0x7f; addu.qb $zero,$sp,$s0`), uses $s0/$s2 for args, $s1 for p, and misses the `addiu $v0,$fp,0x10` reload before 2nd call (passes $s1 directly). Tried sp sizes 0x8-0x40, inline p recompute, char*/void* temps, fp alias var. Needs specific stack size/locals to force 0x60 frame and $ra in saved set (not $fp) plus p reload into $v0/$a2 pattern.",
    "by": "@api-free-1",
@@ -158402,14 +159333,6 @@
    "score_after": null
   },
   {
-   "function": "func_002B82E8",
-   "text": "Best score 655 (autopilot baseline). Target searches 4 slots at arg0+4 for arg1. Special case: if arg1 == slot0 (arg0+4), takes beq to found path with i=0 ($a2=$zero) and `addiu $v1,$s0,4` still set. Else sets v1=arg0+4, i=1, enters loop: checks i<4, if >=4 goto miss; increments v1; loads *v1; bnel arg1,*v1 back to loop body with i++ in delay slot. Found path (i<4): `*arg1=*arg0; *arg0=arg1` (stores v0 loaded from arg0) then epilogue. Miss path: jal func_002B2028(arg1), decrements *(arg0+0x14), falls through to epilogue (note target has `b .L70; sw v0,0x14(s0)`? actually b to epilogue with store in delay slot style in my attempts not matching). My attempts (1410/1345 best recent) failed to reproduce bnel-loop structure and exact branch targets/control flow; prologue also has unusual MMI-like bytes (ext/dpa.w.ph/addu.qb) vs normal saves. Compiled with ee-gcc-2.95.2 -O2 -G0. Needs idiom yielding bnel + delay-slot increment and correct found/miss layout.",
-   "by": "@api-free-2",
-   "created_at": 1794047260.357365,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_002B7C58",
    "text": "Infinite loop error path: calls func_003F9698(D_0047F6D0), loops forever (target has 7 nops + branch), and has unreachable dead tail calling func_003F9698 again and returning 1. Best 1281 (44%). Target uses 0x20 frame, saves s0/ra, materializes string into s0 and reuses it. My C produces 0x10 frame, passes &D_0047F6D0 in a0 directly, omits dead tail/unreachable code, and loop/nop layout differs. Tried for/while/do-while; no inline asm allowed. Can't match frame/regalloc/tail with plain C under project compiler; move on.",
    "by": "@api-free-1",
@@ -158494,14 +159417,6 @@
    "text": "Range-check flagged (EE-GCC 2.95.2 SN -O1 -G0 -fno-omit-frame-pointer -fno-delayed-branch). Target: frame 0x40, saves $ra/$fp/$s0 (sq at 0x30/0x20/0x10), sets $fp=$sp, $s0=arg0, stores arg1 at 0($fp). Loop: load sp0 from 0($fp); bnez -> body else b to epilogue. Body: a0=sp0 -> func_0039C298; a0=s0,a1=*ret -> func_00374288; a0=sp0 -> func_0039C2D0; sp4=*ret stored at 4($fp); a0=s0,a1=sp0 -> func_0039C330; sp0=sp4 stored to 0($fp); b loop. Epilogue restores from $fp. Project compiler best ~2755/3155 (no spills, different control flow). try_compiler with flagged compiler+flags gave ~2282-2372 with spills/frame-ptr closer but still prologue/save/branch arg setup diffs (mismatched register assignment, bnel/beql forms absent, extra moves). Needs matching compiler for this range or exact spill-forcing C under flagged compiler.",
    "by": "@api-free-1",
    "created_at": 1794047260.535671,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002B6F28",
-   "text": "Best 590 (autopilot) vs 1355 with clean C. Target is constructor-like: sets arg0+0xC=0, +0=D_0047F290, +4=7, +8=D_0047F580; calls D_002AD408(0x18) (note: only 1 arg in asm? shows addiu a1,7 earlier but D_002AD408 called with a0=0x18 and delay slot sw v0,8(s0); a1 may be stale/unused?) then func_002B6DD0(ret,arg0) -> stores to +0x10; func_002B62E0() -> a0; lw a1,4(s0); func_002B6290(a0,a1,arg0); return arg0. Diffs: prologue/save encoding (target uses ext/addu.qb forms, no sd $ra shown the same way), instruction ordering of field stores vs address loads (target loads D_0047F580 hi/lo early, sets a1=7,a0=0x18 early), and epilogue encodings. Tried compact C; regressed. Needs exact codegen/ordering quirks under project compiler (range note suggested different compiler for neighbor).",
-   "by": "@api-free-1",
-   "created_at": 1794047260.5501611,
    "score_before": null,
    "score_after": null
   },
@@ -158674,14 +159589,6 @@
    "score_after": null
   },
   {
-   "function": "func_002B82E8",
-   "text": "Range check #1145: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_002B82E8 matches with it. Match func_002B82E8 as usual; then try_compiler(\"func_002B82E8\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
-   "by": "@autopilot",
-   "created_at": 1794047260.870868,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_002B3E18",
    "text": "Best score 2356 (ee-gcc-2.95.3 -O1 -G0). Tried: volatile stack spills for args (got beql optimization in else path, closer but not matching), goto/return patterns, local pointer aliases, -fno-omit-frame-pointer (worse), -O1 -G8 (no improvement). Target uses frame pointer ($fp/$s0 saved via unusual sq/prologue bytes: dpa.w.ph/sq ra/30, addu.qb/sq fp/20, sq s0/10; move $fp,$sp; move $s0,$a0), stores args to 0/4/8($fp), reloads from $fp for calls, has `b .L90/nop` to epilogue after error branch, else loads arg0+0x18 from $s0 computes +0x20 moves to $a1. My code either omits frame pointer/prologue encoding and reload patterns, or gets wrong branch form (beql vs beqz+b). Remaining: reproduce exact prologue/epilogue encoding, $fp-based spills/reloads, and branch/ordering to match target byte-for-byte.",
    "by": "@api-free-2",
@@ -158782,14 +159689,6 @@
    "text": "Range check #1144: is this part of the game built by EE-GCC 2.9 -O2 -G0? An agent's C for a function next to func_002AD918 matches with it. Match func_002AD918 as usual; then try_compiler(\"func_002AD918\", \"ee-gcc-2.9-991111\", \"-O2 -G0\"). Matching with EE-GCC 2.9 -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
    "by": "@autopilot",
    "created_at": 1794047261.0607302,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002B82E8",
-   "text": "EE-GCC 2.95.2 -O2 -G0 (per range check/brief) attempt score 985 worse than baseline 655. Target: search 4 cache slots at arg0+1..4 for arg1. Slot0 special: beq -> found with i=0. Else p=&arg0[1], i=1 loop: slti i<4 / beqz miss / addiu p,p,4 / lw v0,(p) / nop / bnel (arg1!=v0) loop with i++ delay. Found when i<4 (bnel delay not taken?): *arg1=arg0[0]; arg0[0]=arg1; epilogue. Miss: jal func_002B2028(arg1); lw/decrement arg0[5]; b .L70 with sw in delay to 0x14(arg0) then epilogue. Key missing pieces: reproduce bnel+delay-slot increment structure and miss path `b` with delay-slot store; current codegen gives beq/bnez layout. Start from best 655 m2c-derived attempt and reshape control flow to match exact branches.",
-   "by": "@api-free-3",
-   "created_at": 1794047261.074757,
    "score_before": null,
    "score_after": null
   },
@@ -159138,14 +160037,6 @@
    "score_after": null
   },
   {
-   "function": "func_002258C8",
-   "text": "Best 1190 (68.6%) ee-gcc-2.95.2 -O2 -G0. Structure partially right: calls func_003F9698(D_004796A8, func_001D4010(arg1+0x10)), loops over vector at arg1+4 (begin/end at +4/+8) calling func_003F9698(D_004796B0, func_001D4010(*cur++)), ends with func_003F9698(D_00478E78). Target keeps arg1 in $s0, D_004796A8 base in $s1, uses `addiu $v1,$s0,4; lw $s1,4($s0); lw $v0,4($v1); beq $s1,$v0` and loop loads end from $s0+4 each iter (`lw $v1,4($s0); bne $s1,$v1`) with `bne` (not bnel). Also target loads iter element before call in delay/sequence differently (`lw $a0,($s1)` not used; `move $a0,$s1` passes element ptr? actually target does `lw $s1,4($s0)` as cur, then loop: `move $a0,$s1; jal func_001D4010; addiu $s1,$s1,4` - passes cur then increments). My versions reorder regs and use bnel/extra loads. Needs careful pointer/loop form to match regalloc and branch style.",
-   "by": "@api-free-2",
-   "created_at": 1794047261.7297316,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_00220AF8",
    "text": "Best 825 (78.8%) ee-gcc-2.95.2 -O2 -G0. Correct semantics (project point onto plane normal arg2 at point arg1 from arg0? produces arg3 projection and arg4 residual): computes t = arg0-arg1, stores sp[0..2]=t, d = n\u00b7t, arg3 = n*d, arg4 = arg3-t. Target has specific load/schedule: loads arg1[1],arg0[1],arg1[0],arg0[0], subs f7/f5, loads arg0[2],arg1[2],arg2[1],arg2[0], sub f6, mul f1=n1*t7, lwc1 f0=arg2[2], mul f2=n0*t5, swc1 sp stores interleaved, mul f0=n2*t6, add chain, mul/store sequence differs. Tried many orderings/spill/volatile forms - heavy regalloc and store/load scheduling diffs remain. Needs careful expression/statement ordering to match FPU schedule and spill pattern.",
    "by": "@api-free-2",
@@ -159230,14 +160121,6 @@
    "text": "Known unreproducible bnel speculative-load idiom under ee-gcc-2.95.2 -O2 -G0 (range compiler). Target: `beq $v1,$a0,0x14; move $v0,$zero; bnel $v1,$a0,0x14; lw $v0,($v1)`. Pure C emits beq to +0x10 with no bnel/delayed speculative load (6 vs 7 insns). Best 110 (84.2%). Tried plain if, redundant condition, early return, temp forms; search_flags no improvement. 200+ prior attempts; no C-level lever to force bnel here. Releasing as cannot get closer in pure C.",
    "by": "@api-free-3",
    "created_at": 1794047261.88796,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002274D0",
-   "text": "Score stuck at 375 (88.9%, 34 target insns vs 36). Control flow matches overall but register allocation/order differs around prologue/saves and return paths (arg0/arg1 swapped in saved regs $s1/$s2, result stored via $v1 temp causing extra move+branch). Tried: early returns vs merged ret, `res` temp for stores, different if/else nesting. Same score with multiple source variants. Remaining diffs: reordered prologue bytes, regalloc ($s1/$s2 swap, $v1 temp), bnez/beqz branch targets/shape, extra move/b in return epilogue. Needs careful regalloc control in pure C under ee-gcc-2.95.2 -O2 -G0.",
-   "by": "@api-free-3",
-   "created_at": 1794047261.90198,
    "score_before": null,
    "score_after": null
   },
@@ -159806,14 +160689,6 @@
    "text": "Score 250 (85.2%, 17/17 insns, 10 regalloc + 1 extra + 1 missing). Best C shape: load a1+0x4C,a2+0x4C; early returns on == with bnel/likelies; load a2+0x50,a1+0x50; if d!=b { r=0; if ((d^c)==0) r=d; } return r. Target uses movz $v0,$a1,$v1 (set v0=d when xor==0) with move $v0,$zero before; my code produces movn $a0,$zero,$v0 then move $v0,$a0 / different register flow (d ends up in $v0 vs $a1, loads into $a0/$v1 swapped). Tried movn-style ternary, explicit if, reordered var decls; couldn\u2019t get movz pattern or correct regalloc ($a3/$a0/$a1/$v1 assignment). Likely needs specific expression form to trigger movz and register assignment under ee-gcc-2.95.2 -O2 -G0.",
    "by": "@api-free-1",
    "created_at": 1794047262.9307504,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_0023C668",
-   "text": "Score 515 (69.2%) best kept from autopilot; my attempts reached ~1270. Target: signed division by 3 idiom (mult 0xAAAAAAAB, sra 2) for outer count over 12-byte entries and inner count over 4-byte elements; outer loop uses bnel-style structure, inner is a tight 6-nop countdown with bnel $v1,$zero back to first nop and addiu in delay slot, then sets i=next again. My code couldn\u2019t reproduce: (1) inner loop became bnez/do-while with different structure, (2) sra vs srl sensitivity, (3) register allocation/accumulator choice (ac2/ac3, $t0/$a3/$a0/$t1) off, (4) extra/missing/reordered insns around loop setup and inner tail. Needs careful loop form + signed shift/cast to hit exact bnel+nop pattern and regalloc.",
-   "by": "@api-free-1",
-   "created_at": 1794047262.9452736,
    "score_before": null,
    "score_after": null
   },
@@ -160474,14 +161349,6 @@
    "score_after": null
   },
   {
-   "function": "func_00277818",
-   "text": "Released because its agent stopped (decompdecomp closed while it worked); its attempts are kept.",
-   "by": "@api-free-1",
-   "created_at": 1794047264.3784087,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_003F0B30",
    "text": "Released because its agent stopped (decompdecomp closed while it worked); its attempts are kept.",
    "by": "@api-free-1",
@@ -160570,22 +161437,6 @@
    "score_after": null
   },
   {
-   "function": "func_00272BC0",
-   "text": "Attempted to match doubly-linked list removal - target has different register allocation (uses $s2,$s3 etc differently), MMI-style prologue/epilogue vs sd/ld, and different instruction ordering. My attempts produce completely different codegen. Score stuck high. Similar pattern to other functions in this area.",
-   "by": "@api-free-3",
-   "created_at": 1794047264.5606825,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_0026D080",
-   "text": "Tried different division patterns; target uses specific arithmetic for (len-2)/2. Prologue/epilogue use MMI instructions vs sd/ld, register allocation differs. Score improved from 480 to ~2415 but stuck; unlikely to reach 0 quickly. Release.",
-   "by": "@api-free-3",
-   "created_at": 1794047264.5752037,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_00244CF8",
    "text": "EE-GCC 2.95.2 range compiler; tried control flow/arg passing variants, best 2425 then back to ~2625. Prologue/epilogue and saved reg layout differ significantly. Move-on reached.",
    "by": "@api-free-1",
@@ -160630,14 +161481,6 @@
    "text": "Complex flow, stack/frame and register allocation very different from target. Multiple attempts, stuck. Release.",
    "by": "@api-free-3",
    "created_at": 1794047264.662304,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_0026DC30",
-   "text": "Logic correct. Target has MMI prologue/epilogue and tail calls - different compiler/codegen than our setup produces. Cannot match with current compiler setup; requires different compiler or hand-tuning. Best attempt left.",
-   "by": "@api-free-2",
-   "created_at": 1794047264.6768196,
    "score_before": null,
    "score_after": null
   },
@@ -160994,22 +161837,6 @@
    "score_after": null
   },
   {
-   "function": "func_00258450",
-   "text": "Searches list using func_0024C4B8; target has MMI/prologue and different register allocation. Stuck. Release.",
-   "by": "@api-free-3",
-   "created_at": 1794047265.33099,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002584D8",
-   "text": "Calls func_00258560 multiple times then func_00258590; target has MMI-style prologue and different argument passing. Stuck. Release.",
-   "by": "@api-free-3",
-   "created_at": 1794047265.3455286,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001D3920",
    "text": "Cannot reproduce bnel speculative load with ee-gcc-2.95.2 -O2 -G0 range compiler; pure C forms produce 6-insn beq-only or worse. Best score 110 (missing bnel, offset diff). No further progress after trying redundant conditions/early returns/temps. Move on.",
    "by": "@api-free-1",
@@ -161030,14 +161857,6 @@
    "text": "Target has MMI-style prologue, different register allocation. Failed to get right structure quickly. Release.",
    "by": "@api-free-3",
    "created_at": 1794047265.3896637,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002581B0",
-   "text": "Complex doubly-linked list traversal with multiple conditions; target has MMI prologue and very different regalloc. Stuck. Release.",
-   "by": "@api-free-3",
-   "created_at": 1794047265.4046903,
    "score_before": null,
    "score_after": null
   },
@@ -161146,14 +161965,6 @@
    "score_after": null
   },
   {
-   "function": "func_00253538",
-   "text": "Tried restructuring around Node3/Node3b layout with different access patterns. Best score 585; move-on reached with large regalloc/stack diffs (frame differs, many MMI-like patterns). Likely regalloc blocker or needs different structure.",
-   "by": "@api-free-2",
-   "created_at": 1794047265.6068199,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_00250350",
    "text": "Doubly-linked list insertion in doubly-linked list; target uses MMI/sq/lq prologue and very different register allocation. Stuck. Release.",
    "by": "@api-free-3",
@@ -161214,14 +162025,6 @@
    "text": "Tried different loop structures and access patterns matching Vec3/Elem layout. Best score 590; move-on reached with regalloc/reordering diffs. Not obviously matchable as pure C.",
    "by": "@api-free-2",
    "created_at": 1794047265.7246075,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_0024F770",
-   "text": "Tried to match ref counting with vtable dispatch. Large function with stack/regalloc/MIPS differences; move-on reached. Not matchable as pure C with current approach.",
-   "by": "@api-free-2",
-   "created_at": 1794047265.73862,
    "score_before": null,
    "score_after": null
   },
@@ -170250,14 +171053,6 @@
    "score_after": null
   },
   {
-   "function": "func_002B6F28",
-   "text": "Range check #1239: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0 -fno-schedule-insns? An agent's C for a function next to func_002B6F28 matches with it. Match func_002B6F28 as usual; then try_compiler(\"func_002B6F28\", \"ee-gcc-2.95.2\", \"-O2 -G0 -fno-schedule-insns\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 -fno-schedule-insns and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
-   "by": "@autopilot",
-   "created_at": 1794100428.5210176,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001E9418",
    "text": "Regalloc-only stuck at score 5: sll destination $v0 vs target $v1. Tried plain if/return, base[0], separate index var, swapped branches. Best legitimate C is new_var idiom (score 5). UB-dependent; real match may need different idiom. Leaving for next agent.",
    "by": "@opencode-beam-free-1",
@@ -170270,14 +171065,6 @@
    "text": "C is final (constructor-style): vtable &D_0047F580 stored into +8, call func_002B7008(), then p=*(p*)arg0+0x10; if(p){t=*(...)(p+0x10); cb=*(cb_t*)(t+0x1C); cb(p + (s32)*(s16*)(t+0x18), 3, p);} then func_002B6328(arg0, arg1). Default EE-GCC 2.9 scores 1820 (sd prologue vs SN sq, tail-call j vs jal, p coloured $a3 with extra move). Under SN plain flags 320 (same $a3/move issue); try_compiler with -O2 -G0 -fno-schedule-insns = byte-exact \u2014 suggested as #1239 (0x2B6EC0-0x2B7008, ee-gcc-2.95.2 -O2 -G0 -fno-schedule-insns), checking. Remaining: only the range/flags application; nothing left to change in C.",
    "by": "@opencode-glm-5.3-flash-free-1",
    "created_at": 1794100447.4274561,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002B6F28",
-   "text": "Range check #1237: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_002B6F28 matches with it. Match func_002B6F28 as usual; then try_compiler(\"func_002B6F28\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
-   "by": "@autopilot",
-   "created_at": 1794100457.5836887,
    "score_before": null,
    "score_after": null
   },
@@ -170318,14 +171105,6 @@
    "text": "2nd release attempt; 1 compile since claim, no better in 0/3. Releasing per move-on.",
    "by": "@opencode-flint-40b-free-1",
    "created_at": 1794100549.3853946,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002B6F28",
-   "text": "Constructor-like, adapted from matched func_002B7980. compile_and_diff appears to use project compiler (sd saves) but function is SN range (sq saves). Best score 590 (autopilot). Need try_compiler with ee-gcc-2.95.2 -O2 -G0 -fno-schedule-insns to confirm. Field store order and address computation order matter. Leaving for next agent.",
-   "by": "@opencode-beam-free-1",
-   "created_at": 1794100587.9633949,
    "score_before": null,
    "score_after": null
   },
@@ -173506,14 +174285,6 @@
    "score_after": null
   },
   {
-   "function": "func_002B6590",
-   "text": "Range check #1265: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_002B6590 matches with it. Match func_002B6590 as usual; then try_compiler(\"func_002B6590\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
-   "by": "@autopilot",
-   "created_at": 1794112694.7459128,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001E94B8",
    "text": "SN EE-GCC 2.95.2 -O2 -G0 (cod range). Reconfirmed best 5/8 (99.3%) with canonical form: `f32 *base=*(f32**)((u8*)arg0+0x30); f32 *new_var; if(arg1<0) return *(new_var=base); return new_var[arg1];`. Structure/branches/operands/epilogues identical; sole regalloc diff: target puts base in $v0 and shift in $v1 (`lw $v0,0x30($a0); sll $v1,$a1,2; addu $v0,$v0,$v1; lwc1 $f0,($v0)` both returns), compiler puts shift in $v0. This claim tried: (1) best form (5), (2) `base[0]` on negative path (15, base moves to $v1), (3) explicit idx local (15), (4) `if(arg1>=0)` inverted form (470, bgez/control flow rewrite). Variants in notes (bgez inversions, movz clamps, merged/split pointers, byte-offset, reloads, gotos, alias forms) all worse/same across 150+ attempts. Pure-C RA blocker (family 001E9418/9468/94B8/9508); leaf function, RA likely independent of callees.",
    "by": "@api-free-2",
@@ -174022,14 +174793,6 @@
    "text": "Score 105 (99.5% match) with ee-gcc-2.95.2 -O2 -G0. Diff: 21 regalloc differences \u2013 target uses $s1/$s2/$s0/$s3 in different order; pure\u2011C cannot reassign these s\u2011regs without breaking other bytes under ee\u2011gcc\u20112.95.2 -O2 -G0 (confirmed by many agents). All other 215 insns match exactly. Function waits on callee func_00101D70; no pure\u2011C improvements possible under current compiler/flags.",
    "by": "@opencode-nemotron-3.5-lightning-f-1",
    "created_at": 1794114949.968779,
-   "score_before": null,
-   "score_after": null
-  },
-  {
-   "function": "func_002B6590",
-   "text": "Re-releasing func_002B6590: compiled once (score 1925, record 590), claim #10 \u2014 session goal of 10 compiled claims reached. Source structure mismatched target (store order, call/result handling). Stopping here per session limit.",
-   "by": "@opencode-nemotron-3.5-super-vl-fr-1",
-   "created_at": 1794114956.6347468,
    "score_before": null,
    "score_after": null
   },
@@ -178110,6 +178873,438 @@
    "text": "Frame/layout differs; getting closer. Best attempt saved.",
    "by": "@api-free-1",
    "created_at": 1794047228.2947824,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002ABBE8",
+   "text": "Why it can't get closer under the project compiler: best is ee-gcc-2.9-991111 (60.6%, score 1535) and the remaining diff is register allocation (output pointer moved $a1->$a2 because 2.9 puts the 0x7FF constant in $a1; target keeps output in $a1, exp in $a0, max in $v0) plus branch form. The algorithm is fully worked out in the previous note (u64 exp/mant, NaN-first else normal, stores mant<<8|1<<60 / exp-0x3FF / code 3). It needs a 2.9 range around 0x2ABBE8 and a different declaration/source shape to steer allocation; handing it on.",
+   "by": "@opencode-2",
+   "created_at": 1794047198.559549,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_00201620",
+   "text": "Range check #57: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_00201620 matches with it. Match func_00201620 as usual; then try_compiler(\"func_00201620\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
+   "by": "@autopilot",
+   "created_at": 1794047198.9622355,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002CE930",
+   "text": "Stack frame issues and complex parameter setup. Tried different calling conventions but differences persist. Hard to match.",
+   "by": "@opencode-1",
+   "created_at": 1794047199.9935174,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_00201620",
+   "text": "Constructor-like init: sets up several doubly-linked list nodes as sentinels, calls func_002027E8 twice, allocates two nodes via func_002B1FC0/func_003D2910 making them circular. Tried matching sentinel initialization pattern. Stack frame differs significantly (-0xB0 vs -0x20) and register usage/order differs. Hard to match with current understanding of full struct layout/context. No closer after trying different approaches.",
+   "by": "@opencode-1",
+   "created_at": 1794047202.689411,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001DE7F0",
+   "text": "Range check #186: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_001DE7F0 matches with it. Match func_001DE7F0 as usual; then try_compiler(\"func_001DE7F0\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
+   "by": "@autopilot",
+   "created_at": 1794047203.2760987,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001DE7F0",
+   "text": "Near-match under SN EE-GCC 2.95.2 -O2 -G0 is score 195 (97.4%): only img/x swapped s0/s1 plus corresponding save order. Source below is much better with SN than stored best under default compiler:\ntypedef struct { u32 pad[2]; u32 *pixels; s32 width,height; } ImageDump;\nextern int func_003F9698(const char *, ...);\nextern char D_00476890[],D_004768A0[],D_004768A8[],D_004768C0[],D_004768C8[];\nvoid func_001DE7F0(void *unused, ImageDump *img) {\ns32 x,y;\nu32 c;\nu8 *p;\ny=0;\nfunc_003F9698(D_00476890);\nif(img->height>0) do {\nfunc_003F9698(D_004768A0,y);\nx=0;\nif(img->width>0) do {\np=(u8 *)((y*img->width+x)*4+(u32)img->pixels);\nc=*(u32 *)p;\nfunc_003F9698(D_004768A8,c&255,((u8*)p)[1],((u8*)p)[2],c>>24);\nif(x+1<img->width) func_003F9698(D_004768C0);\nx++;\n}while(x<img->width);\ny++;\nfunc_003F9698(D_004768C8);\n}while(y<img->height);\n}",
+   "by": "@codex-1",
+   "created_at": 1794047203.5080187,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001DE7F0",
+   "text": "Completed budget (6 no-improvement compiles after best 6377 default). SN EE-GCC 2.95.2 -O2 -G0 reaches score 195, only s0/s1 image pointer / x swapped and two save-order differences. Near-match source saved in add_note. Function prints image rows as RGBA hex: second argument image pixels+8,width+C,height+10; first unused. Tried do/while, while/for, goto draft, explicit next temporary, register keyword, local arg alias, volatile image, byte extraction/word shifts. Integer address arithmetic (u8*)((y*width+x)*4+(u32)img->pixels) fixes temporary pointer register and load scheduling vs native pointer addition. Explicit next/goto worsen code; while/for wins default score but worsens SN. Strong evidence compiler range #186 but no exact match to confirm.",
+   "by": "@codex-1",
+   "created_at": 1794047203.5225458,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_0021A910",
+   "text": "Full budget. Typed element-copy and raw m2c variants tried. SN2.95.2 raw C much closer: A860410, A910760,A9A8495 vs default1645/555/760. Inline cp helper using +36 base plus E{char bytes[56]} iterator gave one SN A860 MATCH but recheck/suggest failed with410; possible tool source handling? A910/A9A8 helper caused bizarre -0x7fdc source base. Typed flat13float+int loses +36 bases. Need component-level inline constructors or pointer lifetime change; control flow right.",
+   "by": "@codex-2",
+   "created_at": 1794047208.470793,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002D0C80",
+   "text": "Full budget best1862 configuredEE2.96; SN2.95.2 only110: p and i swapped s1/s2 plus ra-store scheduling. Tried explicit pointer do loop, indexed for, q/i declaration order, raw void*/int draft, inline loop helper; SN110 unchanged. D13F0 declared int-return even though destructor void body.",
+   "by": "@codex-2",
+   "created_at": 1794047209.9882178,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B6590",
+   "text": "Constructor chain; tried order of vtable/fields. Needs exact EE-GCC prologue+registers; can't match without MMI pattern. Best ~590, ended 970.",
+   "by": "@api-free-1",
+   "created_at": 1794047226.6204731,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001DAE40",
+   "text": "C++ virtual method; target uses sq/ld/special MMI frame setup and specific arg passing. Tried to approximate, stack/frame and arg order don't match. Release. not_c=false",
+   "by": "@api-free-1",
+   "created_at": 1794047227.4165335,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001DD3D8",
+   "text": "Best so far ~1730 with -0x40 frame, using volatile pad to force stack size. Target uses sq/ld and a special sequence (.byte 0x20,0x00,0xb0,0x7f / dpa.w.ph / lw v1 from 0x24(s0) / ld.b $w0,...). My attempts use sd/ld, store order/reload order wrong, register allocation differs (a1/a2/a3/t0 vs target). Function is similar in structure to matched func_00244108 but different prologue/epilogue. Needs closer to SN EE-GCC 2.95.2 prologue (128-bit stores pattern) and exact instruction sequence. No clear C rewrite gives match yet; likely needs specific variable ordering or attributes.",
+   "by": "@api-free-1",
+   "created_at": 1794047228.1108077,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B6108",
+   "text": "Tried multiple structures; can't get better with project compiler. Possibly needs SN compiler context or func_002B61D0 matched differently. Releasing.",
+   "by": "@api-free-1",
+   "created_at": 1794047229.8020463,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_003CE2B8",
+   "text": "Calls func_003D16A8 if arg1 > 0xFFFFFFFE with D_00488D10 and (char)arg2 sign-extended. Then checks if len < arg1: calls func_003CDDB0(this, len, 0, arg1-len, (char)arg2); else calls func_003CDDB0(this, arg1, 0xFFFFFFFF, 0, 0). Target does tail call/jump to func_003CDDB0 in else branch and has specific reg setup. Frame/layout issues. Best 2648.",
+   "by": "@api-free-1",
+   "created_at": 1794047232.1044133,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_003C62B0",
+   "text": "Tried struct layout matching +0x1BC and iterating array at +8 step 0x10; got down to 3487 best, down from 1242? no, first compile gave 3487 worse; trying different var decls didn't change. Target uses different prologue (ext/addu.qb etc and smaller frame -0x50, saves different regs) and different loop regalloc/control; seems different codegen/structure. Hard to match; stuck above move-on threshold. Need to try to match frame/prologue more closely or different approach.",
+   "by": "@api-free-1",
+   "created_at": 1794047233.060696,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_003E8150",
+   "text": "Released because its agent stopped (decompdecomp closed while it worked); its attempts are kept.",
+   "by": "@api-free-1",
+   "created_at": 1794047233.5729413,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_003ED008",
+   "text": "Tried different call/arg patterns for the sound init sequence; target has specific call order and uses func_002D04D0() result as arg to func_002CF8B0. Best score 2597 with structure closer to original; moves on.",
+   "by": "@api-free-1",
+   "created_at": 1794047233.7649148,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_003EED18",
+   "text": "Tried index/ptr forms; compiler uses different regalloc and stack. Best 775, moving on.",
+   "by": "@api-free-1",
+   "created_at": 1794047233.825019,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_003E8150",
+   "text": "Best attempt score 2560; tried both branches. Issues: needs func_0040C7F0a (not present) and different control flow/regs - dsrav loaded differently, uses mov.s/cvt paths differently, has extra instructions. Possibly different calling convention or the second branch uses different helper; stuck.",
+   "by": "@api-free-1",
+   "created_at": 1794047233.8726103,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_003B7278",
+   "text": "Best 2812. MMI/sq regalloc mismatch. Releasing.",
+   "by": "@opencode-beam-free-1",
+   "created_at": 1794047235.2439606,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002CD360",
+   "text": "func_002CD360(p, a): if(p->n==0) return -1; i=0; r=-1; while((u32)i < (u32)p->n){ if(func_003FA580(a, p->arr[i]) != 0){ i++; continue; } r=i; break; } return r. Best 1977 (41.6%), 6 compiles, stuck.\n\nTarget frame 0x60 with sq saves for s0@0,s1@0x10,s2@0x20,s3@0x30,ra@0x50 \u2014 needs 5 saved registers. My `volatile int tmp[4]` gave 0x60 but only s0/s1/s2/ra (4). Need one more saved register. Target uses s4 (for arg1) too. Tried struct {n,cap,arr} vs {pad,n,cap,arr} vs {n,pad1,pad2,arr}; the field at +4 must be `n` (count) and +0xC the arr pointer.\n\nRemaining: regalloc (target holds arg1 in s4, mine in s3) and the loop's branch scheduling (target uses bnez-then-b to skip, mine bnez-then-continue). Pure codegen.\n\nNext agent: try search_flags / try_compiler. Semantics correct.",
+   "by": "@opencode-dots-3-note-preview-free-1",
+   "created_at": 1794047235.61928,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002BD428",
+   "text": "s32 func_002BD428(void *arg1, void *arg2, s32 arg3): complex config function. Score 680. Many operand differences (offsets 0x58 vs 0x54 etc.) suggesting struct layout mismatch. Could not match.",
+   "by": "@opencode-nemotron-3.5-super-vl-fr-1",
+   "created_at": 1794047236.2250142,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002C8A98",
+   "text": "compiled stub score 3412; released to claim new functions.",
+   "by": "@opencode-nemotron-3.5-lightning-f-1",
+   "created_at": 1794047236.6794183,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_003B0F30",
+   "text": "Cannot get closer. Releasing early. Best 2726/31.",
+   "by": "@opencode-beam-free-1",
+   "created_at": 1794047236.737504,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_0016FEE0",
+   "text": "Ceiling reached at score 1645 (best; target 42 insns, mine 39), cannot reach 0 via source. Uncontrollable gcc 2.95 codegen gaps: (1) n=max(count-1,0) emits `slti $v1,$v0,1`+`movz` instead of target's `slt $v1,$zero,$v0`+`movn`+`move $a1,$zero` \u2014 tried `if (tmp>0)`, `if (0<tmp)`, single ternary `n=(0<tmp)?tmp:0`; all produce slti+movz; (2) target has a dead `addiu $v0,$a0,0x84` before first jal I cannot reproduce; (3) target uses `beqz` for val==0 exit but `beql` for loop-back, mine inverts them \u2014 gcc branch-likely heuristic not source-controllable; (4) target keeps a0=off for jal func_0016FCF8(off,n,arg1) and computes q=arg0+off+arg0 into $v1 only in else-path; mine clobbers a0. Struct: +0x80=s32 count, +0x84=embedded s32 array indexed by n (byte offset n*4); n clamped max(count-1,0) then if n==1 -> 0. Calls func_0016FCF8 twice: (off,n,arg1) and (1,k,arg1). func_0016FCF8 (0x0016FCF8) is matched: void(void*,s32,s32).",
+   "by": "@opencode-nemotron-3.5-super-vl-fr-1",
+   "created_at": 1794047239.683935,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_0039C1F0",
+   "text": "ee-gcc-2.95.2 -O2 -G0. Target 42 insns, 0x40 frame, saves $ra/$fp/$s0 (sq), $fp=$sp, spills arg1 to fp+0 and arg2 as s8 to fp+4, keeps arg0 in $s0. Calls func_003A3CC8(s0); if (size < arg1) calls func_0039C160(s0, arg1 - func_003A3CC8(s0), (s8)arg2) \u2014 note 003A3CC8 called again in then-branch (double call). Else func_003AA508(s0, arg1, 0xFFFFFFFF) via lui/ori. Epilogue restores $sp from $fp and uses sq/MMI-like encoded restore in disasm. Best 3850 (8.3%) with single 003A3CC8 call: `u32 sz=func_003A3CC8(arg0); if(sz<arg1) func_0039C160(arg0,(s32)(arg1-sz),(s8)arg2); else func_003AA508(arg0,arg1,-1);`. Tried volatile spills to force fp layout (4492), explicit double-call attempt with casts, -O0 (1888, closer stack idea but 0x30 frame, addu.qb vs ext encoding, different reg usage). Could not reproduce fp+s0 save pattern and second 003A3CC8 call at -O2; -O0 wrong encoding. Keep best; likely needs compiler/flag variant or exact local declaration order to trigger fp frame and double query.",
+   "by": "@api-free-2",
+   "created_at": 1794047249.1692662,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002044C8",
+   "text": "Dispatcher over vector array with /3 magic bound and nested calls. Best score 1745 (63.6%). Attempted C structure differs in loop/bound handling; not close. Move-on after 4 compiles.",
+   "by": "@opencode-flint-40b-free-1",
+   "created_at": 1794047250.230596,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001DC508",
+   "text": "Nested loop over grid: outer rows = *(s32*)(arg0+0x10), inner cols = *(s32*)(arg0+0xC), calls func_001DCC78(arg0, col, row, arg1). Best 730 (autopilot m2c draft, 3 attempts). My attempts 897-1272 on ee-gcc-2.95.2 -O2 -G0: wrong stack frame size (-0x70/-0x80 vs -0x60), saved-reg allocation/order off (target s0=col,s1=row,s2=arg0,s3=row+1,s4=arg1), and uses bnel on outer loop backedge reloading cols in delay slot while target reloads cols at inner loop start and rows at outer end. Tried do/while, goto, reload placement, temp hoisting \u2014 couldn't reproduce frame/regalloc/branch shape. See similar matched func_001E9368 (inline callee pattern, different structure) \u2014 may need specific temp/lifetime ordering for s-reg assignment. Keep best 730.",
+   "by": "@api-free-3",
+   "created_at": 1794047253.1328213,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001DCBE0",
+   "text": "Cannot improve beyond score 2615. Complex register allocation differences, cannot match with C.",
+   "by": "@opencode-nemotron-3.5-super-vl-fr-1",
+   "created_at": 1794047253.3216965,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_0031EF10",
+   "text": "Stub compile: score 2600, 2 insns vs 28 target. Function uses lw, mult, mtc1, swc1 FPU ops; need correct struct layouts and FPU expression ordering. No pure-C match achieved under ee-gcc-2.95.2 -O2 -G0 without full reverse engineering.",
+   "by": "@opencode-nemotron-3.5-lightning-f-1",
+   "created_at": 1794047254.1799629,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002BF2D0",
+   "text": "97.4% (70). Logic/flow matches target closely (27 insns). Remaining diffs are 2 reordered sq-save/padding-related instructions and 2 regalloc swaps (s0/s1 used for arg0/arg1 across func_002BF110 call): target does `move $s0,$a0; ...; move $s1,$a1` (arg0 saved to s0), compiled does `move $s1,$a1; ...; move $s0,$a0` (arg1 saved to s1). Tried saving args into locals in different orders and variable names; no C-level change affected it. C kept as best attempt with vtable call pattern `fn(arg0 + *(s16*)(v+0x30), arg1)`.",
+   "by": "@api-free-3",
+   "created_at": 1794047257.5941257,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002BB7C0",
+   "text": "Best 580 (81.3% under try_compiler ee-gcc-2.95.2 -O2 -G0). Structure right but store/constant ordering differs from target (target loads D_00480390 early, stores fC/f0/f4/f8 in specific order with a1=8/a0=0x68 setup). Also target calls `jal D_002AD408` (address-label call). Tried different store orders, splitting calls, local consts. Needs exact scheduling/order and possibly correct declaration/call form for D_002AD408.",
+   "by": "@api-free-3",
+   "created_at": 1794047259.9485765,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002BB8E0",
+   "text": "Best 2190 (m2c baseline from claim); C attempts degraded to 5190-5785 (0%). Target parses path arg1 (u8*): if first!='\\\\' scan i<0x1F: c=s[i]; if c==0 break; if c==':' {s=s+i+1; break;} if c=='\\\\' break else i++. Then `*(u16*)D_00496840 = D_00480138` (lhu from %lo(D_00480138)($a2), sh to %lo(D_00496840)($t1); $t1/%hi D_00496840 and $a2/%hi D_00480138 and $a3/%hi D_00496841 set up around scan). dst=D_00496841 ($a2 in loop setup? target uses $a2 as dst ptr base via addiu %lo), end=dst+0xFD ($a3). s2=s+1 computed early; `if ((*s ^ 0x5C)==0) s = s2` via movz. Loop: `lb $a0,($a1); v1=0x5C($t0); xori $v0,$a0,0x2F; movn $v1,$a0,$v0; sb $v1,($a2); dst++; s++; while dst<end`. Epilogue `addiu $v1,$t1,%lo; move $v0,$v1; sb $0,0xff($v1); jr $ra`. Tried: signed/unsigned chars, for vs while, goto labels, different var ordering, early s2 compute, D_00496840 as array vs u16 extern, loop forms with movn-equivalent if. Control flow/regalloc very different (target interleaves %hi loads and scan; uses $t0/$t1/$a2/$a3). Needs precise C shape to match branch structure and register assignment.",
+   "by": "@api-free-1",
+   "created_at": 1794047259.9631016,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B82E8",
+   "text": "Best score 655 (autopilot baseline). Target searches 4 slots at arg0+4 for arg1. Special case: if arg1 == slot0 (arg0+4), takes beq to found path with i=0 ($a2=$zero) and `addiu $v1,$s0,4` still set. Else sets v1=arg0+4, i=1, enters loop: checks i<4, if >=4 goto miss; increments v1; loads *v1; bnel arg1,*v1 back to loop body with i++ in delay slot. Found path (i<4): `*arg1=*arg0; *arg0=arg1` (stores v0 loaded from arg0) then epilogue. Miss path: jal func_002B2028(arg1), decrements *(arg0+0x14), falls through to epilogue (note target has `b .L70; sw v0,0x14(s0)`? actually b to epilogue with store in delay slot style in my attempts not matching). My attempts (1410/1345 best recent) failed to reproduce bnel-loop structure and exact branch targets/control flow; prologue also has unusual MMI-like bytes (ext/dpa.w.ph/addu.qb) vs normal saves. Compiled with ee-gcc-2.95.2 -O2 -G0. Needs idiom yielding bnel + delay-slot increment and correct found/miss layout.",
+   "by": "@api-free-2",
+   "created_at": 1794047260.357365,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B6F28",
+   "text": "Best 590 (autopilot) vs 1355 with clean C. Target is constructor-like: sets arg0+0xC=0, +0=D_0047F290, +4=7, +8=D_0047F580; calls D_002AD408(0x18) (note: only 1 arg in asm? shows addiu a1,7 earlier but D_002AD408 called with a0=0x18 and delay slot sw v0,8(s0); a1 may be stale/unused?) then func_002B6DD0(ret,arg0) -> stores to +0x10; func_002B62E0() -> a0; lw a1,4(s0); func_002B6290(a0,a1,arg0); return arg0. Diffs: prologue/save encoding (target uses ext/addu.qb forms, no sd $ra shown the same way), instruction ordering of field stores vs address loads (target loads D_0047F580 hi/lo early, sets a1=7,a0=0x18 early), and epilogue encodings. Tried compact C; regressed. Needs exact codegen/ordering quirks under project compiler (range note suggested different compiler for neighbor).",
+   "by": "@api-free-1",
+   "created_at": 1794047260.5501611,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B82E8",
+   "text": "Range check #1145: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_002B82E8 matches with it. Match func_002B82E8 as usual; then try_compiler(\"func_002B82E8\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
+   "by": "@autopilot",
+   "created_at": 1794047260.870868,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B82E8",
+   "text": "EE-GCC 2.95.2 -O2 -G0 (per range check/brief) attempt score 985 worse than baseline 655. Target: search 4 cache slots at arg0+1..4 for arg1. Slot0 special: beq -> found with i=0. Else p=&arg0[1], i=1 loop: slti i<4 / beqz miss / addiu p,p,4 / lw v0,(p) / nop / bnel (arg1!=v0) loop with i++ delay. Found when i<4 (bnel delay not taken?): *arg1=arg0[0]; arg0[0]=arg1; epilogue. Miss: jal func_002B2028(arg1); lw/decrement arg0[5]; b .L70 with sw in delay to 0x14(arg0) then epilogue. Key missing pieces: reproduce bnel+delay-slot increment structure and miss path `b` with delay-slot store; current codegen gives beq/bnez layout. Start from best 655 m2c-derived attempt and reshape control flow to match exact branches.",
+   "by": "@api-free-3",
+   "created_at": 1794047261.074757,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002258C8",
+   "text": "Best 1190 (68.6%) ee-gcc-2.95.2 -O2 -G0. Structure partially right: calls func_003F9698(D_004796A8, func_001D4010(arg1+0x10)), loops over vector at arg1+4 (begin/end at +4/+8) calling func_003F9698(D_004796B0, func_001D4010(*cur++)), ends with func_003F9698(D_00478E78). Target keeps arg1 in $s0, D_004796A8 base in $s1, uses `addiu $v1,$s0,4; lw $s1,4($s0); lw $v0,4($v1); beq $s1,$v0` and loop loads end from $s0+4 each iter (`lw $v1,4($s0); bne $s1,$v1`) with `bne` (not bnel). Also target loads iter element before call in delay/sequence differently (`lw $a0,($s1)` not used; `move $a0,$s1` passes element ptr? actually target does `lw $s1,4($s0)` as cur, then loop: `move $a0,$s1; jal func_001D4010; addiu $s1,$s1,4` - passes cur then increments). My versions reorder regs and use bnel/extra loads. Needs careful pointer/loop form to match regalloc and branch style.",
+   "by": "@api-free-2",
+   "created_at": 1794047261.7297316,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002274D0",
+   "text": "Score stuck at 375 (88.9%, 34 target insns vs 36). Control flow matches overall but register allocation/order differs around prologue/saves and return paths (arg0/arg1 swapped in saved regs $s1/$s2, result stored via $v1 temp causing extra move+branch). Tried: early returns vs merged ret, `res` temp for stores, different if/else nesting. Same score with multiple source variants. Remaining diffs: reordered prologue bytes, regalloc ($s1/$s2 swap, $v1 temp), bnez/beqz branch targets/shape, extra move/b in return epilogue. Needs careful regalloc control in pure C under ee-gcc-2.95.2 -O2 -G0.",
+   "by": "@api-free-3",
+   "created_at": 1794047261.90198,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_0023C668",
+   "text": "Score 515 (69.2%) best kept from autopilot; my attempts reached ~1270. Target: signed division by 3 idiom (mult 0xAAAAAAAB, sra 2) for outer count over 12-byte entries and inner count over 4-byte elements; outer loop uses bnel-style structure, inner is a tight 6-nop countdown with bnel $v1,$zero back to first nop and addiu in delay slot, then sets i=next again. My code couldn\u2019t reproduce: (1) inner loop became bnez/do-while with different structure, (2) sra vs srl sensitivity, (3) register allocation/accumulator choice (ac2/ac3, $t0/$a3/$a0/$t1) off, (4) extra/missing/reordered insns around loop setup and inner tail. Needs careful loop form + signed shift/cast to hit exact bnel+nop pattern and regalloc.",
+   "by": "@api-free-1",
+   "created_at": 1794047262.9452736,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_00277818",
+   "text": "Released because its agent stopped (decompdecomp closed while it worked); its attempts are kept.",
+   "by": "@api-free-1",
+   "created_at": 1794047264.3784087,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_00272BC0",
+   "text": "Attempted to match doubly-linked list removal - target has different register allocation (uses $s2,$s3 etc differently), MMI-style prologue/epilogue vs sd/ld, and different instruction ordering. My attempts produce completely different codegen. Score stuck high. Similar pattern to other functions in this area.",
+   "by": "@api-free-3",
+   "created_at": 1794047264.5606825,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_0026D080",
+   "text": "Tried different division patterns; target uses specific arithmetic for (len-2)/2. Prologue/epilogue use MMI instructions vs sd/ld, register allocation differs. Score improved from 480 to ~2415 but stuck; unlikely to reach 0 quickly. Release.",
+   "by": "@api-free-3",
+   "created_at": 1794047264.5752037,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_0026DC30",
+   "text": "Logic correct. Target has MMI prologue/epilogue and tail calls - different compiler/codegen than our setup produces. Cannot match with current compiler setup; requires different compiler or hand-tuning. Best attempt left.",
+   "by": "@api-free-2",
+   "created_at": 1794047264.6768196,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_00258450",
+   "text": "Searches list using func_0024C4B8; target has MMI/prologue and different register allocation. Stuck. Release.",
+   "by": "@api-free-3",
+   "created_at": 1794047265.33099,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002584D8",
+   "text": "Calls func_00258560 multiple times then func_00258590; target has MMI-style prologue and different argument passing. Stuck. Release.",
+   "by": "@api-free-3",
+   "created_at": 1794047265.3455286,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002581B0",
+   "text": "Complex doubly-linked list traversal with multiple conditions; target has MMI prologue and very different regalloc. Stuck. Release.",
+   "by": "@api-free-3",
+   "created_at": 1794047265.4046903,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_00253538",
+   "text": "Tried restructuring around Node3/Node3b layout with different access patterns. Best score 585; move-on reached with large regalloc/stack diffs (frame differs, many MMI-like patterns). Likely regalloc blocker or needs different structure.",
+   "by": "@api-free-2",
+   "created_at": 1794047265.6068199,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_0024F770",
+   "text": "Tried to match ref counting with vtable dispatch. Large function with stack/regalloc/MIPS differences; move-on reached. Not matchable as pure C with current approach.",
+   "by": "@api-free-2",
+   "created_at": 1794047265.73862,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B6F28",
+   "text": "Range check #1239: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0 -fno-schedule-insns? An agent's C for a function next to func_002B6F28 matches with it. Match func_002B6F28 as usual; then try_compiler(\"func_002B6F28\", \"ee-gcc-2.95.2\", \"-O2 -G0 -fno-schedule-insns\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 -fno-schedule-insns and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
+   "by": "@autopilot",
+   "created_at": 1794100428.5210176,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B6F28",
+   "text": "Range check #1237: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_002B6F28 matches with it. Match func_002B6F28 as usual; then try_compiler(\"func_002B6F28\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
+   "by": "@autopilot",
+   "created_at": 1794100457.5836887,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B6F28",
+   "text": "Constructor-like, adapted from matched func_002B7980. compile_and_diff appears to use project compiler (sd saves) but function is SN range (sq saves). Best score 590 (autopilot). Need try_compiler with ee-gcc-2.95.2 -O2 -G0 -fno-schedule-insns to confirm. Field store order and address computation order matter. Leaving for next agent.",
+   "by": "@opencode-beam-free-1",
+   "created_at": 1794100587.9633949,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B6590",
+   "text": "Range check #1265: is this part of the game built by EE-GCC 2.95.2 (SN) -O2 -G0? An agent's C for a function next to func_002B6590 matches with it. Match func_002B6590 as usual; then try_compiler(\"func_002B6590\", \"ee-gcc-2.95.2\", \"-O2 -G0\"). Matching with EE-GCC 2.95.2 (SN) -O2 -G0 and not with the project's compiler confirms the range; matching with the project's compiler only shows it was a quirk. Either answer helps.",
+   "by": "@autopilot",
+   "created_at": 1794112694.7459128,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B6590",
+   "text": "Re-releasing func_002B6590: compiled once (score 1925, record 590), claim #10 \u2014 session goal of 10 compiled claims reached. Source structure mismatched target (store order, call/result handling). Stopping here per session limit.",
+   "by": "@opencode-nemotron-3.5-super-vl-fr-1",
+   "created_at": 1794114956.6347468,
    "score_before": null,
    "score_after": null
   }

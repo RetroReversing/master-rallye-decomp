@@ -32,7 +32,7 @@ void func_002535E8(void **arg1, void **arg2) {
     var_17 = M2C_FIELD(M2C_FIELD(temp_6, void **, 4), void **, 8);
     var_19 = M2C_FIELD(temp_6, void **, 0);
     if (var_18 != temp_2) {
-        do {
+        __repair_rows: {
             temp_16 = M2C_FIELD(var_18, s32 *, 8);
             func_002504B8(var_20, M2C_FIELD(var_17, s32 *, 0x20), M2C_FIELD(var_17, s32 *, 0x24), var_17);
             func_002504B8(temp_16, M2C_FIELD(var_17, s32 *, 0x20), M2C_FIELD(var_17, s32 *, 0x24), var_17);
@@ -43,6 +43,7 @@ void func_002535E8(void **arg1, void **arg2) {
             var_17 = M2C_FIELD(var_19, void **, 8);
             var_18 = M2C_FIELD(var_18, void **, 0);
             var_19 = M2C_FIELD(var_19, void **, 0);
-        } while (var_18 != *arg2);
+        }
+if (var_18 != *arg2) goto __repair_rows;
     }
 }

@@ -12,10 +12,10 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-M2C_UNK func_0016FCF8(void *, s32, s32, void *);    /* extern */
+s32 func_0016FCF8();
 
 void func_0016FEE0(void *arg0, s32 arg1) {
-    s32 *var_3;
+    char *var_3;
     s32 temp_2;
     s32 temp_4;
     s32 temp_5;
@@ -36,7 +36,7 @@ void func_0016FEE0(void *arg0, s32 arg1) {
 loop_4:
         var_3 -= 4;
         if (var_5 >= 0) {
-            if (*var_3 == 0) {
+            if (*(s32 *)var_3 == 0) {
                 var_5 -= 1;
                 goto loop_4;
             }

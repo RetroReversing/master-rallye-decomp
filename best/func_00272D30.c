@@ -22,7 +22,7 @@ s32 *func_00272D30(s32 *arg0, void **arg2, s32 *arg3) {
     void *temp_2;
 
     if (*arg2 != *arg3) {
-        do {
+        __repair_rows: {
             temp_2 = *arg2;
             sp20 = temp_2;
             sp10 = temp_2;
@@ -32,7 +32,8 @@ s32 *func_00272D30(s32 *arg0, void **arg2, s32 *arg3) {
             *temp_4 = temp_16;
             M2C_FIELD(temp_16, void ***, 4) = temp_4;
             func_002B2028(sp10);
-        } while (*arg2 != *arg3);
+        }
+if (*arg2 != *arg3) goto __repair_rows;
     }
     *arg0 = *arg3;
     return arg0;
