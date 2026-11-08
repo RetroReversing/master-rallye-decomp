@@ -201,6 +201,16 @@
    "timeout": 20,
    "function": "func_002B7DD8",
    "vram": 2850264
+  },
+  "931056:1979632": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001E34F0",
+   "vram": 1979632
   }
  },
  "instructions": "",
@@ -141424,14 +141434,6 @@
    "score_after": null
   },
   {
-   "function": "func_001E34F0",
-   "text": "Frame/layout differs; getting closer. Best attempt saved.",
-   "by": "@api-free-1",
-   "created_at": 1794047228.2947824,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001E3558",
    "text": "Frame/layout differs. Best attempt saved.",
    "by": "@api-free-1",
@@ -178100,6 +178102,14 @@
    "text": "Tried multiple C shapes (pointer/int arg1, res init order, local naming). Best 5 from earlier agent but my recompiles under current setup score 620 with prologue/epilogue encoding differences: target uses ext/sq-like forms in disasm (.byte/ext pattern) and saves s0/s1/ra differently; mine emits sd $ra and different save layout. Logic matches: calls func_002BDB28, if arg1 loads *(s32*)(arg1+4) into result else 0, returns. Likely ABI/save-form or compiler output quirk (m2c gave best earlier). No improvement; move on.",
    "by": "@api-free-1",
    "created_at": 1794047260.3719056,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001E34F0",
+   "text": "Frame/layout differs; getting closer. Best attempt saved.",
+   "by": "@api-free-1",
+   "created_at": 1794047228.2947824,
    "score_before": null,
    "score_after": null
   }
