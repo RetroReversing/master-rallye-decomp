@@ -181,6 +181,16 @@
    "timeout": 20,
    "function": "func_001E3488",
    "vram": 1979528
+  },
+  "1641472:2690048": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_00290C00",
+   "vram": 2690048
   }
  },
  "instructions": "",
@@ -159900,14 +159910,6 @@
    "score_after": null
   },
   {
-   "function": "func_00290C00",
-   "text": "C matches byte-for-byte with ee-gcc-2.95.2 -O2 -G0 (try_compiler verified): `typedef struct{f32 x,y;} V2; extern f32 func_00290B28(V2*); f32 func_00290C00(V2*a0,V2*a1){ f32 t=func_00290B28(a0); return func_00290B28(a1)-t; }` Under project compiler best 920/38.6% due to MMI prologue/epilogue/save encoding differences (ext/addu.qb/aver_u.h/xori.b vs sd/ld), logic/stack/calls match. Suggested range 0x00290370-0x00290C3C as ee-gcc-2.95.2 -O2 -G0 (suggest submitted). Needs range application or matching compiler.",
-   "by": "@api-free-1",
-   "created_at": 1794047263.133576,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_00290370",
    "text": "C matches byte-for-byte with ee-gcc-2.95.2 -O2 -G0 (try_compiler verified): `extern void func_001D4040(void*,char*); extern void func_002903C8(void*); extern char D_0047B718[],D_0047D278[]; void *func_00290370(void *a0){ s32 sp[1]; func_001D4040(sp,D_0047B718); *(s32*)((char*)a0+4)=sp[0]; *(s32*)a0=-1; *(s32*)((char*)a0+8)=(s32)D_0047D278; func_002903C8(a0); return a0; }` Under project compiler best 800/63.6%, MMI prologue/epilogue encoding diffs only. Suggested range 0x00290370-0x00290C3C as ee-gcc-2.95.2 -O2 -G0. Needs range application.",
    "by": "@api-free-1",
@@ -178080,6 +178082,14 @@
    "text": "Getting closer but frame layout and stack save pattern differ. Best attempt saved.",
    "by": "@api-free-1",
    "created_at": 1794047228.2772586,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_00290C00",
+   "text": "C matches byte-for-byte with ee-gcc-2.95.2 -O2 -G0 (try_compiler verified): `typedef struct{f32 x,y;} V2; extern f32 func_00290B28(V2*); f32 func_00290C00(V2*a0,V2*a1){ f32 t=func_00290B28(a0); return func_00290B28(a1)-t; }` Under project compiler best 920/38.6% due to MMI prologue/epilogue/save encoding differences (ext/addu.qb/aver_u.h/xori.b vs sd/ld), logic/stack/calls match. Suggested range 0x00290370-0x00290C3C as ee-gcc-2.95.2 -O2 -G0 (suggest submitted). Needs range application or matching compiler.",
+   "by": "@api-free-1",
+   "created_at": 1794047263.133576,
    "score_before": null,
    "score_after": null
   }
