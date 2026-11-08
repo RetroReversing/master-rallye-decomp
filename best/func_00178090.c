@@ -1,0 +1,8 @@
+#define P(p,o) (*(char**)((char*)(p)+(o)))
+#define F(p,o) (*(float*)((char*)(p)+(o)))
+#define I(p,o) (*(int*)((char*)(p)+(o)))
+extern void func_0017AA18(void*,float,float),func_00267F60(void*),func_00269200(int,void*);extern int func_001751D8(void*);
+void func_00177FA8(void*p){func_0017AA18(p,0.f,0.f);}
+void func_00178028(char*p){int off=0,n=3;func_00267F60(P(P(p,12),4));do{--n;func_001751D8(P(p,16)+off);off+=400;}while(n>=0);}
+float func_00178090(char*p){char*q=P(p,20);float x=F(q,40)/F(q,68);float low=0.f,high=1.f;if(x<low)return low;if(x>high)x=high;return x;}
+void func_00179D88(void*unused,char*p){int off=0,n=3,h=I(p,44);func_00269200(h,P(P(p,12),4));do{--n;func_00269200(h,P(p,16)+off);off+=400;}while(n>=0);func_00269200(h,P(p,20));}

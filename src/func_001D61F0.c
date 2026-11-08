@@ -1,0 +1,35 @@
+extern s32 D_004262AC;
+extern s32 D_002AD408(s32);
+extern s32 func_001D5FB8(s32);
+
+s32 func_001D3920(void *arg0) {
+    s32 *v = *(s32 **)((char *)arg0 + 4);
+    s32 ret = 0;
+    if (v != (s32 *)arg0 && v != (s32 *)arg0) {
+        ret = *v;
+    }
+    return ret;
+}
+
+void func_001D6188(void *arg0, s32 arg1, s32 arg2, s32 arg3) {
+    void *v;
+    v = *(void **)((char *)arg0 + 8);
+    ((void (*)(char *))*(s32 *)((char *)v + 0x64))((char *)arg0 + *(s16 *)((char *)v + 0x60));
+    v = *(void **)((char *)arg0 + 8);
+    ((void (*)(char *, s32, s32))*(s32 *)((char *)v + 0x54))((char *)arg0 + *(s16 *)((char *)v + 0x50), arg2, arg3);
+}
+
+s32 func_001D61F0(void *arg0, s32 *arg1, s32 *arg2, s32 *arg3) {
+    struct { s16 a; u16 b; s32 c; } sp;
+    void *v;
+    s32 ret;
+    v = *(void **)((char *)arg0 + 8);
+    ret = ((s32 (*)(char *, void *, s32))*(s32 *)((char *)v + 0x54))((char *)arg0 + *(s16 *)((char *)v + 0x50), &sp, 8);
+    if (ret != 0) {
+        *arg1 = (s32)sp.a;
+        *arg2 = (s32)(s16)sp.b;
+        *arg3 = sp.c;
+        return 1;
+    }
+    return 0;
+}

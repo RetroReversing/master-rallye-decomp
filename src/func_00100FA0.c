@@ -1,0 +1,1 @@
+extern void D_002AD390(void*);extern void func_001D2458(void*,int);extern void func_001D2488(void*,void*);extern void func_001D2900(void*,void*);extern void *D_0040DA88[];void *func_00100FA0(void*a,int unused,u32 n){void*t;if(n<56){t=0;func_001D2900(&t,D_0040DA88[n]);func_001D2488(a,&t);D_002AD390(t);}else func_001D2458(a,0);return a;}

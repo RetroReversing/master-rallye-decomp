@@ -1,0 +1,2 @@
+extern void func_001E2460(void*,void*);extern void func_001E28F8(void*,const char*,void*);extern void func_001E25B0(void*,const char*,void*);extern char D_00444CE0[],D_00444CF0[],D_00444D00[],D_00444D10[];
+void func_00102160(char*a,int unused,void*b){u32 ctx[4];func_001E2460(ctx,b);func_001E28F8(ctx,D_00444CE0,a+12);func_001E25B0(ctx,D_00444CF0,a+16);func_001E25B0(ctx,D_00444D00,a+24);func_001E28F8(ctx,D_00444D10,a+28);}

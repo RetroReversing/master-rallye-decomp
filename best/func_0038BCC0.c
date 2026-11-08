@@ -1,0 +1,8 @@
+typedef struct N{struct N*next;s16 hash;}N;typedef struct{N**begin,**end,**cap;}V;typedef struct{int unused;V buckets;}T;
+extern u64 D_00487130[];extern u32 D_0040E618[];extern u64 *func_00152F00(u64*,u64*,u64*,int);extern N**func_00152F58(N**,s64,int*);extern void *func_00152D28(unsigned);extern void*func_002B1FC0(unsigned);extern void*func_003D2910(unsigned);extern void func_002B2028(void*);
+static inline void *alloc(unsigned z){void*q=func_002B1FC0(z);if(!q)q=func_003D2910(z);return q;}
+static inline void *za(void){u32*q=(u32*)D_0040E618[-1];if(!q)return func_00152D28(0);D_0040E618[-1]=*q;return q;}
+static inline void init(V*v,u64 n,int*z){unsigned bytes;N**p;v->begin=0;v->end=0;v->cap=0;if(n){bytes=(u32)n*4;if(bytes)p=alloc(bytes);else p=za();}else{p=0;bytes=0;}v->begin=p;v->end=p;v->cap=(N**)((char*)p+bytes);v->end=func_00152F58(p,n,z);}
+static inline void destroy(V*v){N**p=v->begin;unsigned n=v->cap-p;if(n){if(n*4)func_002B2028(p);else{*(u32*)p=D_0040E618[-1];D_0040E618[-1]=(u32)p;}}}
+void func_0038BCC0(T*t,u32 requested){u32 count=t->buckets.end-t->buckets.begin;if(count<requested){u64 key=requested;u64*p=func_00152F00(D_00487130,D_00487130+28,&key,0);s64 chosen;if(p==D_00487130+28)chosen=D_00487130[27];else chosen=*p;{s32 n=chosen;if(count<(u32)n){V v;volatile int allocator[2];int zero=0;u32 i;init(&v,n,&zero);for(i=0;i<count;i++){N*node=t->buckets.begin[i];while(node){u32 slot=(u32)node->hash%(u32)n;t->buckets.begin[i]=node->next;node->next=v.begin[slot];v.begin[slot]=node;node=t->buckets.begin[i];}}
+{N**b=t->buckets.begin,**e=t->buckets.end,**c=t->buckets.cap;t->buckets.begin=v.begin;t->buckets.end=v.end;t->buckets.cap=v.cap;v.end=e;v.begin=b;v.cap=c;}destroy(&v);}}}}

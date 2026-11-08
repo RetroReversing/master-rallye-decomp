@@ -1,0 +1,6 @@
+/* identical to func_001E2B98 (matched), with its names changed by decompdecomp */
+extern void func_001D4040(void*,const char*); extern void func_001E00E8(void*); extern int func_001E21B0(void*,void*,int); extern int func_001E1778(void*,void*,float); extern void func_001DF2B0(int,int,int); extern int func_001E1480(void*,void*,int*,void*); extern int func_001E1320(void*,void*,int*,void*); static inline __attribute__((always_inline)) void* init(void*p,const char*s){func_001D4040(p,s);return p;} typedef struct Node {int x; struct Node *next;} Node;
+void func_001E2EA8(int*p,const char*s,int x){char a[208];char b[16];func_001E00E8(a);func_001DF2B0(*p,func_001E21B0(a,init(b,s),x),0);}
+void func_001E2C08(int*p,const char*s,float x){char a[208];char b[16];func_001E00E8(a);func_001DF2B0(*p,func_001E1778(a,init(b,s),x),0);}
+int func_001E2AF0(Node***p,const char*s,int*out){struct {int b[4];int n;char pad[12];char a[208];} l;Node*q;func_001D4040(l.b,s);l.n=0;func_001E00E8(l.a);q=**p;while(q){if(func_001E1480(l.a,q,&l.n,out)&&l.n==l.b[0])return 1;q=q->next;}out[0]=0;out[1]=0;return 0;}
+int func_001E2A48(Node***p,const char*s,int*out){struct {int b[4];int n;char pad[12];char a[208];} l;Node*q;func_001D4040(l.b,s);l.n=0;func_001E00E8(l.a);q=**p;while(q){if(func_001E1320(l.a,q,&l.n,out)&&l.n==l.b[0])return 1;q=q->next;}out[0]=0;out[1]=0;out[2]=0;return 0;}

@@ -1,0 +1,102 @@
+/* machine draft (m2c) for ee-gcc-2.95.2 -O2 -G0, tried by autopilot */
+#ifndef M2C_DEFINES
+#define M2C_DEFINES
+typedef s32 M2C_UNK;
+typedef s8 M2C_UNK8;
+typedef s16 M2C_UNK16;
+typedef s32 M2C_UNK32;
+#define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
+#define M2C_BITWISE(type, expr) ((type)(expr))
+#define M2C_ERROR(desc) (0)
+#define M2C_CARRY 0
+#define M2C_OVERFLOW(a) (0)
+#endif
+
+extern void **D_00426428;
+
+void func_00217048(void *arg0, void *arg1, void *arg4, void *arg5, void *arg6) {
+    void *temp_10;
+    void *temp_3;
+    void *temp_3_2;
+    void *temp_3_3;
+    void *temp_4;
+    void *temp_4_2;
+    void *temp_5;
+    void *temp_5_2;
+    void *temp_6;
+    void *temp_6_2;
+    void *temp_7;
+    void *temp_7_2;
+    void *temp_8;
+    void *temp_9;
+    void *var_10;
+    void *var_16;
+    void *var_17;
+    void *var_8;
+    void *var_9;
+
+    var_8 = arg4;
+    var_9 = arg5;
+    var_10 = arg6;
+    var_17 = arg0;
+    var_16 = var_17 - 0x50;
+loop_3:
+    temp_3 = *D_00426428;
+    if (M2C_FIELD(temp_3, s32 (**)(void *, void *, void *, void **, void *, void *, void *), 0xC)(D_00426428 + M2C_FIELD(temp_3, s16 *, 8), arg1, var_16, D_00426428, var_8, var_9, var_10) != 0) {
+        temp_3_2 = var_16 + 0x10;
+        temp_4 = var_17 + 0x10;
+        temp_6 = var_16 + 0x20;
+        M2C_FIELD(var_17, s32 *, 0) = (s32) M2C_FIELD(var_16, s32 *, 0);
+        temp_5 = var_17 + 0x20;
+        temp_7 = var_16 + 0x30;
+        var_8 = var_17 + 0x30;
+        var_9 = var_16 + 0x40;
+        var_10 = var_17 + 0x40;
+        M2C_FIELD(var_17, s32 *, 4) = (s32) M2C_FIELD(var_16, s32 *, 4);
+        M2C_FIELD(var_17, f32 *, 0x10) = (f32) M2C_FIELD(var_16, f32 *, 0x10);
+        M2C_FIELD(temp_4, f32 *, 4) = (f32) M2C_FIELD(temp_3_2, f32 *, 4);
+        M2C_FIELD(temp_4, f32 *, 8) = (f32) M2C_FIELD(temp_3_2, f32 *, 8);
+        M2C_FIELD(temp_4, f32 *, 0xC) = (f32) M2C_FIELD(temp_3_2, f32 *, 0xC);
+        M2C_FIELD(var_17, f32 *, 0x20) = (f32) M2C_FIELD(var_16, f32 *, 0x20);
+        M2C_FIELD(temp_5, f32 *, 4) = (f32) M2C_FIELD(temp_6, f32 *, 4);
+        M2C_FIELD(temp_5, f32 *, 8) = (f32) M2C_FIELD(temp_6, f32 *, 8);
+        M2C_FIELD(temp_5, f32 *, 0xC) = (f32) M2C_FIELD(temp_6, f32 *, 0xC);
+        M2C_FIELD(var_17, f32 *, 0x30) = (f32) M2C_FIELD(var_16, f32 *, 0x30);
+        M2C_FIELD(var_8, f32 *, 4) = (f32) M2C_FIELD(temp_7, f32 *, 4);
+        M2C_FIELD(var_8, f32 *, 8) = (f32) M2C_FIELD(temp_7, f32 *, 8);
+        M2C_FIELD(var_8, f32 *, 0xC) = (f32) M2C_FIELD(temp_7, f32 *, 0xC);
+        M2C_FIELD(var_17, f32 *, 0x40) = (f32) M2C_FIELD(var_16, f32 *, 0x40);
+        var_17 = var_16;
+        var_16 = var_17 - 0x50;
+        M2C_FIELD(var_10, f32 *, 4) = (f32) M2C_FIELD(var_9, f32 *, 4);
+        M2C_FIELD(var_10, f32 *, 8) = (f32) M2C_FIELD(var_9, f32 *, 8);
+        M2C_FIELD(var_10, f32 *, 0xC) = (f32) M2C_FIELD(var_9, f32 *, 0xC);
+        goto loop_3;
+    }
+    temp_3_3 = arg1 + 0x10;
+    temp_4_2 = var_17 + 0x10;
+    temp_6_2 = arg1 + 0x20;
+    M2C_FIELD(var_17, s32 *, 0) = (s32) M2C_FIELD(arg1, s32 *, 0);
+    temp_5_2 = var_17 + 0x20;
+    temp_7_2 = arg1 + 0x30;
+    temp_8 = var_17 + 0x30;
+    temp_9 = arg1 + 0x40;
+    temp_10 = var_17 + 0x40;
+    M2C_FIELD(var_17, s32 *, 4) = (s32) M2C_FIELD(arg1, s32 *, 4);
+    M2C_FIELD(var_17, f32 *, 0x10) = (f32) M2C_FIELD(arg1, f32 *, 0x10);
+    M2C_FIELD(temp_4_2, f32 *, 4) = (f32) M2C_FIELD(temp_3_3, f32 *, 4);
+    M2C_FIELD(temp_4_2, f32 *, 8) = (f32) M2C_FIELD(temp_3_3, f32 *, 8);
+    M2C_FIELD(temp_4_2, f32 *, 0xC) = (f32) M2C_FIELD(temp_3_3, f32 *, 0xC);
+    M2C_FIELD(var_17, f32 *, 0x20) = (f32) M2C_FIELD(arg1, f32 *, 0x20);
+    M2C_FIELD(temp_5_2, f32 *, 4) = (f32) M2C_FIELD(temp_6_2, f32 *, 4);
+    M2C_FIELD(temp_5_2, f32 *, 8) = (f32) M2C_FIELD(temp_6_2, f32 *, 8);
+    M2C_FIELD(temp_5_2, f32 *, 0xC) = (f32) M2C_FIELD(temp_6_2, f32 *, 0xC);
+    M2C_FIELD(var_17, f32 *, 0x30) = (f32) M2C_FIELD(arg1, f32 *, 0x30);
+    M2C_FIELD(temp_8, f32 *, 4) = (f32) M2C_FIELD(temp_7_2, f32 *, 4);
+    M2C_FIELD(temp_8, f32 *, 8) = (f32) M2C_FIELD(temp_7_2, f32 *, 8);
+    M2C_FIELD(temp_8, f32 *, 0xC) = (f32) M2C_FIELD(temp_7_2, f32 *, 0xC);
+    M2C_FIELD(var_17, f32 *, 0x40) = (f32) M2C_FIELD(arg1, f32 *, 0x40);
+    M2C_FIELD(temp_10, f32 *, 4) = (f32) M2C_FIELD(temp_9, f32 *, 4);
+    M2C_FIELD(temp_10, f32 *, 8) = (f32) M2C_FIELD(temp_9, f32 *, 8);
+    M2C_FIELD(temp_10, f32 *, 0xC) = (f32) M2C_FIELD(temp_9, f32 *, 0xC);
+}

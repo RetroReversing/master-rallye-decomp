@@ -1,0 +1,31 @@
+extern void func_001D2488(void*,void*);
+extern s32 func_00196E10(void);
+extern s32 func_001189C0(void);
+extern void D_002AD390(s32);
+extern void func_001965F0(s32,s32,void*);
+extern void func_001966C0(s32,s32,s32);
+extern void func_00196790(s32,s32,s32);
+extern void func_00196860(s32,s32,s32);
+extern void func_00196930(s32,s32,f32);
+extern void func_00196A00(s32,s32,f32);
+extern void func_00196AD0(s32,s32,s32);
+extern void func_00196BA0(s32,s32,s32);
+extern void func_00196C70(s32,s32,s32);
+extern void func_00196D40(s32,s32,s32);
+void func_0010D118(s32 a0,s32 a1,s32 a2,s32 a3,void *a4){
+ float f=0.f; char sp[0x10]; s32 t; s32 u;
+ func_001D2488(sp,a4);
+ func_001965F0(func_00196E10(),a1,sp);
+ func_001966C0(func_00196E10(),a1,a2);
+ t=func_00196E10();
+ u=func_001189C0();
+ func_00196790(t,a1,*(s32*)((char*)u+a2*0x34+0x4));
+ func_00196860(func_00196E10(),a1,a3);
+ func_00196930(func_00196E10(),a1,f);
+ func_00196A00(func_00196E10(),a1,f);
+ func_00196AD0(func_00196E10(),a1,0);
+ func_00196BA0(func_00196E10(),a1,0);
+ func_00196C70(func_00196E10(),a1,0);
+ func_00196D40(func_00196E10(),a1,0);
+ D_002AD390(*(s32*)a4);
+}

@@ -1,0 +1,74 @@
+extern s32 func_003FF5F0(void);
+extern s32 func_003FDBA8(void *);
+extern s32 func_003FF9D8(s32 *, u8 *, s32, s32, s32 *);
+extern s32 func_003FB5C0(s32, void *);
+extern s32 func_003FB608(void *, s32, void *);
+extern s32 func_003FCC50(s32, s64, s32, s32, s8 *, s32 *, s32, s32 *);
+extern s32 func_003FCE00(void *, s32, s8);
+extern s32 func_003FA9B8(u8 *);
+extern s32 func_003F91A8(u8 *, s32, s32);
+extern s32 func_003F6EC0(s64);
+extern s32 func_00400A98(s64);
+extern s32 func_0040CF38(u32, s32);
+extern s32 func_0040D508(u32, s32);
+extern s32 func_002AC4B0(s64, s32);
+extern s32 D_004404DC;
+extern s32 D_00440938;
+extern u8 D_0048BE60[16];
+extern u8 D_0048BE70[16];
+extern u8 D_0048BE80[];
+extern u8 D_0048BE88[];
+extern u8 D_0048BE90[];
+extern u8 D_0048BEA8[];
+extern u8 D_0048BEB0[];
+extern u8 D_0048BEC8[];
+extern u8 D_0048BEE8[];
+extern u8 D_0048BEF0[];
+
+struct S_file {
+    s32 unk0;
+    s32 unk4;
+    s32 unk8;
+    u16 unkC;
+    s16 unkE;
+    void *unk10;
+};
+
+struct iovec { void *base; s32 len; s32 cnt; };
+
+s32 func_003FB738(s32 arg0, struct S_file *arg1, s32 arg2, void *arg3) {
+    struct iovec vec[8];
+    struct iovec *vp = vec;
+    struct iovec *vend = vec;
+    s32 n = 0;
+    s32 total = 0;
+    void *f = arg1;
+    s32 p = arg2;
+    s32 q = 0;
+    s32 r = 0;
+    s32 s = 0;
+    s32 t = 0;
+    s32 u = 0;
+    s8 c0 = 0, c1 = 0, c2 = 0;
+    s32 fl = 0;
+    s32 w = 0;
+    s32 prec = 0;
+    s32 e0 = 0, e1 = 0;
+    void *ptr = 0;
+    s8 tmp[0x15C];
+    u8 *xp;
+    s32 xlen = 0;
+    s32 flags = 0;
+    s32 v23 = 0;
+    s32 v21 = 0;
+    s32 v19 = 0;
+    s32 v18 = 0;
+    s32 v16 = 0;
+    s32 v30 = 0;
+    s32 v20 = 0;
+    s32 v4 = 0;
+    s32 v3 = 0;
+    s32 v2 = 0;
+    s32 ret = 0;
+    return ret;
+}
