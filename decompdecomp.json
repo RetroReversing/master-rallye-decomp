@@ -1,7 +1,7 @@
 {
  "format": 1,
- "saved_at": 1794150384.027044,
- "revision": 144,
+ "saved_at": 1794154416.406684,
+ "revision": 260,
  "title": "SLES-50906",
  "platform": "ps2",
  "game": {
@@ -191,6 +191,16 @@
    "timeout": 20,
    "function": "func_00290C00",
    "vram": 2690048
+  },
+  "1801688:2850264": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_002B7DD8",
+   "vram": 2850264
   }
  },
  "instructions": "",
@@ -158398,14 +158408,6 @@
    "score_after": null
   },
   {
-   "function": "func_002B7DD8",
-   "text": "Tried multiple C shapes (pointer/int arg1, res init order, local naming). Best 5 from earlier agent but my recompiles under current setup score 620 with prologue/epilogue encoding differences: target uses ext/sq-like forms in disasm (.byte/ext pattern) and saves s0/s1/ra differently; mine emits sd $ra and different save layout. Logic matches: calls func_002BDB28, if arg1 loads *(s32*)(arg1+4) into result else 0, returns. Likely ABI/save-form or compiler output quirk (m2c gave best earlier). No improvement; move on.",
-   "by": "@api-free-1",
-   "created_at": 1794047260.3719056,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_002B7C58",
    "text": "Infinite loop error path: calls func_003F9698(D_0047F6D0), loops forever (target has 7 nops + branch), and has unreachable dead tail calling func_003F9698 again and returning 1. Best 1281 (44%). Target uses 0x20 frame, saves s0/ra, materializes string into s0 and reuses it. My C produces 0x10 frame, passes &D_0047F6D0 in a0 directly, omits dead tail/unreachable code, and loop/nop layout differs. Tried for/while/do-while; no inline asm allowed. Can't match frame/regalloc/tail with plain C under project compiler; move on.",
    "by": "@api-free-1",
@@ -178090,6 +178092,14 @@
    "text": "C matches byte-for-byte with ee-gcc-2.95.2 -O2 -G0 (try_compiler verified): `typedef struct{f32 x,y;} V2; extern f32 func_00290B28(V2*); f32 func_00290C00(V2*a0,V2*a1){ f32 t=func_00290B28(a0); return func_00290B28(a1)-t; }` Under project compiler best 920/38.6% due to MMI prologue/epilogue/save encoding differences (ext/addu.qb/aver_u.h/xori.b vs sd/ld), logic/stack/calls match. Suggested range 0x00290370-0x00290C3C as ee-gcc-2.95.2 -O2 -G0 (suggest submitted). Needs range application or matching compiler.",
    "by": "@api-free-1",
    "created_at": 1794047263.133576,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_002B7DD8",
+   "text": "Tried multiple C shapes (pointer/int arg1, res init order, local naming). Best 5 from earlier agent but my recompiles under current setup score 620 with prologue/epilogue encoding differences: target uses ext/sq-like forms in disasm (.byte/ext pattern) and saves s0/s1/ra differently; mine emits sd $ra and different save layout. Logic matches: calls func_002BDB28, if arg1 loads *(s32*)(arg1+4) into result else 0, returns. Likely ABI/save-form or compiler output quirk (m2c gave best earlier). No improvement; move on.",
+   "by": "@api-free-1",
+   "created_at": 1794047260.3719056,
    "score_before": null,
    "score_after": null
   }
