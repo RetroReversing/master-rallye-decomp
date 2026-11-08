@@ -1,7 +1,7 @@
 {
  "format": 1,
- "saved_at": 1794150084.159801,
- "revision": 139,
+ "saved_at": 1794150384.027044,
+ "revision": 144,
  "title": "SLES-50906",
  "platform": "ps2",
  "game": {
@@ -171,6 +171,16 @@
     "-Os",
     "-G0"
    ]
+  },
+  "930952:1979528": {
+   "toolchain": "ee-gcc-2.95.2",
+   "flags": [
+    "-O2",
+    "-G0"
+   ],
+   "timeout": 20,
+   "function": "func_001E3488",
+   "vram": 1979528
   }
  },
  "instructions": "",
@@ -179,7 +189,8 @@
  "auto_compiler": null,
  "knowledge_auto": false,
  "headers": {
-  "": "common.h"
+  "": "common.h",
+  "cod": "common_cod.h"
  },
  "functions": {
   "func_001000D0": {
@@ -141393,14 +141404,6 @@
    "score_after": null
   },
   {
-   "function": "func_001E3488",
-   "text": "Getting closer but frame layout and stack save pattern differ. Best attempt saved.",
-   "by": "@api-free-1",
-   "created_at": 1794047228.2772586,
-   "score_before": null,
-   "score_after": null
-  },
-  {
    "function": "func_001E34F0",
    "text": "Frame/layout differs; getting closer. Best attempt saved.",
    "by": "@api-free-1",
@@ -178069,6 +178072,14 @@
    "text": "Pure-C ceiling 205/142 (98.5%), 141/142 insns match. This session (8 compiles): baseline 205; Record.h subscript at site1 (2957, frame collapse to 0x180 + nonzero-rd mult); off-before-base form (2737); raw byte-offset all-sites (2677); c52+off+base form (2482, same twice \u2014 no effect); off-before-base reverted (2737, same). Consistent with 260+ prior attempts. Sole blocker: stride 52 (0x34) at site1 \u2014 target hoists `addiu $s3,$zero,0x34` once into callee-saved $s3 reused at all 3 mult sites (`mult $ac3,$s0,$s3`, `mult $ac2,$v0,$s3` x2, rd=0). GCC emits extra `addiu $v1,$zero,0x34` before site1 and uses `mult $ac3,$s0,$v1` (+1 insn). Sites 2/3 match via `((Record*)base)[index].b`/`.block`. All logic, calls (15), control flow, stack frame (0x190), data refs (D_0040E618/658, D_00444CB0 \"Race/Car\", D_00444CC0 \"%d\"), epilogue match target and 91%-similar matched func_00101B80. Not hand-written asm. Unblocks func_00100BF0, func_00101108, func_001E94B8.",
    "by": "@opencode-dots-3-note-preview-free-1",
    "created_at": 1794144611.9024317,
+   "score_before": null,
+   "score_after": null
+  },
+  {
+   "function": "func_001E3488",
+   "text": "Getting closer but frame layout and stack save pattern differ. Best attempt saved.",
+   "by": "@api-free-1",
+   "created_at": 1794047228.2772586,
    "score_before": null,
    "score_after": null
   }
